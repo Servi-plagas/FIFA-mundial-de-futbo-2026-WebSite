@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es-419">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Convertir Excel → predictions.json · Polla 2026</title>
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <style>
+    .conv { max-width: 720px; margin: 0 auto; padding: 24px 16px 60px; }
+    .drop {
+      border: 2.5px dashed var(--green); border-radius: var(--radius);
+      background: var(--green-soft); padding: 44px 20px; text-align: center;
+      cursor: pointer; transition: background .15s, border-color .15s;
+    }
+    .drop.drag { background: #d6efe0; border-color: var(--green-dark); }
+    .drop__icon { font-size: 46px; }
+    .drop__main { font-weight: 800; font-size: 17px; margin: 8px 0 2px; }
+    .drop__sub { color: var(--muted); font-size: 13.5px; }
+    .steps { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+             padding: 16px 20px; margin: 20px 0; box-shadow: var(--shadow); }
+    .steps ol { margin: 8px 0 0; padding-left: 20px; }
+    .steps li { margin: 6px 0; }
+    .result { margin-top: 22px; }
+    .btn-dl {
+      display: inline-block; background: var(--green); color: #fff; border: none;
+      padding: 13px 22px; border-radius: 10px; font-size: 16px; font-weight: 800;
+      cursor: pointer; text-decoration: none; box-shadow: var(--shadow);
+    }
+    .btn-dl:hover { background: var(--green-dark); }
+    .ok-msg { background: var(--ok-soft); color: var(--ok); padding: 14px 16px; border-radius: 10px; font-weight: 600; }
+    .preview { margin-top: 14px; font-size: 13.5px; }
+    .preview table { width: 100%; border-collapse: collapse; }
+    .preview td, .preview th { padding: 6px 8px; border-bottom: 1px solid var(--line); text-align: left; }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__brand">
+      <span class="topbar__logo"><img src="logo.png" alt="Serviplagas" /></span>
+      <div class="topbar__titles">
+        <h1 class="topbar__title">⚙️ Convertir Excel de la Polla</h1>
+        <p class="topbar__sub">Herramienta interna</p>
+      </div>
+    </div>
+    <a href="index.html" class="btn-back" style="background:rgba(255,255,255,.15);color:#fff;border-color:transparent">‹ Ir al sitio</a>
+  </header>
+
+  <main class="conv">
+    <div class="steps">
+      <strong>¿Para qué sirve esto?</strong>
+      <p class="muted" style="margin:6px 0">
+        Cuando descargues una nueva versión del Excel de KoboToolbox (con más participantes),
+        suéltalo aquí. Se generará el archivo <code>predictions.json</code> con todos los
+        pronósticos. Solo tienes que reemplazar el archivo en la carpeta <code>data/</code> del
+        repositorio y subir el cambio a GitHub.
+      </p>
+      <ol>
+        <li>Arrastra el archivo <code>.xlsx</code> al recuadro (o haz clic para elegirlo).</li>
+        <li>Se descargará <code>predictions.json</code>.</li>
+        <li>Reemplaza <code>data/predictions.json</code> en el repositorio con el nuevo.</li>
+        <li>Sube el cambio (commit + push). El sitio se actualiza solo.</li>
+      </ol>
+    </div>
+
+    <div id="drop" class="drop">
+      <div class="drop__icon">📄⬇️</div>
+      <div class="drop__main">Suelta aquí el Excel de la Polla</div>
+      <div class="drop__sub">o haz clic para seleccionar el archivo .xlsx</div>
+      <input type="file" id="file" accept=".xlsx" hidden />
+    </div>
+
+    <div id="error" class="error-box" hidden></div>
+    <div id="result" class="result" hidden></div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <script src="assets/js/convert.js"></script>
+  <script>
+    (function () {
+      var drop = document.getElementById("drop");
+      var input = document.getElementById("file");
+      var errBox = document.getElementById("error");
+      var resBox = document.getElementById("result");
+
+      drop.addEventListener("click", function () { input.click(); });
+      input.addEventListener("change", function (e) { if (e.target.files[0]) handle(e.target.files[0]); });
+      ["dragenter", "dragover"].forEach(function (ev) {
+        drop.addEventListener(ev, function (e) { e.preventDefault(); drop.classList.add("drag"); });
+      });
+      ["dragleave", "drop"].forEach(function (ev) {
+        drop.addEventListener(ev, function (e) { e.preventDefault(); drop.classList.remove("drag"); });
+      });
+      drop.addEventListener("drop", function (e) {
+        e.preventDefault();
+        if (e.dataTransfer.files[0]) handle(e.dataTransfer.files[0]);
+      });
+
+      function handle(file) {
+        errBox.hidden = true; resBox.hidden = true;
+        var reader = new FileReader();
+        reader.onload = function (e) {
+          try {
+            var wb = XLSX.read(new Uint8Array(e.target.result), { type: "array", cellDates: true });
+            var ws = wb.Sheets[wb.SheetNames[0]];
+            var rows = XLSX.utils.sheet_to_json(ws, { header: 1, raw: true, defval: null });
+            var out = PollaConvert.extractPredictions(rows);
+            showResult(out);
+          } catch (err) {
+            errBox.hidden = false;
+            errBox.innerHTML = "<strong>Error al procesar el archivo:</strong><br>" + escapeHtml(err.message);
+          }
+        };
+        reader.readAsArrayBuffer(file);
+      }
+
+      function showResult(out) {
+        var blob = new Blob([JSON.stringify(out, null, 1)], { type: "application/json" });
+        var url = URL.createObjectURL(blob);
+        var rowsHtml = out.entries.slice(0, 8).map(function (en) {
+          return "<tr><td>" + escapeHtml(en.nombre || "—") + "</td><td>" +
+            escapeHtml(en.contacto || "—") + "</td><td>" + escapeHtml(en.codigo || "—") + "</td></tr>";
+        }).join("");
+        resBox.hidden = false;
+        resBox.innerHTML =
+          '<div class="ok-msg">✅ Listo: se procesaron <strong>' + out.count +
+            "</strong> participantes.</div>" +
+          '<p style="margin:16px 0"><a class="btn-dl" id="dl" href="' + url +
+            '" download="predictions.json">⬇️ Descargar predictions.json</a></p>' +
+          '<div class="preview"><strong>Vista previa (primeros ' +
+            Math.min(8, out.count) + "):</strong>" +
+            '<table><thead><tr><th>Nombre</th><th>Contacto</th><th>Código</th></tr></thead><tbody>' +
+            rowsHtml + "</tbody></table></div>";
+      }
+
+      function escapeHtml(s) {
+        return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+      }
+    })();
+  </script>
+</body>
+</html>

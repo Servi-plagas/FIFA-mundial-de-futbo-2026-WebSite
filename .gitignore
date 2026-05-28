@@ -1,0 +1,15 @@
+# ⚠️ NUNCA subir el Excel original: contiene datos personales (celular)
+# y el repositorio es PÚBLICO. Los pronósticos ya están, sin celular,
+# en data/predictions.json (ese sí se sube).
+*.xlsx
+
+# Documento de reglas (fuente interna). No lo necesita el sitio.
+# Si quieres conservarlo en el repo como referencia, borra esta línea.
+*.docx
+
+# Archivos del sistema operativo / editores
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/

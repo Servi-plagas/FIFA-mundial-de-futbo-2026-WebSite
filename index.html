@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es-419">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Polla Mundialista 2026 — Serviplagas</title>
+  <meta name="description" content="Pronósticos y puntajes de la Polla Mundialista 2026 — Serviplagas" />
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__brand">
+      <span class="topbar__logo"><img src="logo.png" alt="Serviplagas — Profesionales en el manejo integrado de plagas" /></span>
+      <div class="topbar__titles">
+        <h1 class="topbar__title">⚽ Polla Mundialista 2026</h1>
+        <p class="topbar__sub">Mundial FIFA 2026</p>
+      </div>
+    </div>
+    <div class="topbar__status">
+      <span class="topbar__statuslabel">Resultados actualizados</span>
+      <span id="updated-date" class="topbar__date">—</span>
+    </div>
+  </header>
+
+  <nav class="tabs" id="main-tabs">
+    <button class="tabs__btn is-active" data-view="leaderboard">🏆 Tabla de posiciones</button>
+    <button class="tabs__btn" data-view="browse">🔎 Buscar pronóstico</button>
+  </nav>
+
+  <main class="container">
+    <!-- ESTADO DE CARGA / ERROR -->
+    <div id="loader" class="loader">Cargando datos…</div>
+    <div id="error" class="error-box" hidden></div>
+
+    <!-- VISTA: TABLA DE POSICIONES -->
+    <section id="view-leaderboard" class="view" hidden>
+      <div class="toolbar">
+        <input type="search" id="lb-search" class="input" placeholder="Buscar por nombre, contacto o código…" />
+        <span id="lb-count" class="muted"></span>
+      </div>
+      <div class="table-wrap">
+        <table class="lb-table">
+          <thead>
+            <tr>
+              <th class="col-rank">#</th>
+              <th>Participante</th>
+              <th class="col-contact">Contacto</th>
+              <th class="col-code">Código</th>
+              <th class="col-pts">Puntos</th>
+              <th class="col-go"></th>
+            </tr>
+          </thead>
+          <tbody id="lb-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- VISTA: BUSCAR PRONÓSTICO -->
+    <section id="view-browse" class="view" hidden>
+      <div class="filters">
+        <div class="field">
+          <label for="f-contacto">Contacto</label>
+          <select id="f-contacto" class="input"></select>
+        </div>
+        <div class="field">
+          <label for="f-codigo">Código de acceso</label>
+          <select id="f-codigo" class="input"></select>
+        </div>
+      </div>
+      <div id="browse-result" class="browse-result"></div>
+    </section>
+
+    <!-- VISTA: DETALLE DE UN PRONÓSTICO -->
+    <section id="view-detail" class="view" hidden></section>
+  </main>
+
+  <footer class="footer">
+    <img class="footer__logo" src="logo.png" alt="Serviplagas" />
+    <p>Polla Mundialista 2026 · Serviplagas · Hecho para seguir los pronósticos en familia.</p>
+  </footer>
+
+  <script src="assets/js/scoring.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

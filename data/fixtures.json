@@ -1,0 +1,614 @@
+{
+ "groups": {
+  "A": {
+   "teams": [
+    "México 🇲🇽",
+    "Sudáfrica 🇿🇦",
+    "República de Corea 🇰🇷",
+    "República Checa 🇨🇿"
+   ],
+   "matches": [
+    {
+     "home": "México 🇲🇽",
+     "away": "Sudáfrica 🇿🇦"
+    },
+    {
+     "home": "República de Corea 🇰🇷",
+     "away": "República Checa 🇨🇿"
+    },
+    {
+     "home": "República Checa 🇨🇿",
+     "away": "Sudáfrica 🇿🇦"
+    },
+    {
+     "home": "México 🇲🇽",
+     "away": "República de Corea 🇰🇷"
+    },
+    {
+     "home": "República Checa 🇨🇿",
+     "away": "México 🇲🇽"
+    },
+    {
+     "home": "Sudáfrica 🇿🇦",
+     "away": "República de Corea 🇰🇷"
+    }
+   ]
+  },
+  "B": {
+   "teams": [
+    "Canadá 🇨🇦",
+    "Bosnia y Herzegovina 🇧🇦",
+    "Catar 🇶🇦",
+    "Suiza 🇨🇭"
+   ],
+   "matches": [
+    {
+     "home": "Canadá 🇨🇦",
+     "away": "Bosnia y Herzegovina 🇧🇦"
+    },
+    {
+     "home": "Catar 🇶🇦",
+     "away": "Suiza 🇨🇭"
+    },
+    {
+     "home": "Suiza 🇨🇭",
+     "away": "Bosnia y Herzegovina 🇧🇦"
+    },
+    {
+     "home": "Canadá 🇨🇦",
+     "away": "Catar 🇶🇦"
+    },
+    {
+     "home": "Suiza 🇨🇭",
+     "away": "Canadá 🇨🇦"
+    },
+    {
+     "home": "Bosnia y Herzegovina 🇧🇦",
+     "away": "Catar 🇶🇦"
+    }
+   ]
+  },
+  "C": {
+   "teams": [
+    "Haití 🇭🇹",
+    "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "Brasil 🇧🇷",
+    "Marruecos 🇲🇦"
+   ],
+   "matches": [
+    {
+     "home": "Haití 🇭🇹",
+     "away": "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+    },
+    {
+     "home": "Brasil 🇧🇷",
+     "away": "Marruecos 🇲🇦"
+    },
+    {
+     "home": "Brasil 🇧🇷",
+     "away": "Haití 🇭🇹"
+    },
+    {
+     "home": "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+     "away": "Marruecos 🇲🇦"
+    },
+    {
+     "home": "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+     "away": "Brasil 🇧🇷"
+    },
+    {
+     "home": "Marruecos 🇲🇦",
+     "away": "Haití 🇭🇹"
+    }
+   ]
+  },
+  "D": {
+   "teams": [
+    "Estados Unidos 🇺🇸",
+    "Paraguay 🇵🇾",
+    "Australia 🇦🇺",
+    "Turquía 🇹🇷"
+   ],
+   "matches": [
+    {
+     "home": "Estados Unidos 🇺🇸",
+     "away": "Paraguay 🇵🇾"
+    },
+    {
+     "home": "Australia 🇦🇺",
+     "away": "Turquía 🇹🇷"
+    },
+    {
+     "home": "Turquía 🇹🇷",
+     "away": "Paraguay 🇵🇾"
+    },
+    {
+     "home": "Estados Unidos 🇺🇸",
+     "away": "Australia 🇦🇺"
+    },
+    {
+     "home": "Turquía 🇹🇷",
+     "away": "Estados Unidos 🇺🇸"
+    },
+    {
+     "home": "Paraguay 🇵🇾",
+     "away": "Australia 🇦🇺"
+    }
+   ]
+  },
+  "E": {
+   "teams": [
+    "Costa de Marfil 🇨🇮",
+    "Ecuador 🇪🇨",
+    "Alemania 🇩🇪",
+    "Curazao 🇨🇼"
+   ],
+   "matches": [
+    {
+     "home": "Costa de Marfil 🇨🇮",
+     "away": "Ecuador 🇪🇨"
+    },
+    {
+     "home": "Alemania 🇩🇪",
+     "away": "Curazao 🇨🇼"
+    },
+    {
+     "home": "Alemania 🇩🇪",
+     "away": "Costa de Marfil 🇨🇮"
+    },
+    {
+     "home": "Ecuador 🇪🇨",
+     "away": "Curazao 🇨🇼"
+    },
+    {
+     "home": "Curazao 🇨🇼",
+     "away": "Costa de Marfil 🇨🇮"
+    },
+    {
+     "home": "Ecuador 🇪🇨",
+     "away": "Alemania 🇩🇪"
+    }
+   ]
+  },
+  "F": {
+   "teams": [
+    "Países Bajos 🇳🇱",
+    "Japón 🇯🇵",
+    "Suecia 🇸🇪",
+    "Túnez 🇹🇳"
+   ],
+   "matches": [
+    {
+     "home": "Países Bajos 🇳🇱",
+     "away": "Japón 🇯🇵"
+    },
+    {
+     "home": "Suecia 🇸🇪",
+     "away": "Túnez 🇹🇳"
+    },
+    {
+     "home": "Países Bajos 🇳🇱",
+     "away": "Suecia 🇸🇪"
+    },
+    {
+     "home": "Túnez 🇹🇳",
+     "away": "Japón 🇯🇵"
+    },
+    {
+     "home": "Japón 🇯🇵",
+     "away": "Suecia 🇸🇪"
+    },
+    {
+     "home": "Túnez 🇹🇳",
+     "away": "Países Bajos 🇳🇱"
+    }
+   ]
+  },
+  "G": {
+   "teams": [
+    "Irán 🇮🇷",
+    "Nueva Zelanda 🇳🇿",
+    "Bélgica 🇧🇪",
+    "Egipto 🇪🇬"
+   ],
+   "matches": [
+    {
+     "home": "Irán 🇮🇷",
+     "away": "Nueva Zelanda 🇳🇿"
+    },
+    {
+     "home": "Bélgica 🇧🇪",
+     "away": "Egipto 🇪🇬"
+    },
+    {
+     "home": "Bélgica 🇧🇪",
+     "away": "Irán 🇮🇷"
+    },
+    {
+     "home": "Nueva Zelanda 🇳🇿",
+     "away": "Egipto 🇪🇬"
+    },
+    {
+     "home": "Egipto 🇪🇬",
+     "away": "Irán 🇮🇷"
+    },
+    {
+     "home": "Nueva Zelanda 🇳🇿",
+     "away": "Bélgica 🇧🇪"
+    }
+   ]
+  },
+  "H": {
+   "teams": [
+    "Arabia Saudita 🇸🇦",
+    "Uruguay 🇺🇾",
+    "España 🇪🇸",
+    "Cabo Verde 🇨🇻"
+   ],
+   "matches": [
+    {
+     "home": "Arabia Saudita 🇸🇦",
+     "away": "Uruguay 🇺🇾"
+    },
+    {
+     "home": "España 🇪🇸",
+     "away": "Cabo Verde 🇨🇻"
+    },
+    {
+     "home": "Uruguay 🇺🇾",
+     "away": "Cabo Verde 🇨🇻"
+    },
+    {
+     "home": "España 🇪🇸",
+     "away": "Arabia Saudita 🇸🇦"
+    },
+    {
+     "home": "Cabo Verde 🇨🇻",
+     "away": "Arabia Saudita 🇸🇦"
+    },
+    {
+     "home": "Uruguay 🇺🇾",
+     "away": "España 🇪🇸"
+    }
+   ]
+  },
+  "I": {
+   "teams": [
+    "Francia 🇫🇷",
+    "Senegal 🇸🇳",
+    "Irak 🇮🇶",
+    "Noruega 🇳🇴"
+   ],
+   "matches": [
+    {
+     "home": "Francia 🇫🇷",
+     "away": "Senegal 🇸🇳"
+    },
+    {
+     "home": "Irak 🇮🇶",
+     "away": "Noruega 🇳🇴"
+    },
+    {
+     "home": "Noruega 🇳🇴",
+     "away": "Senegal 🇸🇳"
+    },
+    {
+     "home": "Francia 🇫🇷",
+     "away": "Irak 🇮🇶"
+    },
+    {
+     "home": "Noruega 🇳🇴",
+     "away": "Francia 🇫🇷"
+    },
+    {
+     "home": "Senegal 🇸🇳",
+     "away": "Irak 🇮🇶"
+    }
+   ]
+  },
+  "J": {
+   "teams": [
+    "Argentina 🇦🇷",
+    "Argelia 🇩🇿",
+    "Austria 🇦🇹",
+    "Jordania 🇯🇴"
+   ],
+   "matches": [
+    {
+     "home": "Argentina 🇦🇷",
+     "away": "Argelia 🇩🇿"
+    },
+    {
+     "home": "Austria 🇦🇹",
+     "away": "Jordania 🇯🇴"
+    },
+    {
+     "home": "Argentina 🇦🇷",
+     "away": "Austria 🇦🇹"
+    },
+    {
+     "home": "Jordania 🇯🇴",
+     "away": "Argelia 🇩🇿"
+    },
+    {
+     "home": "Argelia 🇩🇿",
+     "away": "Austria 🇦🇹"
+    },
+    {
+     "home": "Jordania 🇯🇴",
+     "away": "Argentina 🇦🇷"
+    }
+   ]
+  },
+  "K": {
+   "teams": [
+    "Portugal 🇵🇹",
+    "RD del Congo 🇨🇩",
+    "Uzbekistán 🇺🇿",
+    "Colombia 🇨🇴"
+   ],
+   "matches": [
+    {
+     "home": "Portugal 🇵🇹",
+     "away": "RD del Congo 🇨🇩"
+    },
+    {
+     "home": "Uzbekistán 🇺🇿",
+     "away": "Colombia 🇨🇴"
+    },
+    {
+     "home": "Portugal 🇵🇹",
+     "away": "Uzbekistán 🇺🇿"
+    },
+    {
+     "home": "Colombia 🇨🇴",
+     "away": "RD del Congo 🇨🇩"
+    },
+    {
+     "home": "Colombia 🇨🇴",
+     "away": "Portugal 🇵🇹"
+    },
+    {
+     "home": "RD del Congo 🇨🇩",
+     "away": "Uzbekistán 🇺🇿"
+    }
+   ]
+  },
+  "L": {
+   "teams": [
+    "Ghana 🇬🇭",
+    "Panamá 🇵🇦",
+    "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "Croacia 🇭🇷"
+   ],
+   "matches": [
+    {
+     "home": "Ghana 🇬🇭",
+     "away": "Panamá 🇵🇦"
+    },
+    {
+     "home": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "away": "Croacia 🇭🇷"
+    },
+    {
+     "home": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "away": "Ghana 🇬🇭"
+    },
+    {
+     "home": "Panamá 🇵🇦",
+     "away": "Croacia 🇭🇷"
+    },
+    {
+     "home": "Panamá 🇵🇦",
+     "away": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+    },
+    {
+     "home": "Croacia 🇭🇷",
+     "away": "Ghana 🇬🇭"
+    }
+   ]
+  }
+ },
+ "knockout": [
+  {
+   "n": 73,
+   "round": "R32",
+   "homeFeeder": "grp_a_pos2_name",
+   "awayFeeder": "grp_b_pos2_name"
+  },
+  {
+   "n": 74,
+   "round": "R32",
+   "homeFeeder": "grp_e_pos1_name",
+   "awayFeeder": "tercero_name_p74"
+  },
+  {
+   "n": 75,
+   "round": "R32",
+   "homeFeeder": "grp_f_pos1_name",
+   "awayFeeder": "grp_c_pos2_name"
+  },
+  {
+   "n": 76,
+   "round": "R32",
+   "homeFeeder": "grp_c_pos1_name",
+   "awayFeeder": "grp_f_pos2_name"
+  },
+  {
+   "n": 77,
+   "round": "R32",
+   "homeFeeder": "grp_i_pos1_name",
+   "awayFeeder": "tercero_name_p77"
+  },
+  {
+   "n": 78,
+   "round": "R32",
+   "homeFeeder": "grp_e_pos2_name",
+   "awayFeeder": "grp_i_pos2_name"
+  },
+  {
+   "n": 79,
+   "round": "R32",
+   "homeFeeder": "grp_a_pos1_name",
+   "awayFeeder": "tercero_name_p79"
+  },
+  {
+   "n": 80,
+   "round": "R32",
+   "homeFeeder": "grp_l_pos1_name",
+   "awayFeeder": "tercero_name_p80"
+  },
+  {
+   "n": 81,
+   "round": "R32",
+   "homeFeeder": "grp_d_pos1_name",
+   "awayFeeder": "tercero_name_p81"
+  },
+  {
+   "n": 82,
+   "round": "R32",
+   "homeFeeder": "grp_g_pos1_name",
+   "awayFeeder": "tercero_name_p82"
+  },
+  {
+   "n": 83,
+   "round": "R32",
+   "homeFeeder": "grp_k_pos2_name",
+   "awayFeeder": "grp_l_pos2_name"
+  },
+  {
+   "n": 84,
+   "round": "R32",
+   "homeFeeder": "grp_h_pos1_name",
+   "awayFeeder": "grp_j_pos2_name"
+  },
+  {
+   "n": 85,
+   "round": "R32",
+   "homeFeeder": "grp_b_pos1_name",
+   "awayFeeder": "tercero_name_p85"
+  },
+  {
+   "n": 86,
+   "round": "R32",
+   "homeFeeder": "grp_j_pos1_name",
+   "awayFeeder": "grp_h_pos2_name"
+  },
+  {
+   "n": 87,
+   "round": "R32",
+   "homeFeeder": "grp_k_pos1_name",
+   "awayFeeder": "tercero_name_p87"
+  },
+  {
+   "n": 88,
+   "round": "R32",
+   "homeFeeder": "grp_d_pos2_name",
+   "awayFeeder": "grp_g_pos2_name"
+  },
+  {
+   "n": 89,
+   "round": "OCT",
+   "homeFeeder": "ganador_r32_p74",
+   "awayFeeder": "ganador_r32_p77"
+  },
+  {
+   "n": 90,
+   "round": "OCT",
+   "homeFeeder": "ganador_r32_p73",
+   "awayFeeder": "ganador_r32_p75"
+  },
+  {
+   "n": 91,
+   "round": "OCT",
+   "homeFeeder": "ganador_r32_p76",
+   "awayFeeder": "ganador_r32_p78"
+  },
+  {
+   "n": 92,
+   "round": "OCT",
+   "homeFeeder": "ganador_r32_p79",
+   "awayFeeder": "ganador_r32_p80"
+  },
+  {
+   "n": 93,
+   "round": "OCT",
+   "homeFeeder": "ganador_r32_p83",
+   "awayFeeder": "ganador_r32_p84"
+  },
+  {
+   "n": 94,
+   "round": "OCT",
+   "homeFeeder": "ganador_r32_p81",
+   "awayFeeder": "ganador_r32_p82"
+  },
+  {
+   "n": 95,
+   "round": "OCT",
+   "homeFeeder": "ganador_r32_p86",
+   "awayFeeder": "ganador_r32_p88"
+  },
+  {
+   "n": 96,
+   "round": "OCT",
+   "homeFeeder": "ganador_r32_p85",
+   "awayFeeder": "ganador_r32_p87"
+  },
+  {
+   "n": 97,
+   "round": "CUA",
+   "homeFeeder": "ganador_oct_p89",
+   "awayFeeder": "ganador_oct_p90"
+  },
+  {
+   "n": 98,
+   "round": "CUA",
+   "homeFeeder": "ganador_oct_p93",
+   "awayFeeder": "ganador_oct_p94"
+  },
+  {
+   "n": 99,
+   "round": "CUA",
+   "homeFeeder": "ganador_oct_p91",
+   "awayFeeder": "ganador_oct_p92"
+  },
+  {
+   "n": 100,
+   "round": "CUA",
+   "homeFeeder": "ganador_oct_p95",
+   "awayFeeder": "ganador_oct_p96"
+  },
+  {
+   "n": 101,
+   "round": "SEM",
+   "homeFeeder": "ganador_cua_p97",
+   "awayFeeder": "ganador_cua_p98"
+  },
+  {
+   "n": 102,
+   "round": "SEM",
+   "homeFeeder": "ganador_cua_p99",
+   "awayFeeder": "ganador_cua_p100"
+  },
+  {
+   "n": 103,
+   "round": "TP",
+   "homeFeeder": "perdedor_sem_p101",
+   "awayFeeder": "perdedor_sem_p102"
+  },
+  {
+   "n": 104,
+   "round": "FIN",
+   "homeFeeder": "ganador_sem_p101",
+   "awayFeeder": "ganador_sem_p102"
+  }
+ ],
+ "rounds": {
+  "R32": "Ronda de 32",
+  "OCT": "Octavos de final",
+  "CUA": "Cuartos de final",
+  "SEM": "Semifinal",
+  "TP": "Tercer puesto",
+  "FIN": "Final"
+ }
+}

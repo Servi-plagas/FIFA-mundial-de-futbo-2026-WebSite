@@ -280,182 +280,216 @@
     map[STATE.detailTab](panel);
   }
 
-  // ---------- GRUPOS ----------
+  // ============================================================
+  //  PRIMITIVAS DE DISEÑO "CLARO"  (azul=pronóstico, carbón=real,
+  //  dorado=puntos, verde ✓=acierto / gris ✗=fallo)
+  // ============================================================
+  var SVG = {
+    check: '<svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>',
+    x: '<svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>',
+    dash: '<svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M5 12h14"/></svg>'
+  };
+  function icon(name) { return SVG[name] || ""; }
+  function ruleIcon(state) { // 'ok' | 'no' | 'na'
+    var cls = state === "ok" ? "ri-ok" : state === "na" ? "ri-na" : "ri-no";
+    var ic = state === "ok" ? SVG.check : state === "na" ? SVG.dash : SVG.x;
+    return '<span class="ri ' + cls + '">' + ic + "</span>";
+  }
+  function flagEmoji(teamStr, size) {
+    var f = splitTeam(teamStr).flag;
+    return f ? '<span class="flagemoji" style="font-size:' + (size || 18) + 'px">' + esc(f) + "</span>" : "";
+  }
+  function teamName(teamStr) { return esc(splitTeam(teamStr).name); }
+  function teamCl(teamStr, sideCls) {
+    return '<span class="team ' + (sideCls || "") + '">' + flagEmoji(teamStr, 18) +
+      '<span class="team-name">' + teamName(teamStr) + "</span></span>";
+  }
+  function scorePair(hg, ag, tone) {
+    var a = isN(hg) ? hg : "–", b = isN(ag) ? ag : "–";
+    return '<span class="scorepair tone-' + tone + '"><b>' + a + '</b><span class="sp-dash">–</span><b>' + b + "</b></span>";
+  }
+  function ptsPill(value, size) {
+    return '<span class="pts ' + (value > 0 ? "pts-win" : "pts-zero") + " pts-" + (size || "sm") +
+      '">' + value + '<span class="pts-u">pts</span></span>';
+  }
+  function whySeg(label, state, val) { // state: ok | no | na
+    var segCls = state === "ok" ? "is-ok" : state === "na" ? "is-na" : "is-no";
+    var ptsTxt = state === "ok" ? "+" + val : state === "na" ? "—" : "+0";
+    return '<div class="why-seg ' + segCls + '">' + ruleIcon(state) +
+      '<span class="why-lbl">' + esc(label) + '</span><span class="why-pts">' + ptsTxt + "</span></div>";
+  }
+  function boolPill(ok, yes, no, muted) {
+    var cls = ok ? "bp-yes" : muted ? "bp-muted" : "bp-no";
+    return '<span class="boolpill ' + cls + '"><span class="bp-dot"></span>' + (ok ? yes : no) + "</span>";
+  }
+  function appendHTML(panel, html) { var w = el("div"); w.innerHTML = html; panel.appendChild(w); }
+
+  // ---------- GRUPOS (Claro) ----------
   function renderGroups(panel) {
     var e = STATE.detailEntry, s = e._score;
-    var grid = el("div", "group-grid");
+    var html = '<div class="grupos-claro">';
     Object.keys(DATA.fixtures.groups).forEach(function (L) {
-      var fx = DATA.fixtures.groups[L];
-      var sc = s.groups.perGroup[L];
-      var card = el("div", "gcard");
-      var head = el("div", "gcard__head");
-      head.innerHTML = "<span>Grupo " + L + '</span><span class="gcard__pts">+' +
-        fmtNum(sc.points) + " pts</span>";
-      card.appendChild(head);
-      var bodyEl = el("div", "gcard__body");
+      var fx = DATA.fixtures.groups[L], sc = s.groups.perGroup[L];
+      html += '<div class="gcol"><div class="gcol-h"><h3>Grupo ' + L +
+        '</h3><span class="gcol-pts">+' + fmtNum(sc.points) + ' pts</span></div><div class="gcol-body">';
       sc.matches.forEach(function (row, i) {
-        var m = fx.matches[i];
-        var pred = row.pred || {};
-        var html = '<div class="mrow">' +
-          teamSpan(m.home, "home") +
-          scoreBox(pred.hg, pred.ag, "pred") +
-          teamSpan(m.away, "away") + "</div>";
-        if (row.played) {
-          html += '<div class="mcompare">' +
-            '<div class="label">Real</div>' +
-            scoreBox(row.actual.hg, row.actual.ag, "actual") +
-            '<div class="pbadge-row">' +
-              pbadge("G", row.winner, "+6") +
-              pbadge("T", row.totalGoals, "+4") +
-              pbadge("E", row.exact, "+10") +
-              '<span class="pbadge ' + (row.pts ? "win" : "zero") + '">= ' + row.pts + "</span>" +
-            "</div></div>";
-        }
-        bodyEl.insertAdjacentHTML("beforeend", html);
+        var m = fx.matches[i], pred = row.pred || {};
+        var played = row.played;
+        var perfect = played && row.pts === 20;
+        var st = function (b) { return !played ? "na" : (b ? "ok" : "no"); };
+        // Estructura fija: pronóstico + real + desglose siempre presentes,
+        // así la tarjeta mantiene el mismo tamaño esté o no jugado el partido.
+        html += '<div class="gm1' + (perfect ? " gm1-perfect" : "") + '"><div class="gm1-rows">';
+        html += '<div class="gm1-row gm1-pred"><span class="gm1-tag tag-pred">Tu pronóstico</span>' +
+          teamCl(m.home, "team-left") + scorePair(pred.hg, pred.ag, "pred") + teamCl(m.away, "team-right") + "</div>";
+        html += '<div class="gm1-row gm1-real"><span class="gm1-tag tag-real">Resultado real</span>' +
+          teamCl(m.home, "team-left team-dim") + scorePair(row.actual.hg, row.actual.ag, "real") +
+          teamCl(m.away, "team-right team-dim") + "</div>";
+        html += "</div>"; // gm1-rows
+        html += '<div class="gm1-why">' +
+          whySeg("Ganador", st(row.winner), 6) +
+          whySeg("Total de goles", st(row.totalGoals), 4) +
+          whySeg("Marcador exacto", st(row.exact), 10) +
+          '<div class="gm1-tot' + (played && row.pts ? "" : " is-zero") + '">' +
+            (perfect ? '<span class="perfbadge">PLENO</span>' : "") +
+            '<span class="gm1-tot-n">' + (played ? row.pts : "—") + '</span><span class="gm1-tot-u">pts</span></div></div>';
+        html += "</div>"; // gm1
       });
-      card.appendChild(bodyEl);
-      grid.appendChild(card);
+      html += "</div></div>"; // gcol-body, gcol
     });
-    panel.appendChild(grid);
-  }
-  function pbadge(letter, hit, val) {
-    return '<span class="pbadge ' + (hit ? "win" : "zero") + '" title="' +
-      ({ G: "Ganador/empate", T: "Total de goles", E: "Marcador exacto",
-         L: "Lado de la llave", P: "Penales" }[letter] || "") + '">' +
-      esc(letter) + " " + (hit ? val : "·") + "</span>";
+    html += "</div>";
+    appendHTML(panel, html);
   }
 
-  // ---------- CLASIFICACIÓN R32 ----------
+  // ---------- CLASIFICACIÓN R32 (Claro) ----------
   function renderClassification(panel) {
     var s = STATE.detailEntry._score.classification;
+    var html = '<div class="clasif-claro"><p class="phase-legend"><b>10 puntos</b> por cada equipo que ' +
+      'pronosticaste y de verdad clasifica · <b>+5</b> si además acertaste su puesto (1.º, 2.º o 3.º del grupo).</p>';
     if (!s.hasData) {
-      panel.appendChild(el("div", "section-note",
-        "Aún no se ha definido la clasificación a la Ronda de 32. " +
-        "Aquí verás qué equipos pronosticados clasificaron (10 pts) y cuáles quedaron en el puesto exacto (+5 pts)."));
+      html += '<p class="phase-legend phase-legend-accent">Aún no se ha definido la clasificación a la Ronda de 32. ' +
+        "Esta tabla se completará cuando carguen las posiciones finales de los grupos.</p>";
     }
-    panel.appendChild(el("p", "muted",
-      "10 puntos por cada equipo pronosticado que clasifica · +5 si además acertaste su puesto (1.º, 2.º o 3.º del grupo)."));
-    var t = el("table", "simple-table");
-    t.innerHTML = "<thead><tr><th>Equipo</th><th>Grupo</th><th>Tu puesto</th>" +
-      "<th>Clasificó</th><th>Puesto exacto</th><th class='num'>Pts</th></tr></thead>";
-    var tb = el("tbody");
-    s.items.sort(function (a, b) { return b.pts - a.pts; }).forEach(function (it) {
-      var t2 = splitTeam(it.team);
-      tb.insertAdjacentHTML("beforeend",
-        "<tr><td>" + esc(t2.flag) + " " + esc(t2.name) + "</td>" +
-        "<td>" + esc(it.group || "—") + "</td>" +
-        "<td>" + it.predPos + ".º</td>" +
-        "<td>" + dot(it.qualified) + (it.qualified ? "Sí" : "No") + "</td>" +
-        "<td>" + dot(it.posExact) + (it.posExact ? "Sí" : "—") + "</td>" +
-        "<td class='num'><strong>" + it.pts + "</strong></td></tr>");
+    html += '<div class="cl1-table"><div class="cl1-head"><span>Equipo</span><span>Grupo</span>' +
+      '<span>Tu puesto</span><span>Clasificó</span><span>Puesto exacto</span><span class="ta-r">Puntos</span></div>';
+    s.items.slice().sort(function (a, b) { return b.pts - a.pts; }).forEach(function (it) {
+      var q = it.qualified, p = it.posExact;
+      html += '<div class="cl1-row' + (q ? "" : " cl1-out") + '">' +
+        '<span class="cl1-team">' + flagEmoji(it.team, 20) + teamName(it.team) + "</span>" +
+        '<span class="cl1-grp">' + esc(it.group || "—") + "</span>" +
+        '<span class="cl1-pos">' + it.predPos + ".º</span>" +
+        "<span>" + boolPill(q, "Sí", "No", false) + "</span>" +
+        "<span>" + boolPill(p, "Sí", q ? "No" : "—", !q) + "</span>" +
+        '<span class="ta-r cl1-pts"><span class="cl1-break"><i class="' + (q ? "on" : "") + '">+10</i>' +
+        '<i class="' + (p ? "on" : "off") + '">+5</i></span><b class="' + (it.pts > 0 ? "win" : "zero") +
+        '">' + it.pts + "</b></span></div>";
     });
-    t.appendChild(tb);
-    panel.appendChild(t);
+    html += "</div></div>";
+    appendHTML(panel, html);
   }
-  function dot(b) { return '<span class="dot ' + (b ? "yes" : "no") + '"></span>'; }
 
-  // ---------- AVANCE DE RONDAS ----------
+  // ---------- AVANCE DE RONDAS (Claro) ----------
   function renderAdvancement(panel) {
     var s = STATE.detailEntry._score.advancement;
-    var labels = { OCT: "Octavos de final", CUA: "Cuartos de final", SEM: "Semifinal", FIN: "Final" };
-    panel.appendChild(el("p", "muted",
-      "Puntos por cada equipo pronosticado que realmente llega a la ronda: " +
-      "Octavos 15 · Cuartos 20 · Semifinal 35 · Final 50."));
-    var t = el("table", "simple-table");
-    t.innerHTML = "<thead><tr><th>Ronda</th><th>Pts/equipo</th><th>Equipos acertados</th><th class='num'>Pts</th></tr></thead>";
-    var tb = el("tbody");
+    var meta = { OCT: { lbl: "Octavos de final", cls: "" }, CUA: { lbl: "Cuartos de final", cls: "av1-cua" },
+                 SEM: { lbl: "Semifinal", cls: "av1-sem" }, FIN: { lbl: "Final", cls: "av1-fin" } };
+    var html = '<div class="avance-claro"><p class="phase-legend">Ganas puntos <b>por cada equipo</b> que ' +
+      "pronosticaste y de verdad llega a la ronda. No importa contra quién juegue. Los puntos suben ronda tras ronda.</p>";
     ["OCT", "CUA", "SEM", "FIN"].forEach(function (rk) {
-      var r = s.byRound[rk];
-      var teams = r.teams.map(function (x) { var t2 = splitTeam(x); return t2.flag + " " + t2.name; }).join(", ");
-      if (!r.hasData) teams = '<span class="muted">aún no jugado</span>';
-      else if (!teams) teams = '<span class="muted">ninguno</span>';
-      tb.insertAdjacentHTML("beforeend",
-        "<tr><td><strong>" + labels[rk] + "</strong></td><td>" + r.perTeam + "</td>" +
-        "<td>" + teams + "</td><td class='num'><strong>" + r.points + "</strong></td></tr>");
+      var r = s.byRound[rk], M = meta[rk], empty = r.teams.length === 0;
+      html += '<div class="av1-band ' + M.cls + (empty ? " av1-empty" : "") + '">' +
+        '<div class="av1-meta"><h3>' + M.lbl + '</h3><span class="av1-per">+' + r.perTeam +
+        ' <i>por equipo</i></span></div><div class="av1-teams">';
+      if (!r.hasData) html += '<span class="av1-none">Aún no jugado</span>';
+      else if (empty) html += '<span class="av1-none">Ningún equipo acertado</span>';
+      else r.teams.forEach(function (t) { html += '<span class="av1-chip">' + flagEmoji(t, 18) + teamName(t) + "</span>"; });
+      html += '</div><div class="av1-tot ' + (r.points > 0 ? "win" : "zero") + '"><b>' + r.points +
+        "</b><span>pts</span>" + (r.teams.length > 0 ? "<em>" + r.teams.length + " × " + r.perTeam + "</em>" : "") +
+        "</div></div>";
     });
-    t.appendChild(tb);
-    panel.appendChild(t);
+    html += "</div>";
+    appendHTML(panel, html);
   }
 
-  // ---------- LLAVE (knockout) ----------
+  // ---------- LLAVE / eliminación (Claro) ----------
+  function koCell(teamStr, goals, win) {
+    return '<div class="lv1-cell' + (win ? " is-win" : "") + '">' + flagEmoji(teamStr, 20) +
+      '<span class="lv1-tn">' + teamName(teamStr) + '</span><span class="lv1-g">' +
+      (isN(goals) ? goals : "–") + "</span>" + (win ? '<span class="lv1-wtag">gana</span>' : "") + "</div>";
+  }
   function renderKnockout(panel) {
     var e = STATE.detailEntry, s = e._score.knockoutMatches;
-    panel.appendChild(el("div", "section-note",
-      "En la eliminación los puntos del partido se dan por el <strong>lado de la llave</strong> " +
-      "(local/visitante), no por el equipo. Por eso tu equipo pronosticado puede ser distinto al real. " +
-      "Lado 3 · Total de goles 2 · Goles de penales 2."));
     var byN = {};
     s.items.forEach(function (it) { byN[it.n] = it; });
-
-    var roundsOrder = ["R32", "OCT", "CUA", "SEM", "TP", "FIN"];
     var roundMatches = {};
     DATA.fixtures.knockout.forEach(function (fx) {
       (roundMatches[fx.round] = roundMatches[fx.round] || []).push(fx);
     });
-
-    roundsOrder.forEach(function (rk) {
+    var html = '<div class="llave-claro"><p class="phase-legend phase-legend-accent">En la eliminación los ' +
+      "puntos se dan por el <b>lado de la llave</b> (local/visitante), no por el equipo. Por eso tu equipo " +
+      "pronosticado puede ser distinto al real: lo que cuenta es qué <b>lado</b> gana. &nbsp;Ganador <b>+3</b> · " +
+      "Total de goles <b>+2</b> · Penales <b>+2</b>.</p>";
+    ["R32", "OCT", "CUA", "SEM", "TP", "FIN"].forEach(function (rk) {
       var fxs = roundMatches[rk] || [];
-      var wrap = el("div", "ko-round");
-      var title = el("h3", "ko-round__title");
-      title.innerHTML = esc(DATA.fixtures.rounds[rk]);
-      wrap.appendChild(title);
-      var list = el("div", "ko-list");
+      if (!fxs.length) return;
+      html += '<h3 class="lv1-round">' + esc(DATA.fixtures.rounds[rk]) + '</h3><div class="lv1-list">';
       fxs.forEach(function (fx) {
         var n = fx.n;
         var pred = (e.knockout && e.knockout[String(n)]) || {};
         var act = (DATA.results.knockout && DATA.results.knockout[String(n)]) || {};
         var sc = byN[n];
-        var m = el("div", "komatch");
-        var ptsTag = sc ? '<span class="komatch__pts pbadge ' + (sc.pts ? "win" : "zero") + '">+' + sc.pts + " pts</span>" : "";
-        var html = '<div class="komatch__no">Partido ' + n + ptsTag + "</div>";
-        // tu pronóstico
-        html += '<div class="mrow">' +
-          teamSpan(pred.home, "home") + scoreBox(pred.hg, pred.ag, "pred") + teamSpan(pred.away, "away") + "</div>";
-        if (isN(pred.ph) || isN(pred.pa)) {
-          html += '<div class="mcompare"><div class="label">Penales (tú)</div>' +
-            scoreBox(pred.ph, pred.pa, "pred") + "<div></div></div>";
-        }
-        // real
-        if (sc && sc.played) {
-          html += '<div class="mrow" style="margin-top:6px">' +
-            teamSpan(act.home, "home") + scoreBox(act.hg, act.ag, "actual") + teamSpan(act.away, "away") + "</div>";
-          if (isN(act.ph) || isN(act.pa)) {
-            html += '<div class="mcompare"><div class="label">Penales (real)</div>' +
-              scoreBox(act.ph, act.pa, "actual") + "<div></div></div>";
-          }
-          html += '<div class="pbadge-row" style="margin-top:6px">' +
-            pbadge("L", sc.side, "+3") + pbadge("T", sc.totalGoals, "+2") + pbadge("P", sc.penalties, "+2") +
-            "</div>";
-        } else {
-          html += '<p class="muted" style="margin:6px 0 0">Aún no jugado</p>';
-        }
-        m.innerHTML = html;
-        list.appendChild(m);
+        var played = !!(sc && sc.played);
+        var pSide = WCScoring.winningSide(pred.hg, pred.ag, pred.ph, pred.pa);
+        var rSide = WCScoring.winningSide(act.hg, act.ag, act.ph, act.pa);
+        var ptsHtml = played ? ptsPill(sc.pts, "sm")
+          : '<span class="pts pts-zero pts-sm">—<span class="pts-u">pts</span></span>';
+        html += '<div class="lv1-card"><div class="lv1-h"><span class="lv1-num">Partido ' + n + "</span>" +
+          ptsHtml + "</div>";
+        // Estructura fija (pronóstico + real + desglose) -> mismo tamaño jugado o no.
+        html += '<div class="lv1-grid"><span class="lv1-colh">Lado local</span><span class="lv1-colh">Lado visitante</span>';
+        html += '<span class="lv1-rowtag tag-pred">Tu pronóstico</span>' +
+          koCell(pred.home, pred.hg, pSide === "H") + koCell(pred.away, pred.ag, pSide === "A");
+        html += '<span class="lv1-rowtag tag-real">Resultado real</span>' +
+          koCell(act.home, act.hg, played && rSide === "H") + koCell(act.away, act.ag, played && rSide === "A");
+        html += "</div>"; // lv1-grid
+        var actPens = played && act.hg === act.ag && isN(act.ph) && isN(act.pa);
+        html += '<div class="lv1-why">' +
+          whySeg("Ganador del lado", played ? (sc.side ? "ok" : "no") : "na", 3) +
+          whySeg("Total de goles", played ? (sc.totalGoals ? "ok" : "no") : "na", 2) +
+          whySeg("Goles en penales", actPens ? (sc.penalties ? "ok" : "no") : "na", 2) + "</div>";
+        html += "</div>"; // lv1-card
       });
-      wrap.appendChild(list);
-      panel.appendChild(wrap);
+      html += "</div>";
     });
+    html += "</div>";
+    appendHTML(panel, html);
   }
 
-  // ---------- PODIO ----------
+  // ---------- PODIO (Claro) ----------
   function renderPodio(panel) {
     var s = STATE.detailEntry._score.podio;
-    var medals = { campeon: "🥇", subcampeon: "🥈", tercero: "🥉" };
-    panel.appendChild(el("p", "muted", "Campeón 150 · Subcampeón 100 · Tercer lugar 75."));
-    var grid = el("div", "podio-grid");
+    var medalColor = { campeon: "#E8920E", subcampeon: "#9aa3ad", tercero: "#b87333" };
+    var medalNum = { campeon: "1", subcampeon: "2", tercero: "3" };
+    var html = '<div class="podio-claro"><p class="phase-legend">Los tres primeros lugares son los premios más ' +
+      "grandes de la polla. Estos puntos se suman a todo lo que esos equipos ya te dieron por avanzar ronda tras ronda.</p>" +
+      '<div class="pd1-grid">';
     s.items.forEach(function (it) {
-      var t = splitTeam(it.pred);
-      var card = el("div", "podio-card" + (it.hit ? " hit" : ""));
-      card.innerHTML =
-        '<div class="medal">' + medals[it.key] + "</div>" +
-        '<div class="role">' + esc(it.label) + " · " + WCScoring.POINTS.PODIO[it.key] + " pts</div>" +
-        '<div class="pred">' + esc(t.flag + " " + t.name) + "</div>" +
-        (it.hasData
-          ? '<div class="actual">Real: ' + esc(it.actual) + " · <strong>+" + it.pts + " pts</strong></div>"
-          : '<div class="actual">Aún no definido</div>');
-      grid.appendChild(card);
+      html += '<div class="pd1-card ' + (it.hit ? "hit" : "miss") + '">' +
+        '<div class="pd1-medal" style="--mc:' + medalColor[it.key] + '"><span>' + medalNum[it.key] + "</span></div>" +
+        '<div class="pd1-label">' + esc(it.label) + " · <b>" + WCScoring.POINTS.PODIO[it.key] + " pts</b></div>" +
+        '<div class="pd1-pick">' + flagEmoji(it.pred, 30) + "<b>" + teamName(it.pred) + "</b></div>";
+      if (it.hasData) {
+        html += it.hit
+          ? '<div class="pd1-real ok"><span class="pd1-chk">' + icon("check") + "</span> ¡Acertaste! Real: " + teamName(it.actual) + "</div>"
+          : '<div class="pd1-real no">Real: ' + flagEmoji(it.actual, 16) + " " + teamName(it.actual) + "</div>";
+        html += '<div class="pd1-pts ' + (it.hit ? "win" : "zero") + '">' + (it.hit ? "+" + it.pts : "+0") + " <i>pts</i></div>";
+      } else {
+        html += '<div class="pd1-real no">Aún no definido</div><div class="pd1-pts zero">— <i>pts</i></div>';
+      }
+      html += "</div>";
     });
-    panel.appendChild(grid);
+    html += "</div></div>";
+    appendHTML(panel, html);
   }
 
   // arranque

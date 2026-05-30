@@ -162,7 +162,7 @@ body {
 .person-card__total .lab { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; opacity: .9; }
 
 /* breakdown chips */
-.breakdown { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-bottom: 18px; }
+.breakdown { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(140px, 100%), 1fr)); gap: 10px; margin-bottom: 18px; }
 .bd-chip { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 11px 13px; }
 .bd-chip .lab { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .4px; }
 .bd-chip .num { font-size: 22px; font-weight: 800; color: var(--ink); }
@@ -252,4 +252,216 @@ h3.block-title { font-size: 16px; margin: 22px 0 10px; }
   .col-contact { display: none; }
   .person-card__total .num { font-size: 32px; }
   .topbar__title { font-size: 17px; }
+}
+
+/* =================================================================
+   DISEÑO "CLARO" — Vista de detalle / puntuación
+   Marca Serviplagas: carbón + dorado búho + acero.
+   Lenguaje: AZUL = tu pronóstico · CARBÓN = real · DORADO = puntos
+   · VERDE ✓ = regla acertada · GRIS ✗ = fallada.
+   Tokens y clases acotados a #view-detail para no afectar el resto.
+   ================================================================= */
+#view-detail {
+  --ink: #20222A; --ink-2: #2C2E37; --ink-3: #3A3D47;
+  --gold: #ED9B12; --gold-2: #FFC23D; --gold-deep: #D6790A;
+  --steel: #6B7177; --silver: #AEB4BA;
+  --paper: #F4F3EF; --card: #FFFFFF; --line: #E7E5DF; --line-2: #EFEEE9;
+  --pred: #2F6DB4; --pred-tint: #EAF1FA; --pred-line: #CFE0F2;
+  --win: #1C9C56; --win-tint: #E7F6ED; --win-line: #C8EAD5;
+  --zero: #9AA0A6; --zero-tint: #F1F1EF; --gold-tint: #FCF1DB;
+  --r: 14px; --r-sm: 9px;
+  --sh-sm: 0 1px 2px rgba(28,28,30,.05), 0 1px 1px rgba(28,28,30,.04);
+  --sh: 0 2px 8px rgba(28,28,30,.06), 0 1px 2px rgba(28,28,30,.05);
+  --f-disp: "Archivo", system-ui, sans-serif;
+  --f-sans: "Hanken Grotesk", system-ui, sans-serif;
+  font-family: var(--f-sans); color: var(--ink);
+  overflow-x: hidden;
+}
+#view-detail h2, #view-detail h3, #view-detail h4 { font-family: var(--f-disp); }
+
+/* ---- tarjeta de persona (carbón + dorado) ---- */
+#view-detail .person-card {
+  background: var(--ink); color: #fff; border-radius: var(--r);
+  border: 1px solid #2c2e37; box-shadow: var(--sh);
+}
+#view-detail .person-card__info h2 { font-family: var(--f-disp); font-weight: 800; }
+#view-detail .person-card__meta .code-pill { background: rgba(255,255,255,.14); color: #fff; }
+#view-detail .person-card__total .num { font-family: var(--f-disp); color: var(--gold-2); }
+#view-detail .person-card__total .lab { color: var(--gold-2); opacity: .85; }
+
+/* ---- desglose por fase ---- */
+#view-detail .breakdown { gap: 8px; }
+#view-detail .bd-chip { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); box-shadow: var(--sh-sm); }
+#view-detail .bd-chip .lab { color: var(--steel); font-weight: 700; letter-spacing: .04em; }
+#view-detail .bd-chip .num { font-family: var(--f-disp); font-weight: 800; color: var(--gold-deep); }
+
+/* ---- sub-pestañas ---- */
+#view-detail .subtabs { border-bottom: 1px solid var(--line); }
+#view-detail .subtabs button { color: var(--steel); font-family: var(--f-sans); }
+#view-detail .subtabs button.is-active { color: var(--ink); border-bottom-color: var(--gold); }
+
+/* ---- leyenda de fase ---- */
+.phase-legend {
+  font-size: 13.5px; color: var(--ink-3); background: var(--card); border: 1px solid var(--line);
+  border-radius: var(--r); padding: 12px 16px; margin: 0 0 16px; line-height: 1.5;
+}
+.phase-legend b { color: var(--ink); }
+.phase-legend-accent { border-left: 4px solid var(--gold); background: var(--gold-tint); border-color: #F0DFB6; }
+
+/* ---- primitivas compartidas ---- */
+#view-detail .team { display: inline-flex; align-items: center; gap: 8px; min-width: 0; }
+#view-detail .team-name { font-size: 14px; font-weight: 600; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; flex: 0 1 auto; }
+#view-detail .team-dim .team-name { color: var(--steel); }
+#view-detail .flagemoji { line-height: 1; flex: none; filter: saturate(1.05); }
+#view-detail .scorepair { display: inline-flex; align-items: center; gap: 9px; font-family: var(--f-disp); font-weight: 800; }
+#view-detail .scorepair b { font-size: 20px; }
+#view-detail .sp-dash { color: var(--silver); font-weight: 600; }
+#view-detail .scorepair.tone-pred b { color: var(--pred); }
+#view-detail .scorepair.tone-real b { color: var(--ink); }
+#view-detail .pts { display: inline-flex; align-items: baseline; gap: 1px; font-family: var(--f-disp); font-weight: 800; border-radius: 999px; line-height: 1; }
+#view-detail .pts-u { font-size: .62em; font-weight: 700; margin-left: 2px; opacity: .8; }
+#view-detail .pts-win { background: var(--gold-tint); color: var(--gold-deep); }
+#view-detail .pts-zero { background: var(--zero-tint); color: var(--zero); }
+#view-detail .pts-sm { padding: 5px 11px; font-size: 14px; }
+#view-detail .ri { display: inline-grid; place-items: center; width: 20px; height: 20px; border-radius: 50%; flex: none; }
+#view-detail .ri-ok { background: var(--win); color: #fff; }
+#view-detail .ri-no { background: #E4E4E1; color: var(--steel); }
+#view-detail .ri-na { background: transparent; color: var(--silver); box-shadow: inset 0 0 0 1.5px var(--line); }
+
+/* desglose "por qué" compartido (grupos + llave) */
+.gm1-why, .lv1-why { display: flex; align-items: stretch; gap: 8px; flex-wrap: wrap; }
+.why-seg { display: flex; align-items: center; gap: 8px; flex: 1 1 0; min-width: 0; padding: 8px 11px; border-radius: var(--r-sm); border: 1px solid var(--line); background: var(--paper); }
+.why-seg.is-ok { background: var(--win-tint); border-color: var(--win-line); }
+.why-lbl { font-size: 12.5px; font-weight: 600; color: var(--ink-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 1; }
+.why-seg.is-ok .why-lbl { color: var(--ink); }
+.why-pts { font-family: var(--f-disp); font-weight: 800; font-size: 13.5px; color: var(--steel); }
+.why-seg.is-ok .why-pts { color: var(--win); }
+.why-seg.is-na { opacity: .6; }
+
+/* ---- FASE GRUPOS (Claro) ---- */
+.grupos-claro { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(290px, 100%), 1fr)); gap: 16px; align-items: start; }
+.gcol { min-width: 0; }
+.gcol-h { display: flex; align-items: center; justify-content: space-between; padding: 0 4px 10px; }
+.gcol-h h3 { font-size: 18px; }
+.gcol-pts { font-family: var(--f-disp); font-weight: 800; font-size: 14px; color: var(--gold-deep); }
+.gcol-body { display: flex; flex-direction: column; gap: 10px; }
+.gm1 { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 12px; box-shadow: var(--sh-sm); }
+.gm1-perfect { border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold), var(--sh); }
+.gm1-rows { display: flex; flex-direction: column; gap: 7px; margin-bottom: 11px; }
+.gm1-row { display: flex; align-items: center; justify-content: center; gap: 12px; position: relative; padding: 8px 10px; border-radius: var(--r-sm); }
+.gm1-pred { background: var(--pred-tint); }
+.gm1-real { background: var(--paper); }
+.gm1-row .team { display: flex; flex: 1 1 0; min-width: 0; }
+.gm1-row .team-left { justify-content: flex-end; }
+.gm1-row .team-right { justify-content: flex-start; }
+.gm1-row .scorepair { flex: none; }
+.gm1-tag { position: absolute; top: -7px; left: 9px; font-size: 9.5px; font-weight: 800; text-transform: uppercase; letter-spacing: .05em; padding: 1px 6px; border-radius: 4px; }
+.tag-pred { background: var(--pred); color: #fff; }
+.tag-real { background: var(--ink); color: #fff; }
+.gm1-row .team-name { font-size: 12.5px; }
+.gm1-row .scorepair b { font-size: 17px; }
+.gm1-why { margin-top: 2px; align-items: stretch; }
+.gm1 .why-seg { flex-direction: column; align-items: center; justify-content: flex-start; gap: 3px; text-align: center; padding: 7px 4px; flex: 1 1 0; min-width: 0; }
+.gm1 .why-lbl { font-size: 10.5px; white-space: normal; line-height: 1.15; text-align: center; min-height: 2.3em; display: flex; align-items: center; justify-content: center; }
+.gm1 .ri { width: 18px; height: 18px; }
+.gm1-tot { flex: 0 0 auto; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 7px 12px; border-radius: var(--r-sm); background: var(--gold-tint); position: relative; min-width: 58px; }
+.gm1-tot.is-zero { background: var(--zero-tint); }
+.gm1-tot-n { font-family: var(--f-disp); font-weight: 800; font-size: 22px; color: var(--gold-deep); line-height: 1; }
+.gm1-tot.is-zero .gm1-tot-n { color: var(--zero); }
+.gm1-tot-u { font-size: 10px; color: var(--steel); font-weight: 700; }
+.perfbadge { position: absolute; top: -9px; left: 50%; transform: translateX(-50%); background: var(--gold); color: var(--ink); font-family: var(--f-disp); font-size: 8px; font-weight: 800; letter-spacing: .06em; padding: 2px 6px; border-radius: 4px; white-space: nowrap; }
+.gm1-pending { text-align: center; font-size: 12px; font-weight: 700; color: var(--steel); background: var(--paper); border: 1px dashed var(--line); border-radius: var(--r-sm); padding: 8px; }
+
+/* ---- FASE CLASIFICACIÓN (Claro) ---- */
+.cl1-table { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; box-shadow: var(--sh-sm); }
+.cl1-head, .cl1-row { display: grid; grid-template-columns: 1.7fr .7fr .9fr 1fr 1.2fr 1fr; align-items: center; gap: 10px; padding: 12px 16px; }
+.cl1-head { font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .06em; color: var(--steel); background: var(--paper); border-bottom: 1px solid var(--line); }
+.cl1-row { border-bottom: 1px solid var(--line-2); font-size: 14px; }
+.cl1-row:last-child { border-bottom: 0; }
+.cl1-row:hover { background: var(--paper); }
+.cl1-out { opacity: .62; }
+.cl1-team { display: flex; align-items: center; gap: 10px; font-weight: 700; }
+.cl1-grp { color: var(--ink-3); font-weight: 600; }
+.cl1-pos { color: var(--ink-3); font-family: var(--f-disp); font-weight: 700; }
+.ta-r { text-align: right; }
+.cl1-pts { display: flex; align-items: center; justify-content: flex-end; gap: 10px; }
+.cl1-break { display: inline-flex; gap: 4px; }
+.cl1-break i { font-style: normal; font-family: var(--f-disp); font-weight: 700; font-size: 11px; padding: 2px 6px; border-radius: 5px; background: var(--zero-tint); color: var(--silver); }
+.cl1-break i.on { background: var(--gold-tint); color: var(--gold-deep); }
+.cl1-break i.off { opacity: .5; }
+.cl1-pts b { font-family: var(--f-disp); font-weight: 800; font-size: 19px; min-width: 28px; text-align: right; }
+.cl1-pts b.win { color: var(--gold-deep); } .cl1-pts b.zero { color: var(--zero); }
+.boolpill { display: inline-flex; align-items: center; gap: 6px; font-size: 12.5px; font-weight: 700; padding: 3px 10px 3px 8px; border-radius: 999px; }
+.bp-dot { width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.bp-yes { background: var(--win-tint); color: var(--win); }
+.bp-no { background: #FBEAEA; color: #C0524B; }
+.bp-muted { background: var(--zero-tint); color: var(--zero); }
+
+/* ---- FASE AVANCE (Claro) ---- */
+.avance-claro { display: flex; flex-direction: column; gap: 12px; }
+.av1-band { display: grid; grid-template-columns: 200px 1fr auto; gap: 18px; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 16px 18px; box-shadow: var(--sh-sm); border-left: 5px solid var(--gold); }
+.av1-band.av1-cua { border-left-color: var(--gold); }
+.av1-band.av1-sem { border-left-color: var(--gold-deep); }
+.av1-band.av1-fin { border-left-color: var(--ink); }
+.av1-empty { opacity: .65; border-left-color: var(--silver) !important; }
+.av1-meta h3 { font-size: 18px; }
+.av1-per { font-family: var(--f-disp); font-weight: 800; font-size: 22px; color: var(--gold-deep); display: block; margin-top: 4px; }
+.av1-per i { font-style: normal; font-size: 11px; color: var(--steel); font-weight: 600; }
+.av1-teams { display: flex; flex-wrap: wrap; gap: 7px; }
+.av1-chip { display: inline-flex; align-items: center; gap: 7px; background: var(--paper); border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px 5px 8px; font-size: 12.5px; font-weight: 600; }
+.av1-none { color: var(--steel); font-style: italic; font-size: 13px; }
+.av1-tot { text-align: right; display: flex; flex-direction: column; align-items: flex-end; line-height: 1; }
+.av1-tot b { font-family: var(--f-disp); font-weight: 800; font-size: 28px; }
+.av1-tot.win b { color: var(--gold-deep); } .av1-tot.zero b { color: var(--zero); }
+.av1-tot span { font-size: 11px; color: var(--steel); text-transform: uppercase; letter-spacing: .05em; font-weight: 700; }
+.av1-tot em { font-style: normal; font-size: 11px; color: var(--silver); margin-top: 3px; }
+
+/* ---- FASE LLAVE (Claro) ---- */
+.lv1-round { font-size: 16px; margin: 18px 0 10px; color: var(--ink); }
+.lv1-round:first-of-type { margin-top: 4px; }
+.lv1-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 14px; align-items: start; }
+.lv1-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 14px 16px; box-shadow: var(--sh-sm); }
+.lv1-h { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.lv1-num { font-family: var(--f-disp); font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--steel); }
+.lv1-grid { display: grid; grid-template-columns: auto 1fr 1fr; gap: 8px 10px; align-items: center; margin-bottom: 13px; }
+.lv1-colh { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .05em; color: var(--steel); text-align: center; }
+.lv1-grid > .lv1-colh:nth-child(1) { grid-column: 2; }
+.lv1-grid > .lv1-colh:nth-child(2) { grid-column: 3; }
+.lv1-rowtag { font-size: 9.5px; font-weight: 800; text-transform: uppercase; letter-spacing: .04em; padding: 3px 7px; border-radius: 5px; white-space: nowrap; text-align: center; }
+.lv1-cell { display: flex; align-items: center; gap: 7px; padding: 8px 10px; border-radius: var(--r-sm); background: var(--paper); border: 1px solid var(--line); position: relative; }
+.lv1-cell.is-win { background: var(--gold-tint); border-color: #EBD49C; }
+.lv1-tn { font-size: 12px; font-weight: 600; flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lv1-g { font-family: var(--f-disp); font-weight: 800; font-size: 18px; }
+.lv1-cell.is-win .lv1-g { color: var(--gold-deep); }
+.lv1-wtag { position: absolute; top: -7px; right: 7px; background: var(--gold); color: var(--ink); font-size: 8px; font-weight: 800; text-transform: uppercase; letter-spacing: .04em; padding: 1px 5px; border-radius: 4px; }
+.lv1-why { align-items: stretch; }
+.lv1-why .why-seg { flex-direction: column; justify-content: flex-start; gap: 3px; text-align: center; padding: 7px 4px; flex: 1 1 0; min-width: 0; }
+.lv1-why .why-lbl { font-size: 10.5px; white-space: normal; text-align: center; min-height: 2.3em; display: flex; align-items: center; justify-content: center; }
+.lv1-pending { text-align: center; color: var(--steel); font-size: 13px; font-weight: 600; padding: 6px; }
+
+/* ---- FASE PODIO (Claro) ---- */
+.podio-claro .pd1-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 16px; align-items: start; }
+.pd1-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 22px 18px; box-shadow: var(--sh-sm); text-align: center; display: flex; flex-direction: column; align-items: center; gap: 11px; position: relative; overflow: hidden; }
+.pd1-card.hit { border-color: var(--gold); box-shadow: 0 0 0 1px var(--gold), var(--sh); }
+.pd1-card.hit::before { content: ""; position: absolute; inset: 0 0 auto 0; height: 5px; background: linear-gradient(90deg, var(--gold-2), var(--gold-deep)); }
+.pd1-medal { width: 58px; height: 58px; border-radius: 50%; display: grid; place-items: center; background: radial-gradient(circle at 38% 32%, #fff6, transparent 60%), var(--mc); color: #fff; font-family: var(--f-disp); font-weight: 800; font-size: 26px; box-shadow: inset 0 -3px 8px rgba(0,0,0,.2), var(--sh); }
+.pd1-label { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--steel); }
+.pd1-label b { color: var(--gold-deep); }
+.pd1-pick { display: flex; align-items: center; gap: 10px; }
+.pd1-pick b { font-family: var(--f-disp); font-weight: 800; font-size: 22px; }
+.pd1-real { font-size: 12.5px; display: flex; align-items: center; gap: 6px; padding: 5px 12px; border-radius: 999px; }
+.pd1-real.ok { background: var(--win-tint); color: var(--win); font-weight: 700; }
+.pd1-real.no { background: var(--paper); color: var(--steel); }
+.pd1-chk { display: grid; place-items: center; width: 18px; height: 18px; border-radius: 50%; background: var(--win); color: #fff; }
+.pd1-pts { font-family: var(--f-disp); font-weight: 800; font-size: 30px; }
+.pd1-pts i { font-style: normal; font-size: 13px; color: var(--steel); }
+.pd1-pts.win { color: var(--gold-deep); } .pd1-pts.zero { color: var(--zero); }
+
+@media (max-width: 820px) {
+  /* las rejillas de grupos/llave/podio ya se adaptan solas con auto-fit */
+  .av1-band { grid-template-columns: 1fr; gap: 10px; }
+  .av1-tot { align-items: flex-start; text-align: left; }
+  .cl1-head { display: none; }
+  .cl1-row { grid-template-columns: 1fr auto; gap: 6px 10px; }
+  .cl1-row .cl1-grp, .cl1-row .cl1-pos { display: none; }
 }

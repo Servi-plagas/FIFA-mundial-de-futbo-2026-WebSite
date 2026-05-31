@@ -419,11 +419,11 @@ h3.block-title { font-size: 16px; margin: 22px 0 10px; }
 /* ---- FASE LLAVE (Claro) ---- */
 .lv1-round { font-size: 16px; margin: 18px 0 10px; color: var(--ink); }
 .lv1-round:first-of-type { margin-top: 4px; }
-.lv1-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 14px; align-items: start; }
+.lv1-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr)); gap: 14px; align-items: start; }
 .lv1-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); padding: 14px 16px; box-shadow: var(--sh-sm); }
 .lv1-h { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
 .lv1-num { font-family: var(--f-disp); font-weight: 700; font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--steel); }
-.lv1-grid { display: grid; grid-template-columns: auto 1fr 1fr; gap: 8px 10px; align-items: center; margin-bottom: 13px; }
+.lv1-grid { display: grid; grid-template-columns: auto minmax(0, 1fr) minmax(0, 1fr); gap: 8px 10px; align-items: center; margin-bottom: 13px; }
 .lv1-colh { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .05em; color: var(--steel); text-align: center; }
 .lv1-grid > .lv1-colh:nth-child(1) { grid-column: 2; }
 .lv1-grid > .lv1-colh:nth-child(2) { grid-column: 3; }

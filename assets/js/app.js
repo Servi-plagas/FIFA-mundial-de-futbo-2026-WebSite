@@ -394,14 +394,19 @@
     }
     html += '<div class="cl1-table"><div class="cl1-head"><span>Equipo</span><span>Grupo</span>' +
       '<span>Tu puesto</span><span>Clasificó</span><span>Puesto exacto</span><span class="ta-r">Puntos</span></div>';
-    s.items.slice().sort(function (a, b) { return b.pts - a.pts; }).forEach(function (it) {
+    s.items.slice().sort(function (a, b) {
+      // ordena por grupo (A, B, C…) y, dentro del grupo, por puesto pronosticado.
+      var ga = a.group || "ZZ", gb = b.group || "ZZ";
+      if (ga !== gb) return ga < gb ? -1 : 1;
+      return a.predPos - b.predPos;
+    }).forEach(function (it) {
       var q = it.qualified, p = it.posExact;
       html += '<div class="cl1-row' + (q ? "" : " cl1-out") + '">' +
         '<span class="cl1-team">' + flagEmoji(it.team, 20) + teamName(it.team) + "</span>" +
         '<span class="cl1-grp">' + esc(it.group || "—") + "</span>" +
         '<span class="cl1-pos">' + it.predPos + ".º</span>" +
-        "<span>" + boolPill(q, "Sí", "No", false) + "</span>" +
-        "<span>" + boolPill(p, "Sí", q ? "No" : "—", !q) + "</span>" +
+        '<span class="cl1-q">' + boolPill(q, "Sí", "No", false) + "</span>" +
+        '<span class="cl1-pe">' + boolPill(p, "Sí", q ? "No" : "—", !q) + "</span>" +
         '<span class="ta-r cl1-pts"><span class="cl1-break"><i class="' + (q ? "on" : "") + '">+10</i>' +
         '<i class="' + (p ? "on" : "off") + '">+5</i></span><b class="' + (it.pts > 0 ? "win" : "zero") +
         '">' + it.pts + "</b></span></div>";

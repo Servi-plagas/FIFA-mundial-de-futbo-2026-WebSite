@@ -471,6 +471,25 @@ h3.block-title { font-size: 16px; margin: 22px 0 10px; }
   .av1-band { grid-template-columns: 1fr; gap: 10px; }
   .av1-tot { align-items: flex-start; text-align: left; }
   .cl1-head { display: none; }
-  .cl1-row { grid-template-columns: 1fr auto; gap: 6px 10px; }
+  .cl1-row {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "team pts" "q pe";
+    gap: 12px 10px; padding: 14px 16px;
+  }
+  .cl1-team { grid-area: team; }
+  .cl1-pts { grid-area: pts; }
+  .cl1-q { grid-area: q; }
+  .cl1-pe { grid-area: pe; }
   .cl1-row .cl1-grp, .cl1-row .cl1-pos { display: none; }
+  /* cada pastilla Sí/No con su etiqueta encima, ya que el encabezado se oculta */
+  .cl1-q, .cl1-pe {
+    display: flex; flex-direction: column; align-items: flex-start; gap: 6px;
+    border-top: 1px dashed var(--line-2); padding-top: 10px;
+  }
+  .cl1-q::before, .cl1-pe::before {
+    font-size: 10px; font-weight: 800; text-transform: uppercase;
+    letter-spacing: .06em; color: var(--steel);
+  }
+  .cl1-q::before { content: "Clasificó"; }
+  .cl1-pe::before { content: "Puesto exacto"; }
 }

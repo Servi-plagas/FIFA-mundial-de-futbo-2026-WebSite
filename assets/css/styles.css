@@ -408,8 +408,17 @@ h3.block-title { font-size: 16px; margin: 22px 0 10px; }
 .av1-per { font-family: var(--f-disp); font-weight: 800; font-size: 22px; color: var(--gold-deep); display: block; margin-top: 4px; }
 .av1-per i { font-style: normal; font-size: 11px; color: var(--steel); font-weight: 600; }
 .av1-teams { display: flex; flex-wrap: wrap; gap: 7px; }
-.av1-chip { display: inline-flex; align-items: center; gap: 7px; background: var(--paper); border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px 5px 8px; font-size: 12.5px; font-weight: 600; }
+.av1-chip { display: inline-flex; align-items: center; gap: 7px; background: var(--paper); border: 1px solid var(--line); border-radius: 999px; padding: 5px 10px 5px 8px; font-size: 12.5px; font-weight: 600; }
+.av1-chip .av1-ci { display: inline-flex; align-items: center; justify-content: center; width: 16px; height: 16px; border-radius: 50%; }
+.av1-hit { background: var(--win-tint); border-color: var(--win-line); color: var(--win); }
+.av1-hit .av1-ci { background: var(--win); color: #fff; }
+.av1-miss { background: #FBEAEA; border-color: #F1CFCF; color: #C0524B; }
+.av1-miss .av1-cn { text-decoration: line-through; text-decoration-color: rgba(192,82,75,.55); }
+.av1-miss .av1-ci { background: #C0524B; color: #fff; }
+.av1-pending { background: var(--zero-tint); border-color: var(--line); color: var(--steel); }
 .av1-none { color: var(--steel); font-style: italic; font-size: 13px; }
+.phase-legend .lg-hit { color: var(--win); }
+.phase-legend .lg-miss { color: #C0524B; }
 .av1-tot { text-align: right; display: flex; flex-direction: column; align-items: flex-end; line-height: 1; }
 .av1-tot b { font-family: var(--f-disp); font-weight: 800; font-size: 28px; }
 .av1-tot.win b { color: var(--gold-deep); } .av1-tot.zero b { color: var(--zero); }

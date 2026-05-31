@@ -183,19 +183,25 @@
         if (m && norm(m.winner)) predTeams[norm(m.winner)] = true;
       });
       // equipos que realmente llegaron (ganadores reales de esos partidos)
-      var actTeams = {}; var anyActual = false;
+      var actTeams = {}; var anyActual = false; var allDecided = true;
       cfg.from.forEach(function (n) {
         var rm = results.knockout && results.knockout[String(n)];
-        if (rm) {
-          var w = actualWinnerTeam(rm);
-          if (w) { actTeams[w] = true; anyActual = true; }
-        }
+        var w = rm ? actualWinnerTeam(rm) : null;
+        if (w) { actTeams[w] = true; anyActual = true; }
+        else allDecided = false;
       });
-      var hits = [];
-      Object.keys(predTeams).forEach(function (t) { if (actTeams[t]) hits.push(t); });
+      // detalle por equipo pronosticado: acertado (llegó), fallado (ya se sabe
+      // que no llegó) o pendiente (la ronda aún no se ha definido por completo).
+      var hits = [], items = [];
+      Object.keys(predTeams).forEach(function (t) {
+        var reached = !!actTeams[t];
+        if (reached) hits.push(t);
+        items.push({ team: t, status: reached ? "hit" : (allDecided ? "miss" : "pending") });
+      });
       var pts = hits.length * cfg.pts;
       total += pts;
-      byRound[rk] = { points: pts, perTeam: cfg.pts, teams: hits, hasData: anyActual };
+      byRound[rk] = { points: pts, perTeam: cfg.pts, teams: hits, items: items,
+                      hasData: anyActual, allDecided: allDecided };
     });
     return { points: total, byRound: byRound };
   }

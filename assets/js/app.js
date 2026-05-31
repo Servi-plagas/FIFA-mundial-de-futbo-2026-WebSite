@@ -197,7 +197,7 @@
 
   // abre el detalle si la URL trae #/e/<id> (enlaces compartibles)
   function openFromHash() {
-    var m = /^#\/e\/([^/]+)(?:\/(\w+))?$/.exec(location.hash || "");
+    var m = /^#\/e\/([^/]+)(?:\/([\w-]+))?$/.exec(location.hash || "");
     if (STATE._skipHash) { STATE._skipHash = false; return STATE.view === "detail"; }
     if (!m) return false;
     var e = DATA.predictions.entries.find(function (x) { return x.id === decodeURIComponent(m[1]); });
@@ -242,12 +242,20 @@
       bdChip("Podio", s.podio.points);
     root.appendChild(bd);
 
-    // sub-pestañas
+    // sub-pestañas — orden cronológico del torneo: cada fase y cada
+    // "clasificados a…" tiene su propia pestaña.
     var tabs = [
-      ["grupos", "⚽ Grupos"],
-      ["clasif", "📊 Clasificación"],
-      ["avance", "📈 Avance"],
-      ["llave", "🏆 Llave"],
+      ["grupos", "⚽ Fase de grupos"],
+      ["clasif-r32", "📊 Clasificados a 2.ª ronda"],
+      ["elim-r32", "🏆 Eliminación directa 2.ª ronda"],
+      ["clasif-oct", "📊 Clasificados a octavos"],
+      ["oct", "🏆 Octavos de final"],
+      ["clasif-cua", "📊 Clasificados a cuartos"],
+      ["cua", "🏆 Cuartos de final"],
+      ["clasif-sem", "📊 Clasificados a la semifinal"],
+      ["sem", "🏆 Semifinal"],
+      ["clasif-fin", "📊 Clasificados a la final"],
+      ["final", "🏆 Final"],
       ["podio", "🥇 Podio"]
     ];
     var st = el("div", "subtabs");
@@ -275,9 +283,23 @@
 
   function renderDetailTab(panel) {
     panel.innerHTML = "";
-    var map = { grupos: renderGroups, clasif: renderClassification, avance: renderAdvancement,
-                llave: renderKnockout, podio: renderPodio };
-    map[STATE.detailTab](panel);
+    // Cada pestaña reutiliza un renderizador existente, filtrando por la
+    // ronda que corresponde a esa fase cronológica.
+    var map = {
+      grupos: function (p) { renderGroups(p); },
+      "clasif-r32": function (p) { renderClassification(p); },
+      "elim-r32": function (p) { renderKnockout(p, ["R32"]); },
+      "clasif-oct": function (p) { renderAdvancement(p, "OCT"); },
+      oct: function (p) { renderKnockout(p, ["OCT"]); },
+      "clasif-cua": function (p) { renderAdvancement(p, "CUA"); },
+      cua: function (p) { renderKnockout(p, ["CUA"]); },
+      "clasif-sem": function (p) { renderAdvancement(p, "SEM"); },
+      sem: function (p) { renderKnockout(p, ["SEM"]); },
+      "clasif-fin": function (p) { renderAdvancement(p, "FIN"); },
+      final: function (p) { renderKnockout(p, ["TP", "FIN"]); },
+      podio: function (p) { renderPodio(p); }
+    };
+    (map[STATE.detailTab] || map.grupos)(panel);
   }
 
   // ============================================================
@@ -389,24 +411,29 @@
   }
 
   // ---------- AVANCE DE RONDAS (Claro) ----------
-  function renderAdvancement(panel) {
+  function renderAdvancement(panel, roundKey) {
     var s = STATE.detailEntry._score.advancement;
     var meta = { OCT: { lbl: "Octavos de final", cls: "" }, CUA: { lbl: "Cuartos de final", cls: "av1-cua" },
                  SEM: { lbl: "Semifinal", cls: "av1-sem" }, FIN: { lbl: "Final", cls: "av1-fin" } };
-    var html = '<div class="avance-claro"><p class="phase-legend">Ganas puntos <b>por cada equipo</b> que ' +
-      "pronosticaste y de verdad llega a la ronda. No importa contra quién juegue. Los puntos suben ronda tras ronda.</p>";
-    ["OCT", "CUA", "SEM", "FIN"].forEach(function (rk) {
-      var r = s.byRound[rk], M = meta[rk], empty = r.teams.length === 0;
-      html += '<div class="av1-band ' + M.cls + (empty ? " av1-empty" : "") + '">' +
-        '<div class="av1-meta"><h3>' + M.lbl + '</h3><span class="av1-per">+' + r.perTeam +
-        ' <i>por equipo</i></span></div><div class="av1-teams">';
-      if (!r.hasData) html += '<span class="av1-none">Aún no jugado</span>';
-      else if (empty) html += '<span class="av1-none">Ningún equipo acertado</span>';
-      else r.teams.forEach(function (t) { html += '<span class="av1-chip">' + flagEmoji(t, 18) + teamName(t) + "</span>"; });
-      html += '</div><div class="av1-tot ' + (r.points > 0 ? "win" : "zero") + '"><b>' + r.points +
-        "</b><span>pts</span>" + (r.teams.length > 0 ? "<em>" + r.teams.length + " × " + r.perTeam + "</em>" : "") +
-        "</div></div>";
+    var r = s.byRound[roundKey], M = meta[roundKey];
+    var items = r.items || [], empty = items.length === 0;
+    var html = '<div class="avance-claro"><p class="phase-legend">Aquí están <b>todos los equipos</b> que ' +
+      'pronosticaste para esta ronda. En <b class="lg-hit">verde</b> los que acertaste (suman <b>+' + r.perTeam +
+      '</b> cada uno) y en <b class="lg-miss">rojo</b> los que pronosticaste pero no llegaron (no suman). ' +
+      "No importa contra quién juegue cada equipo.</p>";
+    html += '<div class="av1-band ' + M.cls + (empty ? " av1-empty" : "") + '">' +
+      '<div class="av1-meta"><h3>' + M.lbl + '</h3><span class="av1-per">+' + r.perTeam +
+      ' <i>por equipo</i></span></div><div class="av1-teams">';
+    if (empty) html += '<span class="av1-none">No pronosticaste equipos para esta ronda</span>';
+    else items.forEach(function (it) {
+      var ic = it.status === "hit" ? icon("check") : it.status === "miss" ? icon("x") : "";
+      html += '<span class="av1-chip av1-' + it.status + '">' + flagEmoji(it.team, 18) +
+        '<span class="av1-cn">' + teamName(it.team) + "</span>" +
+        (ic ? '<span class="av1-ci">' + ic + "</span>" : "") + "</span>";
     });
+    html += '</div><div class="av1-tot ' + (r.points > 0 ? "win" : "zero") + '"><b>' + r.points +
+      "</b><span>pts</span>" + (r.teams.length > 0 ? "<em>" + r.teams.length + " × " + r.perTeam + "</em>" : "") +
+      "</div></div>";
     html += "</div>";
     appendHTML(panel, html);
   }
@@ -417,7 +444,7 @@
       '<span class="lv1-tn">' + teamName(teamStr) + '</span><span class="lv1-g">' +
       (isN(goals) ? goals : "–") + "</span>" + (win ? '<span class="lv1-wtag">gana</span>' : "") + "</div>";
   }
-  function renderKnockout(panel) {
+  function renderKnockout(panel, rounds) {
     var e = STATE.detailEntry, s = e._score.knockoutMatches;
     var byN = {};
     s.items.forEach(function (it) { byN[it.n] = it; });
@@ -429,7 +456,7 @@
       "puntos se dan por el <b>lado de la llave</b> (local/visitante), no por el equipo. Por eso tu equipo " +
       "pronosticado puede ser distinto al real: lo que cuenta es qué <b>lado</b> gana. &nbsp;Ganador <b>+3</b> · " +
       "Total de goles <b>+2</b> · Penales <b>+2</b>.</p>";
-    ["R32", "OCT", "CUA", "SEM", "TP", "FIN"].forEach(function (rk) {
+    (rounds || ["R32", "OCT", "CUA", "SEM", "TP", "FIN"]).forEach(function (rk) {
       var fxs = roundMatches[rk] || [];
       if (!fxs.length) return;
       html += '<h3 class="lv1-round">' + esc(DATA.fixtures.rounds[rk]) + '</h3><div class="lv1-list">';

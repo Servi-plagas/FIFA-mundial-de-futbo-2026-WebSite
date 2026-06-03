@@ -380,6 +380,32 @@ h3.block-title { font-size: 16px; margin: 22px 0 10px; }
 .perfbadge { position: absolute; top: -9px; left: 50%; transform: translateX(-50%); background: var(--gold); color: var(--ink); font-family: var(--f-disp); font-size: 8px; font-weight: 800; letter-spacing: .06em; padding: 2px 6px; border-radius: 4px; white-space: nowrap; }
 .gm1-pending { text-align: center; font-size: 12px; font-weight: 700; color: var(--steel); background: var(--paper); border: 1px dashed var(--line); border-radius: var(--r-sm); padding: 8px; }
 
+/* ---- PARTIDOS AÚN SIN JUGAR (pendientes) ---- */
+/* Aspecto claramente distinto: fondo a rayas tenue, borde punteado,
+   y una insignia "Por jugar". Aplica a grupos (.gm1) y a llave (.lv1-card). */
+.gm1.is-pending, .lv1-card.is-pending {
+  position: relative;
+  border-style: dashed;
+  border-color: var(--silver);
+  background-color: var(--paper);
+  background-image: repeating-linear-gradient(135deg,
+    transparent 0, transparent 9px,
+    rgba(138,153,160,.06) 9px, rgba(138,153,160,.06) 18px);
+  box-shadow: none;
+}
+/* La fila del "resultado real" se atenúa más para dejar claro que aún no hay marcador. */
+.is-pending .gm1-real, .is-pending .lv1-rowtag.tag-real { opacity: .55; }
+.pend-badge {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-family: var(--f-disp); font-size: 10px; font-weight: 800;
+  letter-spacing: .05em; text-transform: uppercase; white-space: nowrap;
+  color: var(--steel); background: #fff;
+  border: 1px dashed var(--silver); border-radius: 999px;
+  padding: 3px 9px;
+}
+/* En grupos la insignia va en la esquina superior derecha de la tarjeta. */
+.gm1.is-pending > .pend-badge { position: absolute; top: -9px; right: 10px; z-index: 1; }
+
 /* ---- FASE CLASIFICACIÓN (Claro) ---- */
 .cl1-table { background: var(--card); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; box-shadow: var(--sh-sm); }
 .cl1-head, .cl1-row { display: grid; grid-template-columns: 1.7fr .7fr .9fr 1fr 1.2fr 1fr; align-items: center; gap: 10px; padding: 12px 16px; }

@@ -375,10 +375,13 @@
         var st = function (b) { return !played ? "na" : (b ? "ok" : "no"); };
         // Estructura fija: pronóstico + real + desglose siempre presentes,
         // así la tarjeta mantiene el mismo tamaño esté o no jugado el partido.
-        html += '<div class="gm1' + (perfect ? " gm1-perfect" : "") + '"><div class="gm1-rows">';
+        html += '<div class="gm1' + (perfect ? " gm1-perfect" : "") + (played ? "" : " is-pending") + '">';
+        if (!played) html += '<span class="pend-badge">⏳ Por jugar</span>';
+        html += '<div class="gm1-rows">';
         html += '<div class="gm1-row gm1-pred"><span class="gm1-tag tag-pred">Tu pronóstico</span>' +
           teamCl(m.home, "team-left") + scorePair(pred.hg, pred.ag, "pred") + teamCl(m.away, "team-right") + "</div>";
-        html += '<div class="gm1-row gm1-real"><span class="gm1-tag tag-real">Resultado real</span>' +
+        html += '<div class="gm1-row gm1-real"><span class="gm1-tag tag-real">' +
+          (played ? "Resultado real" : "Sin resultado aún") + "</span>" +
           teamCl(m.home, "team-left team-dim") + scorePair(row.actual.hg, row.actual.ag, "real") +
           teamCl(m.away, "team-right team-dim") + "</div>";
         html += "</div>"; // gm1-rows
@@ -488,14 +491,14 @@
         var pSide = WCScoring.winningSide(pred.hg, pred.ag, pred.ph, pred.pa);
         var rSide = WCScoring.winningSide(act.hg, act.ag, act.ph, act.pa);
         var ptsHtml = played ? ptsPill(sc.pts, "sm")
-          : '<span class="pts pts-zero pts-sm">—<span class="pts-u">pts</span></span>';
-        html += '<div class="lv1-card"><div class="lv1-h"><span class="lv1-num">Partido ' + n + "</span>" +
+          : '<span class="pend-badge">⏳ Por jugar</span>';
+        html += '<div class="lv1-card' + (played ? "" : " is-pending") + '"><div class="lv1-h"><span class="lv1-num">Partido ' + n + "</span>" +
           ptsHtml + "</div>";
         // Estructura fija (pronóstico + real + desglose) -> mismo tamaño jugado o no.
         html += '<div class="lv1-grid"><span class="lv1-colh">Lado local</span><span class="lv1-colh">Lado visitante</span>';
         html += '<span class="lv1-rowtag tag-pred">Tu pronóstico</span>' +
           koCell(pred.home, pred.hg, pSide === "H") + koCell(pred.away, pred.ag, pSide === "A");
-        html += '<span class="lv1-rowtag tag-real">Resultado real</span>' +
+        html += '<span class="lv1-rowtag tag-real">' + (played ? "Resultado real" : "Sin resultado aún") + "</span>" +
           koCell(act.home, act.hg, played && rSide === "H") + koCell(act.away, act.ag, played && rSide === "A");
         html += "</div>"; // lv1-grid
         var actPens = played && act.hg === act.ag && isN(act.ph) && isN(act.pa);

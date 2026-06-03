@@ -1,51 +1,51 @@
 {
- "_instrucciones": "Edita SOLO los valores en null. hg=goles local, ag=goles visitante, ph/pa=goles en tanda de penales. En 'standings' escribe los 4 equipos en su orden final real (1º,2º,3º,4º) usando EXACTAMENTE el nombre con bandera de data/teams.json. 'thirdsQualified'=los 8 mejores terceros que clasifican. Deja en null lo que aún no se ha jugado.",
- "actualizado": null,
+ "_instrucciones": "ARCHIVO DE PRUEBA con resultados completos simulados (datos inventados, basados en probabilidad por fuerza de cada selección). Para previsualizar, copia su contenido a data/results.json. No subir a Git tal cual.",
+ "actualizado": "2026-07-19T21:00:00",
  "groups": {
   "A": {
    "matches": [
     {
      "home": "México 🇲🇽",
      "away": "Sudáfrica 🇿🇦",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 1
     },
     {
      "home": "República de Corea 🇰🇷",
      "away": "República Checa 🇨🇿",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 1
     },
     {
      "home": "República Checa 🇨🇿",
      "away": "Sudáfrica 🇿🇦",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 0
     },
     {
      "home": "México 🇲🇽",
      "away": "República de Corea 🇰🇷",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 1
     },
     {
      "home": "República Checa 🇨🇿",
      "away": "México 🇲🇽",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 1
     },
     {
      "home": "Sudáfrica 🇿🇦",
      "away": "República de Corea 🇰🇷",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 1
     }
    ],
    "standings": [
-    null,
-    null,
-    null,
-    null
+    "México 🇲🇽",
+    "República de Corea 🇰🇷",
+    "República Checa 🇨🇿",
+    "Sudáfrica 🇿🇦"
    ]
   },
   "B": {
@@ -53,45 +53,45 @@
     {
      "home": "Canadá 🇨🇦",
      "away": "Bosnia y Herzegovina 🇧🇦",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 0
     },
     {
      "home": "Catar 🇶🇦",
      "away": "Suiza 🇨🇭",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 1
     },
     {
      "home": "Suiza 🇨🇭",
      "away": "Bosnia y Herzegovina 🇧🇦",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 1
     },
     {
      "home": "Canadá 🇨🇦",
      "away": "Catar 🇶🇦",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 1
     },
     {
      "home": "Suiza 🇨🇭",
      "away": "Canadá 🇨🇦",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 0
     },
     {
      "home": "Bosnia y Herzegovina 🇧🇦",
      "away": "Catar 🇶🇦",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 1
     }
    ],
    "standings": [
-    null,
-    null,
-    null,
-    null
+    "Suiza 🇨🇭",
+    "Canadá 🇨🇦",
+    "Bosnia y Herzegovina 🇧🇦",
+    "Catar 🇶🇦"
    ]
   },
   "C": {
@@ -99,45 +99,45 @@
     {
      "home": "Haití 🇭🇹",
      "away": "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 1
     },
     {
      "home": "Brasil 🇧🇷",
      "away": "Marruecos 🇲🇦",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 1
     },
     {
      "home": "Brasil 🇧🇷",
      "away": "Haití 🇭🇹",
-     "hg": null,
-     "ag": null
+     "hg": 4,
+     "ag": 0
     },
     {
      "home": "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
      "away": "Marruecos 🇲🇦",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 1
     },
     {
      "home": "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
      "away": "Brasil 🇧🇷",
-     "hg": null,
-     "ag": null
+     "hg": 0,
+     "ag": 2
     },
     {
      "home": "Marruecos 🇲🇦",
      "away": "Haití 🇭🇹",
-     "hg": null,
-     "ag": null
+     "hg": 3,
+     "ag": 1
     }
    ],
    "standings": [
-    null,
-    null,
-    null,
-    null
+    "Brasil 🇧🇷",
+    "Marruecos 🇲🇦",
+    "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "Haití 🇭🇹"
    ]
   },
   "D": {
@@ -145,45 +145,45 @@
     {
      "home": "Estados Unidos 🇺🇸",
      "away": "Paraguay 🇵🇾",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 0
     },
     {
      "home": "Australia 🇦🇺",
      "away": "Turquía 🇹🇷",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 1
     },
     {
      "home": "Turquía 🇹🇷",
      "away": "Paraguay 🇵🇾",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 0
     },
     {
      "home": "Estados Unidos 🇺🇸",
      "away": "Australia 🇦🇺",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 0
     },
     {
      "home": "Turquía 🇹🇷",
      "away": "Estados Unidos 🇺🇸",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 0
     },
     {
      "home": "Paraguay 🇵🇾",
      "away": "Australia 🇦🇺",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 0
     }
    ],
    "standings": [
-    null,
-    null,
-    null,
-    null
+    "Turquía 🇹🇷",
+    "Estados Unidos 🇺🇸",
+    "Paraguay 🇵🇾",
+    "Australia 🇦🇺"
    ]
   },
   "E": {
@@ -191,45 +191,45 @@
     {
      "home": "Costa de Marfil 🇨🇮",
      "away": "Ecuador 🇪🇨",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 1
     },
     {
      "home": "Alemania 🇩🇪",
      "away": "Curazao 🇨🇼",
-     "hg": null,
-     "ag": null
+     "hg": 5,
+     "ag": 0
     },
     {
      "home": "Alemania 🇩🇪",
      "away": "Costa de Marfil 🇨🇮",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 0
     },
     {
      "home": "Ecuador 🇪🇨",
      "away": "Curazao 🇨🇼",
-     "hg": null,
-     "ag": null
+     "hg": 3,
+     "ag": 0
     },
     {
      "home": "Curazao 🇨🇼",
      "away": "Costa de Marfil 🇨🇮",
-     "hg": null,
-     "ag": null
+     "hg": 0,
+     "ag": 1
     },
     {
      "home": "Ecuador 🇪🇨",
      "away": "Alemania 🇩🇪",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 1
     }
    ],
    "standings": [
-    null,
-    null,
-    null,
-    null
+    "Alemania 🇩🇪",
+    "Ecuador 🇪🇨",
+    "Costa de Marfil 🇨🇮",
+    "Curazao 🇨🇼"
    ]
   },
   "F": {
@@ -237,45 +237,45 @@
     {
      "home": "Países Bajos 🇳🇱",
      "away": "Japón 🇯🇵",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 0
     },
     {
      "home": "Suecia 🇸🇪",
      "away": "Túnez 🇹🇳",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 0
     },
     {
      "home": "Países Bajos 🇳🇱",
      "away": "Suecia 🇸🇪",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 1
     },
     {
      "home": "Túnez 🇹🇳",
      "away": "Japón 🇯🇵",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 1
     },
     {
      "home": "Japón 🇯🇵",
      "away": "Suecia 🇸🇪",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 0
     },
     {
      "home": "Túnez 🇹🇳",
      "away": "Países Bajos 🇳🇱",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 1
     }
    ],
    "standings": [
-    null,
-    null,
-    null,
-    null
+    "Países Bajos 🇳🇱",
+    "Japón 🇯🇵",
+    "Suecia 🇸🇪",
+    "Túnez 🇹🇳"
    ]
   },
   "G": {
@@ -283,45 +283,45 @@
     {
      "home": "Irán 🇮🇷",
      "away": "Nueva Zelanda 🇳🇿",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 1
     },
     {
      "home": "Bélgica 🇧🇪",
      "away": "Egipto 🇪🇬",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 0
     },
     {
      "home": "Bélgica 🇧🇪",
      "away": "Irán 🇮🇷",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 1
     },
     {
      "home": "Nueva Zelanda 🇳🇿",
      "away": "Egipto 🇪🇬",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 0
     },
     {
      "home": "Egipto 🇪🇬",
      "away": "Irán 🇮🇷",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 0
     },
     {
      "home": "Nueva Zelanda 🇳🇿",
      "away": "Bélgica 🇧🇪",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 2
     }
    ],
    "standings": [
-    null,
-    null,
-    null,
-    null
+    "Bélgica 🇧🇪",
+    "Irán 🇮🇷",
+    "Nueva Zelanda 🇳🇿",
+    "Egipto 🇪🇬"
    ]
   },
   "H": {
@@ -329,45 +329,45 @@
     {
      "home": "Arabia Saudita 🇸🇦",
      "away": "Uruguay 🇺🇾",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 2
     },
     {
      "home": "España 🇪🇸",
      "away": "Cabo Verde 🇨🇻",
-     "hg": null,
-     "ag": null
+     "hg": 4,
+     "ag": 0
     },
     {
      "home": "Uruguay 🇺🇾",
      "away": "Cabo Verde 🇨🇻",
-     "hg": null,
-     "ag": null
+     "hg": 3,
+     "ag": 0
     },
     {
      "home": "España 🇪🇸",
      "away": "Arabia Saudita 🇸🇦",
-     "hg": null,
-     "ag": null
+     "hg": 3,
+     "ag": 0
     },
     {
      "home": "Cabo Verde 🇨🇻",
      "away": "Arabia Saudita 🇸🇦",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 1
     },
     {
      "home": "Uruguay 🇺🇾",
      "away": "España 🇪🇸",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 0
     }
    ],
    "standings": [
-    null,
-    null,
-    null,
-    null
+    "Uruguay 🇺🇾",
+    "España 🇪🇸",
+    "Arabia Saudita 🇸🇦",
+    "Cabo Verde 🇨🇻"
    ]
   },
   "I": {
@@ -375,45 +375,45 @@
     {
      "home": "Francia 🇫🇷",
      "away": "Senegal 🇸🇳",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 0
     },
     {
      "home": "Irak 🇮🇶",
      "away": "Noruega 🇳🇴",
-     "hg": null,
-     "ag": null
+     "hg": 0,
+     "ag": 1
     },
     {
      "home": "Noruega 🇳🇴",
      "away": "Senegal 🇸🇳",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 1
     },
     {
      "home": "Francia 🇫🇷",
      "away": "Irak 🇮🇶",
-     "hg": null,
-     "ag": null
+     "hg": 4,
+     "ag": 0
     },
     {
      "home": "Noruega 🇳🇴",
      "away": "Francia 🇫🇷",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 0
     },
     {
      "home": "Senegal 🇸🇳",
      "away": "Irak 🇮🇶",
-     "hg": null,
-     "ag": null
+     "hg": 3,
+     "ag": 0
     }
    ],
    "standings": [
-    null,
-    null,
-    null,
-    null
+    "Noruega 🇳🇴",
+    "Francia 🇫🇷",
+    "Senegal 🇸🇳",
+    "Irak 🇮🇶"
    ]
   },
   "J": {
@@ -421,45 +421,45 @@
     {
      "home": "Argentina 🇦🇷",
      "away": "Argelia 🇩🇿",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 0
     },
     {
      "home": "Austria 🇦🇹",
      "away": "Jordania 🇯🇴",
-     "hg": null,
-     "ag": null
+     "hg": 3,
+     "ag": 0
     },
     {
      "home": "Argentina 🇦🇷",
      "away": "Austria 🇦🇹",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 0
     },
     {
      "home": "Jordania 🇯🇴",
      "away": "Argelia 🇩🇿",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 2
     },
     {
      "home": "Argelia 🇩🇿",
      "away": "Austria 🇦🇹",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 1
     },
     {
      "home": "Jordania 🇯🇴",
      "away": "Argentina 🇦🇷",
-     "hg": null,
-     "ag": null
+     "hg": 0,
+     "ag": 1
     }
    ],
    "standings": [
-    null,
-    null,
-    null,
-    null
+    "Argentina 🇦🇷",
+    "Austria 🇦🇹",
+    "Argelia 🇩🇿",
+    "Jordania 🇯🇴"
    ]
   },
   "K": {
@@ -467,45 +467,45 @@
     {
      "home": "Portugal 🇵🇹",
      "away": "RD del Congo 🇨🇩",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 1
     },
     {
      "home": "Uzbekistán 🇺🇿",
      "away": "Colombia 🇨🇴",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 2
     },
     {
      "home": "Portugal 🇵🇹",
      "away": "Uzbekistán 🇺🇿",
-     "hg": null,
-     "ag": null
+     "hg": 3,
+     "ag": 0
     },
     {
      "home": "Colombia 🇨🇴",
      "away": "RD del Congo 🇨🇩",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 0
     },
     {
      "home": "Colombia 🇨🇴",
      "away": "Portugal 🇵🇹",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 1
     },
     {
      "home": "RD del Congo 🇨🇩",
      "away": "Uzbekistán 🇺🇿",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 1
     }
    ],
    "standings": [
-    null,
-    null,
-    null,
-    null
+    "Portugal 🇵🇹",
+    "Colombia 🇨🇴",
+    "RD del Congo 🇨🇩",
+    "Uzbekistán 🇺🇿"
    ]
   },
   "L": {
@@ -513,352 +513,352 @@
     {
      "home": "Ghana 🇬🇭",
      "away": "Panamá 🇵🇦",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 0
     },
     {
      "home": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
      "away": "Croacia 🇭🇷",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 0
     },
     {
      "home": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
      "away": "Ghana 🇬🇭",
-     "hg": null,
-     "ag": null
+     "hg": 3,
+     "ag": 0
     },
     {
      "home": "Panamá 🇵🇦",
      "away": "Croacia 🇭🇷",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 1
     },
     {
      "home": "Panamá 🇵🇦",
      "away": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-     "hg": null,
-     "ag": null
+     "hg": 0,
+     "ag": 2
     },
     {
      "home": "Croacia 🇭🇷",
      "away": "Ghana 🇬🇭",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 1
     }
    ],
    "standings": [
-    null,
-    null,
-    null,
-    null
+    "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "Croacia 🇭🇷",
+    "Ghana 🇬🇭",
+    "Panamá 🇵🇦"
    ]
   }
  },
  "thirdsQualified": [
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null
+  "Senegal 🇸🇳",
+  "Costa de Marfil 🇨🇮",
+  "Suecia 🇸🇪",
+  "República Checa 🇨🇿",
+  "Argelia 🇩🇿",
+  "Ghana 🇬🇭",
+  "Bosnia y Herzegovina 🇧🇦",
+  "Nueva Zelanda 🇳🇿"
  ],
  "knockout": {
   "73": {
    "round": "R32",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "República de Corea 🇰🇷",
+   "away": "Canadá 🇨🇦",
+   "hg": 2,
+   "ag": 1,
    "ph": null,
    "pa": null
   },
   "74": {
    "round": "R32",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Alemania 🇩🇪",
+   "away": "Senegal 🇸🇳",
+   "hg": 2,
+   "ag": 1,
    "ph": null,
    "pa": null
   },
   "75": {
    "round": "R32",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Países Bajos 🇳🇱",
+   "away": "Marruecos 🇲🇦",
+   "hg": 2,
+   "ag": 0,
    "ph": null,
    "pa": null
   },
   "76": {
    "round": "R32",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Brasil 🇧🇷",
+   "away": "Japón 🇯🇵",
+   "hg": 2,
+   "ag": 0,
    "ph": null,
    "pa": null
   },
   "77": {
    "round": "R32",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Noruega 🇳🇴",
+   "away": "República Checa 🇨🇿",
+   "hg": 2,
+   "ag": 0,
    "ph": null,
    "pa": null
   },
   "78": {
    "round": "R32",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Ecuador 🇪🇨",
+   "away": "Francia 🇫🇷",
+   "hg": 1,
+   "ag": 2,
    "ph": null,
    "pa": null
   },
   "79": {
    "round": "R32",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "México 🇲🇽",
+   "away": "Argelia 🇩🇿",
+   "hg": 1,
+   "ag": 0,
    "ph": null,
    "pa": null
   },
   "80": {
    "round": "R32",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "away": "Costa de Marfil 🇨🇮",
+   "hg": 2,
+   "ag": 0,
    "ph": null,
    "pa": null
   },
   "81": {
    "round": "R32",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Turquía 🇹🇷",
+   "away": "Suecia 🇸🇪",
+   "hg": 1,
+   "ag": 0,
    "ph": null,
    "pa": null
   },
   "82": {
    "round": "R32",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Bélgica 🇧🇪",
+   "away": "Bosnia y Herzegovina 🇧🇦",
+   "hg": 2,
+   "ag": 0,
    "ph": null,
    "pa": null
   },
   "83": {
    "round": "R32",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Colombia 🇨🇴",
+   "away": "Croacia 🇭🇷",
+   "hg": 1,
+   "ag": 0,
    "ph": null,
    "pa": null
   },
   "84": {
    "round": "R32",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Uruguay 🇺🇾",
+   "away": "Austria 🇦🇹",
+   "hg": 2,
+   "ag": 1,
    "ph": null,
    "pa": null
   },
   "85": {
    "round": "R32",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Suiza 🇨🇭",
+   "away": "Nueva Zelanda 🇳🇿",
+   "hg": 3,
+   "ag": 0,
    "ph": null,
    "pa": null
   },
   "86": {
    "round": "R32",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Argentina 🇦🇷",
+   "away": "España 🇪🇸",
+   "hg": 2,
+   "ag": 1,
    "ph": null,
    "pa": null
   },
   "87": {
    "round": "R32",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Portugal 🇵🇹",
+   "away": "Ghana 🇬🇭",
+   "hg": 2,
+   "ag": 0,
    "ph": null,
    "pa": null
   },
   "88": {
    "round": "R32",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Estados Unidos 🇺🇸",
+   "away": "Irán 🇮🇷",
+   "hg": 1,
+   "ag": 0,
    "ph": null,
    "pa": null
   },
   "89": {
    "round": "OCT",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
-   "ph": null,
-   "pa": null
+   "home": "Alemania 🇩🇪",
+   "away": "Noruega 🇳🇴",
+   "hg": 1,
+   "ag": 1,
+   "ph": 4,
+   "pa": 3
   },
   "90": {
    "round": "OCT",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "República de Corea 🇰🇷",
+   "away": "Países Bajos 🇳🇱",
+   "hg": 0,
+   "ag": 1,
    "ph": null,
    "pa": null
   },
   "91": {
    "round": "OCT",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
-   "ph": null,
-   "pa": null
+   "home": "Brasil 🇧🇷",
+   "away": "Francia 🇫🇷",
+   "hg": 1,
+   "ag": 1,
+   "ph": 4,
+   "pa": 3
   },
   "92": {
    "round": "OCT",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
-   "ph": null,
-   "pa": null
+   "home": "México 🇲🇽",
+   "away": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "hg": 1,
+   "ag": 1,
+   "ph": 3,
+   "pa": 4
   },
   "93": {
    "round": "OCT",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Colombia 🇨🇴",
+   "away": "Uruguay 🇺🇾",
+   "hg": 1,
+   "ag": 0,
    "ph": null,
    "pa": null
   },
   "94": {
    "round": "OCT",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
-   "ph": null,
-   "pa": null
+   "home": "Turquía 🇹🇷",
+   "away": "Bélgica 🇧🇪",
+   "hg": 1,
+   "ag": 1,
+   "ph": 3,
+   "pa": 4
   },
   "95": {
    "round": "OCT",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Argentina 🇦🇷",
+   "away": "Estados Unidos 🇺🇸",
+   "hg": 2,
+   "ag": 1,
    "ph": null,
    "pa": null
   },
   "96": {
    "round": "OCT",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Suiza 🇨🇭",
+   "away": "Portugal 🇵🇹",
+   "hg": 1,
+   "ag": 2,
    "ph": null,
    "pa": null
   },
   "97": {
    "round": "CUA",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Alemania 🇩🇪",
+   "away": "Países Bajos 🇳🇱",
+   "hg": 2,
+   "ag": 0,
    "ph": null,
    "pa": null
   },
   "98": {
    "round": "CUA",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Colombia 🇨🇴",
+   "away": "Bélgica 🇧🇪",
+   "hg": 1,
+   "ag": 0,
    "ph": null,
    "pa": null
   },
   "99": {
    "round": "CUA",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
-   "ph": null,
-   "pa": null
+   "home": "Brasil 🇧🇷",
+   "away": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "hg": 1,
+   "ag": 1,
+   "ph": 4,
+   "pa": 3
   },
   "100": {
    "round": "CUA",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Argentina 🇦🇷",
+   "away": "Portugal 🇵🇹",
+   "hg": 1,
+   "ag": 0,
    "ph": null,
    "pa": null
   },
   "101": {
    "round": "SEM",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Alemania 🇩🇪",
+   "away": "Colombia 🇨🇴",
+   "hg": 2,
+   "ag": 1,
    "ph": null,
    "pa": null
   },
   "102": {
    "round": "SEM",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Brasil 🇧🇷",
+   "away": "Argentina 🇦🇷",
+   "hg": 1,
+   "ag": 0,
    "ph": null,
    "pa": null
   },
   "103": {
    "round": "TP",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
+   "home": "Colombia 🇨🇴",
+   "away": "Argentina 🇦🇷",
+   "hg": 1,
+   "ag": 2,
    "ph": null,
    "pa": null
   },
   "104": {
    "round": "FIN",
-   "home": null,
-   "away": null,
-   "hg": null,
-   "ag": null,
-   "ph": null,
-   "pa": null
+   "home": "Alemania 🇩🇪",
+   "away": "Brasil 🇧🇷",
+   "hg": 1,
+   "ag": 1,
+   "ph": 3,
+   "pa": 4
   }
  },
  "podio": {
-  "campeon": null,
-  "subcampeon": null,
-  "tercero": null,
-  "cuarto": null
+  "campeon": "Brasil 🇧🇷",
+  "subcampeon": "Alemania 🇩🇪",
+  "tercero": "Argentina 🇦🇷",
+  "cuarto": "Colombia 🇨🇴"
  }
 }

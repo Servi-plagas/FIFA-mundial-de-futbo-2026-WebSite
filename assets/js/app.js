@@ -7,7 +7,7 @@
   "use strict";
 
   var DATA = { fixtures: null, predictions: null, results: null };
-  var STATE = { view: "leaderboard", detailEntry: null, detailTab: "grupos" };
+  var STATE = { view: "browse", detailEntry: null, detailTab: "grupos" };
 
   // ---------- utilidades ----------
   function $(sel, root) { return (root || document).querySelector(sel); }
@@ -65,7 +65,7 @@
       setupTabs();
       setupBrowse();
       renderLeaderboard("");
-      if (!openFromHash()) showView("leaderboard");
+      if (!openFromHash()) showView("browse");
       window.addEventListener("hashchange", function () {
         if (!openFromHash() && STATE.view === "detail") showView("leaderboard");
       });
@@ -214,8 +214,22 @@
 
     var back = el("button", "btn-back", "‹ Volver");
     back.addEventListener("click", function () { showView(STATE._fromBrowse ? "browse" : "leaderboard"); });
+    var pdfBtn = el("button", "btn-pdf", '<span class="btn-pdf__ic">⬇</span> Descargar pronóstico (PDF)');
+    pdfBtn.addEventListener("click", function () {
+      if (!window.WCPdf) { alert("No se pudo cargar el generador de PDF. Revisa tu conexión a internet."); return; }
+      var orig = pdfBtn.innerHTML;
+      pdfBtn.disabled = true;
+      pdfBtn.innerHTML = '<span class="btn-pdf__ic">⏳</span> Generando…';
+      WCPdf.download(e, DATA.fixtures, DATA.results).catch(function (err) {
+        alert("No se pudo generar el PDF: " + (err && err.message ? err.message : err));
+      }).then(function () {
+        pdfBtn.disabled = false;
+        pdfBtn.innerHTML = orig;
+      });
+    });
     var head = el("div", "detail-head");
     head.appendChild(back);
+    head.appendChild(pdfBtn);
     root.appendChild(head);
 
     // tarjeta de persona

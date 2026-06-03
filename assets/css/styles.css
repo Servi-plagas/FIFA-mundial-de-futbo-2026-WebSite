@@ -147,6 +147,14 @@ body {
   padding: 8px 14px; border-radius: 10px; cursor: pointer; font-size: 14px; font-weight: 600;
 }
 .btn-back:hover { background: var(--green-soft); border-color: var(--green); }
+.btn-pdf {
+  border: 1px solid var(--green); background: var(--green); color: #fff;
+  padding: 8px 16px; border-radius: 10px; cursor: pointer; font-size: 14px; font-weight: 700;
+  display: inline-flex; align-items: center; gap: 7px;
+}
+.btn-pdf:hover { background: var(--green-dark); border-color: var(--green-dark); }
+.btn-pdf:disabled { opacity: .65; cursor: default; }
+.btn-pdf__ic { font-size: 15px; line-height: 1; }
 
 .person-card {
   background: linear-gradient(120deg, var(--green-dark), var(--green));

@@ -27,8 +27,8 @@
   </header>
 
   <nav class="tabs" id="main-tabs">
-    <button class="tabs__btn is-active" data-view="leaderboard">🏆 Tabla de posiciones</button>
-    <button class="tabs__btn" data-view="browse">🔎 Buscar pronóstico</button>
+    <button class="tabs__btn is-active" data-view="browse">🔎 Buscar pronóstico</button>
+    <button class="tabs__btn" data-view="leaderboard">🏆 Tabla de posiciones</button>
   </nav>
 
   <main class="container">
@@ -83,7 +83,11 @@
     <p>Polla Mundialista 2026 · Serviplagas · Hecho para seguir los pronósticos en familia.</p>
   </footer>
 
+  <!-- Generación de PDF (1 hoja) — se cargan bajo demanda desde CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
   <script src="assets/js/scoring.js"></script>
+  <script src="assets/js/pdf.js"></script>
   <script src="assets/js/app.js"></script>
 </body>
 </html>

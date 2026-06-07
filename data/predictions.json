@@ -1,6 +1,6 @@
 {
- "generated": "2026-06-07T07:56:37.687Z",
- "count": 154,
+ "generated": "2026-06-07T15:05:09.587Z",
+ "count": 158,
  "entries": [
   {
    "id": "r2",
@@ -89969,10 +89969,10 @@
   {
    "id": "r121",
    "contacto": "Alejandra Tamayo",
-   "codigo": "808743",
+   "codigo": "325452",
    "nombre": "ALEJANDRA TAMAYO",
    "start": "2026-06-05T17:55:48.679Z",
-   "end": "2026-06-06T16:15:06.276Z",
+   "end": "2026-06-07T08:09:53.116Z",
    "groups": {
     "A": {
      "matches": [
@@ -116424,6 +116424,3030 @@
     "subcampeon": "Colombia 🇨🇴",
     "tercero": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
     "cuarto": "Bélgica 🇧🇪"
+   }
+  },
+  {
+   "id": "r156",
+   "contacto": "Alejandra Tamayo",
+   "codigo": "685254",
+   "nombre": "Alejandra Tamayo",
+   "start": "2026-06-07T00:50:24.037Z",
+   "end": "2026-06-07T09:06:46.271Z",
+   "groups": {
+    "A": {
+     "matches": [
+      {
+       "hg": 3,
+       "ag": 2
+      },
+      {
+       "hg": 2,
+       "ag": 2
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 3,
+       "ag": 2
+      },
+      {
+       "hg": 2,
+       "ag": 2
+      }
+     ],
+     "standings": [
+      "República Checa 🇨🇿",
+      "México 🇲🇽",
+      "República de Corea 🇰🇷",
+      "Sudáfrica 🇿🇦"
+     ]
+    },
+    "B": {
+     "matches": [
+      {
+       "hg": 1,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 2
+      },
+      {
+       "hg": 3,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 2
+      }
+     ],
+     "standings": [
+      "Suiza 🇨🇭",
+      "Catar 🇶🇦",
+      "Canadá 🇨🇦",
+      "Bosnia y Herzegovina 🇧🇦"
+     ]
+    },
+    "C": {
+     "matches": [
+      {
+       "hg": 1,
+       "ag": 2
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 3,
+       "ag": 0
+      },
+      {
+       "hg": 3,
+       "ag": 2
+      },
+      {
+       "hg": 2,
+       "ag": 2
+      },
+      {
+       "hg": 3,
+       "ag": 2
+      }
+     ],
+     "standings": [
+      "Brasil 🇧🇷",
+      "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "Marruecos 🇲🇦",
+      "Haití 🇭🇹"
+     ]
+    },
+    "D": {
+     "matches": [
+      {
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 2
+      },
+      {
+       "hg": 2,
+       "ag": 2
+      }
+     ],
+     "standings": [
+      "Australia 🇦🇺",
+      "Estados Unidos 🇺🇸",
+      "Turquía 🇹🇷",
+      "Paraguay 🇵🇾"
+     ]
+    },
+    "E": {
+     "matches": [
+      {
+       "hg": 3,
+       "ag": 2
+      },
+      {
+       "hg": 3,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 3,
+       "ag": 2
+      },
+      {
+       "hg": 3,
+       "ag": 1
+      },
+      {
+       "hg": 3,
+       "ag": 3
+      }
+     ],
+     "standings": [
+      "Alemania 🇩🇪",
+      "Ecuador 🇪🇨",
+      "Curazao 🇨🇼",
+      "Costa de Marfil 🇨🇮"
+     ]
+    },
+    "F": {
+     "matches": [
+      {
+       "hg": 3,
+       "ag": 2
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 2
+      },
+      {
+       "hg": 3,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 2
+      },
+      {
+       "hg": 0,
+       "ag": 2
+      }
+     ],
+     "standings": [
+      "Países Bajos 🇳🇱",
+      "Suecia 🇸🇪",
+      "Túnez 🇹🇳",
+      "Japón 🇯🇵"
+     ]
+    },
+    "G": {
+     "matches": [
+      {
+       "hg": 2,
+       "ag": 2
+      },
+      {
+       "hg": 3,
+       "ag": 2
+      },
+      {
+       "hg": 3,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 2
+      }
+     ],
+     "standings": [
+      "Bélgica 🇧🇪",
+      "Nueva Zelanda 🇳🇿",
+      "Egipto 🇪🇬",
+      "Irán 🇮🇷"
+     ]
+    },
+    "H": {
+     "matches": [
+      {
+       "hg": 2,
+       "ag": 3
+      },
+      {
+       "hg": 3,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 3
+      }
+     ],
+     "standings": [
+      "España 🇪🇸",
+      "Uruguay 🇺🇾",
+      "Cabo Verde 🇨🇻",
+      "Arabia Saudita 🇸🇦"
+     ]
+    },
+    "I": {
+     "matches": [
+      {
+       "hg": 3,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 2
+      },
+      {
+       "hg": 3,
+       "ag": 1
+      },
+      {
+       "hg": 4,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 3
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      }
+     ],
+     "standings": [
+      "Francia 🇫🇷",
+      "Noruega 🇳🇴",
+      "Senegal 🇸🇳",
+      "Irak 🇮🇶"
+     ]
+    },
+    "J": {
+     "matches": [
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 3,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 2
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 2
+      }
+     ],
+     "standings": [
+      "Austria 🇦🇹",
+      "Argentina 🇦🇷",
+      "Jordania 🇯🇴",
+      "Argelia 🇩🇿"
+     ]
+    },
+    "K": {
+     "matches": [
+      {
+       "hg": 3,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 3
+      },
+      {
+       "hg": 3,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 3
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      }
+     ],
+     "standings": [
+      "Portugal 🇵🇹",
+      "Colombia 🇨🇴",
+      "RD del Congo 🇨🇩",
+      "Uzbekistán 🇺🇿"
+     ]
+    },
+    "L": {
+     "matches": [
+      {
+       "hg": 2,
+       "ag": 2
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 3,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 3
+      },
+      {
+       "hg": 2,
+       "ag": 3
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      }
+     ],
+     "standings": [
+      "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "Croacia 🇭🇷",
+      "Panamá 🇵🇦",
+      "Ghana 🇬🇭"
+     ]
+    }
+   },
+   "thirds": {
+    "p74": "Marruecos 🇲🇦",
+    "p77": "Turquía 🇹🇷",
+    "p79": "Curazao 🇨🇼",
+    "p80": "RD del Congo 🇨🇩",
+    "p81": "Canadá 🇨🇦",
+    "p82": "Cabo Verde 🇨🇻",
+    "p85": "Jordania 🇯🇴",
+    "p87": "Senegal 🇸🇳"
+   },
+   "knockout": {
+    "73": {
+     "home": "México 🇲🇽",
+     "away": "Catar 🇶🇦",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "México 🇲🇽",
+     "loser": "Catar 🇶🇦"
+    },
+    "74": {
+     "home": "Alemania 🇩🇪",
+     "away": "Marruecos 🇲🇦",
+     "hg": 1,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Marruecos 🇲🇦",
+     "loser": "Alemania 🇩🇪"
+    },
+    "75": {
+     "home": "Países Bajos 🇳🇱",
+     "away": "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Países Bajos 🇳🇱",
+     "loser": "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+    },
+    "76": {
+     "home": "Brasil 🇧🇷",
+     "away": "Suecia 🇸🇪",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Brasil 🇧🇷",
+     "loser": "Suecia 🇸🇪"
+    },
+    "77": {
+     "home": "Francia 🇫🇷",
+     "away": "Turquía 🇹🇷",
+     "hg": 3,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Francia 🇫🇷",
+     "loser": "Turquía 🇹🇷"
+    },
+    "78": {
+     "home": "Ecuador 🇪🇨",
+     "away": "Noruega 🇳🇴",
+     "hg": 1,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Noruega 🇳🇴",
+     "loser": "Ecuador 🇪🇨"
+    },
+    "79": {
+     "home": "República Checa 🇨🇿",
+     "away": "Curazao 🇨🇼",
+     "hg": 2,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "República Checa 🇨🇿",
+     "loser": "Curazao 🇨🇼"
+    },
+    "80": {
+     "home": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "away": "RD del Congo 🇨🇩",
+     "hg": 3,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "loser": "RD del Congo 🇨🇩"
+    },
+    "81": {
+     "home": "Australia 🇦🇺",
+     "away": "Canadá 🇨🇦",
+     "hg": 3,
+     "ag": 3,
+     "ph": 2,
+     "pa": 3,
+     "winner": "Canadá 🇨🇦",
+     "loser": "Australia 🇦🇺"
+    },
+    "82": {
+     "home": "Bélgica 🇧🇪",
+     "away": "Cabo Verde 🇨🇻",
+     "hg": 4,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Bélgica 🇧🇪",
+     "loser": "Cabo Verde 🇨🇻"
+    },
+    "83": {
+     "home": "Colombia 🇨🇴",
+     "away": "Croacia 🇭🇷",
+     "hg": 2,
+     "ag": 3,
+     "ph": null,
+     "pa": null,
+     "winner": "Croacia 🇭🇷",
+     "loser": "Colombia 🇨🇴"
+    },
+    "84": {
+     "home": "España 🇪🇸",
+     "away": "Argentina 🇦🇷",
+     "hg": 3,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "España 🇪🇸",
+     "loser": "Argentina 🇦🇷"
+    },
+    "85": {
+     "home": "Suiza 🇨🇭",
+     "away": "Jordania 🇯🇴",
+     "hg": 2,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "Suiza 🇨🇭",
+     "loser": "Jordania 🇯🇴"
+    },
+    "86": {
+     "home": "Austria 🇦🇹",
+     "away": "Uruguay 🇺🇾",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Austria 🇦🇹",
+     "loser": "Uruguay 🇺🇾"
+    },
+    "87": {
+     "home": "Portugal 🇵🇹",
+     "away": "Senegal 🇸🇳",
+     "hg": 3,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "Portugal 🇵🇹",
+     "loser": "Senegal 🇸🇳"
+    },
+    "88": {
+     "home": "Estados Unidos 🇺🇸",
+     "away": "Nueva Zelanda 🇳🇿",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Estados Unidos 🇺🇸",
+     "loser": "Nueva Zelanda 🇳🇿"
+    },
+    "89": {
+     "home": "Marruecos 🇲🇦",
+     "away": "Francia 🇫🇷",
+     "hg": 2,
+     "ag": 2,
+     "ph": 3,
+     "pa": 4,
+     "winner": "Francia 🇫🇷",
+     "loser": "Marruecos 🇲🇦"
+    },
+    "90": {
+     "home": "México 🇲🇽",
+     "away": "Países Bajos 🇳🇱",
+     "hg": 2,
+     "ag": 3,
+     "ph": null,
+     "pa": null,
+     "winner": "Países Bajos 🇳🇱",
+     "loser": "México 🇲🇽"
+    },
+    "91": {
+     "home": "Brasil 🇧🇷",
+     "away": "Noruega 🇳🇴",
+     "hg": 3,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Brasil 🇧🇷",
+     "loser": "Noruega 🇳🇴"
+    },
+    "92": {
+     "home": "República Checa 🇨🇿",
+     "away": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "hg": 1,
+     "ag": 3,
+     "ph": null,
+     "pa": null,
+     "winner": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "loser": "República Checa 🇨🇿"
+    },
+    "93": {
+     "home": "Croacia 🇭🇷",
+     "away": "España 🇪🇸",
+     "hg": 2,
+     "ag": 3,
+     "ph": null,
+     "pa": null,
+     "winner": "España 🇪🇸",
+     "loser": "Croacia 🇭🇷"
+    },
+    "94": {
+     "home": "Canadá 🇨🇦",
+     "away": "Bélgica 🇧🇪",
+     "hg": 2,
+     "ag": 3,
+     "ph": null,
+     "pa": null,
+     "winner": "Bélgica 🇧🇪",
+     "loser": "Canadá 🇨🇦"
+    },
+    "95": {
+     "home": "Austria 🇦🇹",
+     "away": "Estados Unidos 🇺🇸",
+     "hg": 2,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "Austria 🇦🇹",
+     "loser": "Estados Unidos 🇺🇸"
+    },
+    "96": {
+     "home": "Suiza 🇨🇭",
+     "away": "Portugal 🇵🇹",
+     "hg": 2,
+     "ag": 3,
+     "ph": null,
+     "pa": null,
+     "winner": "Portugal 🇵🇹",
+     "loser": "Suiza 🇨🇭"
+    },
+    "97": {
+     "home": "Francia 🇫🇷",
+     "away": "Países Bajos 🇳🇱",
+     "hg": 2,
+     "ag": 2,
+     "ph": 3,
+     "pa": 4,
+     "winner": "Países Bajos 🇳🇱",
+     "loser": "Francia 🇫🇷"
+    },
+    "98": {
+     "home": "España 🇪🇸",
+     "away": "Bélgica 🇧🇪",
+     "hg": 3,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "España 🇪🇸",
+     "loser": "Bélgica 🇧🇪"
+    },
+    "99": {
+     "home": "Brasil 🇧🇷",
+     "away": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "hg": 2,
+     "ag": 3,
+     "ph": null,
+     "pa": null,
+     "winner": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "loser": "Brasil 🇧🇷"
+    },
+    "100": {
+     "home": "Austria 🇦🇹",
+     "away": "Portugal 🇵🇹",
+     "hg": 0,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Portugal 🇵🇹",
+     "loser": "Austria 🇦🇹"
+    },
+    "101": {
+     "home": "Países Bajos 🇳🇱",
+     "away": "España 🇪🇸",
+     "hg": 3,
+     "ag": 3,
+     "ph": 3,
+     "pa": 2,
+     "winner": "Países Bajos 🇳🇱",
+     "loser": "España 🇪🇸"
+    },
+    "102": {
+     "home": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "away": "Portugal 🇵🇹",
+     "hg": 2,
+     "ag": 2,
+     "ph": 4,
+     "pa": 3,
+     "winner": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "loser": "Portugal 🇵🇹"
+    },
+    "103": {
+     "home": "España 🇪🇸",
+     "away": "Portugal 🇵🇹",
+     "hg": 3,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "España 🇪🇸",
+     "loser": "Portugal 🇵🇹"
+    },
+    "104": {
+     "home": "Países Bajos 🇳🇱",
+     "away": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "hg": 3,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Países Bajos 🇳🇱",
+     "loser": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+    }
+   },
+   "podio": {
+    "campeon": "Países Bajos 🇳🇱",
+    "subcampeon": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "tercero": "España 🇪🇸",
+    "cuarto": "Portugal 🇵🇹"
+   }
+  },
+  {
+   "id": "r157",
+   "contacto": "Fernando Quintero",
+   "codigo": "271787",
+   "nombre": "María Ismenia Duque",
+   "start": "2026-06-07T08:26:49.501Z",
+   "end": "2026-06-07T08:41:32.552Z",
+   "groups": {
+    "A": {
+     "matches": [
+      {
+       "hg": 2,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 0
+      },
+      {
+       "hg": 1,
+       "ag": 3
+      },
+      {
+       "hg": 3,
+       "ag": 2
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 1,
+       "ag": 0
+      }
+     ],
+     "standings": [
+      "Sudáfrica 🇿🇦",
+      "México 🇲🇽",
+      "República de Corea 🇰🇷",
+      "República Checa 🇨🇿"
+     ]
+    },
+    "B": {
+     "matches": [
+      {
+       "hg": 2,
+       "ag": 3
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 3,
+       "ag": 0
+      },
+      {
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      }
+     ],
+     "standings": [
+      "Bosnia y Herzegovina 🇧🇦",
+      "Catar 🇶🇦",
+      "Suiza 🇨🇭",
+      "Canadá 🇨🇦"
+     ]
+    },
+    "C": {
+     "matches": [
+      {
+       "hg": 1,
+       "ag": 3
+      },
+      {
+       "hg": 4,
+       "ag": 0
+      },
+      {
+       "hg": 5,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 2
+      },
+      {
+       "hg": 3,
+       "ag": 3
+      }
+     ],
+     "standings": [
+      "Brasil 🇧🇷",
+      "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "Marruecos 🇲🇦",
+      "Haití 🇭🇹"
+     ]
+    },
+    "D": {
+     "matches": [
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 1,
+       "ag": 4
+      },
+      {
+       "hg": 3,
+       "ag": 2
+      },
+      {
+       "hg": 2,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 0
+      }
+     ],
+     "standings": [
+      "Estados Unidos 🇺🇸",
+      "Paraguay 🇵🇾",
+      "Australia 🇦🇺",
+      "Turquía 🇹🇷"
+     ]
+    },
+    "E": {
+     "matches": [
+      {
+       "hg": 1,
+       "ag": 3
+      },
+      {
+       "hg": 5,
+       "ag": 1
+      },
+      {
+       "hg": 3,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 0,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 3
+      }
+     ],
+     "standings": [
+      "Alemania 🇩🇪",
+      "Ecuador 🇪🇨",
+      "Costa de Marfil 🇨🇮",
+      "Curazao 🇨🇼"
+     ]
+    },
+    "F": {
+     "matches": [
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 3
+      },
+      {
+       "hg": 2,
+       "ag": 2
+      }
+     ],
+     "standings": [
+      "Países Bajos 🇳🇱",
+      "Suecia 🇸🇪",
+      "Túnez 🇹🇳",
+      "Japón 🇯🇵"
+     ]
+    },
+    "G": {
+     "matches": [
+      {
+       "hg": 0,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 3,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 4
+      }
+     ],
+     "standings": [
+      "Bélgica 🇧🇪",
+      "Nueva Zelanda 🇳🇿",
+      "Irán 🇮🇷",
+      "Egipto 🇪🇬"
+     ]
+    },
+    "H": {
+     "matches": [
+      {
+       "hg": 1,
+       "ag": 3
+      },
+      {
+       "hg": 4,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 3,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 2
+      }
+     ],
+     "standings": [
+      "España 🇪🇸",
+      "Uruguay 🇺🇾",
+      "Arabia Saudita 🇸🇦",
+      "Cabo Verde 🇨🇻"
+     ]
+    },
+    "I": {
+     "matches": [
+      {
+       "hg": 5,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 3
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 3,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      }
+     ],
+     "standings": [
+      "Francia 🇫🇷",
+      "Noruega 🇳🇴",
+      "Senegal 🇸🇳",
+      "Irak 🇮🇶"
+     ]
+    },
+    "J": {
+     "matches": [
+      {
+       "hg": 3,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 4,
+       "ag": 2
+      },
+      {
+       "hg": 2,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 3
+      }
+     ],
+     "standings": [
+      "Argentina 🇦🇷",
+      "Austria 🇦🇹",
+      "Argelia 🇩🇿",
+      "Jordania 🇯🇴"
+     ]
+    },
+    "K": {
+     "matches": [
+      {
+       "hg": 3,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 2
+      },
+      {
+       "hg": 4,
+       "ag": 0
+      },
+      {
+       "hg": 3,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 0
+      }
+     ],
+     "standings": [
+      "Portugal 🇵🇹",
+      "Colombia 🇨🇴",
+      "RD del Congo 🇨🇩",
+      "Uzbekistán 🇺🇿"
+     ]
+    },
+    "L": {
+     "matches": [
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 3,
+       "ag": 2
+      },
+      {
+       "hg": 5,
+       "ag": 1
+      },
+      {
+       "hg": 0,
+       "ag": 2
+      },
+      {
+       "hg": 0,
+       "ag": 3
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      }
+     ],
+     "standings": [
+      "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "Croacia 🇭🇷",
+      "Ghana 🇬🇭",
+      "Panamá 🇵🇦"
+     ]
+    }
+   },
+   "thirds": {
+    "p74": "Australia 🇦🇺",
+    "p77": "Túnez 🇹🇳",
+    "p79": "Costa de Marfil 🇨🇮",
+    "p80": "RD del Congo 🇨🇩",
+    "p81": "Suiza 🇨🇭",
+    "p82": "República de Corea 🇰🇷",
+    "p85": "Senegal 🇸🇳",
+    "p87": "Ghana 🇬🇭"
+   },
+   "knockout": {
+    "73": {
+     "home": "México 🇲🇽",
+     "away": "Catar 🇶🇦",
+     "hg": 1,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "México 🇲🇽",
+     "loser": "Catar 🇶🇦"
+    },
+    "74": {
+     "home": "Alemania 🇩🇪",
+     "away": "Australia 🇦🇺",
+     "hg": 3,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "Alemania 🇩🇪",
+     "loser": "Australia 🇦🇺"
+    },
+    "75": {
+     "home": "Países Bajos 🇳🇱",
+     "away": "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Países Bajos 🇳🇱",
+     "loser": "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+    },
+    "76": {
+     "home": "Brasil 🇧🇷",
+     "away": "Suecia 🇸🇪",
+     "hg": 4,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Brasil 🇧🇷",
+     "loser": "Suecia 🇸🇪"
+    },
+    "77": {
+     "home": "Francia 🇫🇷",
+     "away": "Túnez 🇹🇳",
+     "hg": 5,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Francia 🇫🇷",
+     "loser": "Túnez 🇹🇳"
+    },
+    "78": {
+     "home": "Ecuador 🇪🇨",
+     "away": "Noruega 🇳🇴",
+     "hg": 1,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Noruega 🇳🇴",
+     "loser": "Ecuador 🇪🇨"
+    },
+    "79": {
+     "home": "Sudáfrica 🇿🇦",
+     "away": "Costa de Marfil 🇨🇮",
+     "hg": 1,
+     "ag": 1,
+     "ph": 5,
+     "pa": 4,
+     "winner": "Sudáfrica 🇿🇦",
+     "loser": "Costa de Marfil 🇨🇮"
+    },
+    "80": {
+     "home": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "away": "RD del Congo 🇨🇩",
+     "hg": 4,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "loser": "RD del Congo 🇨🇩"
+    },
+    "81": {
+     "home": "Estados Unidos 🇺🇸",
+     "away": "Suiza 🇨🇭",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Estados Unidos 🇺🇸",
+     "loser": "Suiza 🇨🇭"
+    },
+    "82": {
+     "home": "Bélgica 🇧🇪",
+     "away": "República de Corea 🇰🇷",
+     "hg": 3,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Bélgica 🇧🇪",
+     "loser": "República de Corea 🇰🇷"
+    },
+    "83": {
+     "home": "Colombia 🇨🇴",
+     "away": "Croacia 🇭🇷",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Colombia 🇨🇴",
+     "loser": "Croacia 🇭🇷"
+    },
+    "84": {
+     "home": "España 🇪🇸",
+     "away": "Austria 🇦🇹",
+     "hg": 3,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "España 🇪🇸",
+     "loser": "Austria 🇦🇹"
+    },
+    "85": {
+     "home": "Bosnia y Herzegovina 🇧🇦",
+     "away": "Senegal 🇸🇳",
+     "hg": 2,
+     "ag": 3,
+     "ph": null,
+     "pa": null,
+     "winner": "Senegal 🇸🇳",
+     "loser": "Bosnia y Herzegovina 🇧🇦"
+    },
+    "86": {
+     "home": "Argentina 🇦🇷",
+     "away": "Uruguay 🇺🇾",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Argentina 🇦🇷",
+     "loser": "Uruguay 🇺🇾"
+    },
+    "87": {
+     "home": "Portugal 🇵🇹",
+     "away": "Ghana 🇬🇭",
+     "hg": 4,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Portugal 🇵🇹",
+     "loser": "Ghana 🇬🇭"
+    },
+    "88": {
+     "home": "Paraguay 🇵🇾",
+     "away": "Nueva Zelanda 🇳🇿",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Paraguay 🇵🇾",
+     "loser": "Nueva Zelanda 🇳🇿"
+    },
+    "89": {
+     "home": "Alemania 🇩🇪",
+     "away": "Francia 🇫🇷",
+     "hg": 3,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Alemania 🇩🇪",
+     "loser": "Francia 🇫🇷"
+    },
+    "90": {
+     "home": "México 🇲🇽",
+     "away": "Países Bajos 🇳🇱",
+     "hg": 1,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Países Bajos 🇳🇱",
+     "loser": "México 🇲🇽"
+    },
+    "91": {
+     "home": "Brasil 🇧🇷",
+     "away": "Noruega 🇳🇴",
+     "hg": 3,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Brasil 🇧🇷",
+     "loser": "Noruega 🇳🇴"
+    },
+    "92": {
+     "home": "Sudáfrica 🇿🇦",
+     "away": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "hg": 1,
+     "ag": 3,
+     "ph": null,
+     "pa": null,
+     "winner": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "loser": "Sudáfrica 🇿🇦"
+    },
+    "93": {
+     "home": "Colombia 🇨🇴",
+     "away": "España 🇪🇸",
+     "hg": 0,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "España 🇪🇸",
+     "loser": "Colombia 🇨🇴"
+    },
+    "94": {
+     "home": "Estados Unidos 🇺🇸",
+     "away": "Bélgica 🇧🇪",
+     "hg": 1,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Bélgica 🇧🇪",
+     "loser": "Estados Unidos 🇺🇸"
+    },
+    "95": {
+     "home": "Argentina 🇦🇷",
+     "away": "Paraguay 🇵🇾",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Argentina 🇦🇷",
+     "loser": "Paraguay 🇵🇾"
+    },
+    "96": {
+     "home": "Senegal 🇸🇳",
+     "away": "Portugal 🇵🇹",
+     "hg": 2,
+     "ag": 4,
+     "ph": null,
+     "pa": null,
+     "winner": "Portugal 🇵🇹",
+     "loser": "Senegal 🇸🇳"
+    },
+    "97": {
+     "home": "Alemania 🇩🇪",
+     "away": "Países Bajos 🇳🇱",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Alemania 🇩🇪",
+     "loser": "Países Bajos 🇳🇱"
+    },
+    "98": {
+     "home": "España 🇪🇸",
+     "away": "Bélgica 🇧🇪",
+     "hg": 2,
+     "ag": 3,
+     "ph": null,
+     "pa": null,
+     "winner": "Bélgica 🇧🇪",
+     "loser": "España 🇪🇸"
+    },
+    "99": {
+     "home": "Brasil 🇧🇷",
+     "away": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "hg": 1,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "Brasil 🇧🇷",
+     "loser": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+    },
+    "100": {
+     "home": "Argentina 🇦🇷",
+     "away": "Portugal 🇵🇹",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Argentina 🇦🇷",
+     "loser": "Portugal 🇵🇹"
+    },
+    "101": {
+     "home": "Alemania 🇩🇪",
+     "away": "Bélgica 🇧🇪",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Alemania 🇩🇪",
+     "loser": "Bélgica 🇧🇪"
+    },
+    "102": {
+     "home": "Brasil 🇧🇷",
+     "away": "Argentina 🇦🇷",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Brasil 🇧🇷",
+     "loser": "Argentina 🇦🇷"
+    },
+    "103": {
+     "home": "Bélgica 🇧🇪",
+     "away": "Argentina 🇦🇷",
+     "hg": 2,
+     "ag": 3,
+     "ph": null,
+     "pa": null,
+     "winner": "Argentina 🇦🇷",
+     "loser": "Bélgica 🇧🇪"
+    },
+    "104": {
+     "home": "Alemania 🇩🇪",
+     "away": "Brasil 🇧🇷",
+     "hg": 2,
+     "ag": 3,
+     "ph": null,
+     "pa": null,
+     "winner": "Brasil 🇧🇷",
+     "loser": "Alemania 🇩🇪"
+    }
+   },
+   "podio": {
+    "campeon": "Brasil 🇧🇷",
+    "subcampeon": "Alemania 🇩🇪",
+    "tercero": "Argentina 🇦🇷",
+    "cuarto": "Bélgica 🇧🇪"
+   }
+  },
+  {
+   "id": "r158",
+   "contacto": "Roberto Carpio",
+   "codigo": "906379",
+   "nombre": "Yosman Rubiano",
+   "start": "2026-06-07T08:23:30.136Z",
+   "end": "2026-06-07T08:46:25.018Z",
+   "groups": {
+    "A": {
+     "matches": [
+      {
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "hg": 0,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "hg": 0,
+       "ag": 1
+      }
+     ],
+     "standings": [
+      "República Checa 🇨🇿",
+      "México 🇲🇽",
+      "República de Corea 🇰🇷",
+      "Sudáfrica 🇿🇦"
+     ]
+    },
+    "B": {
+     "matches": [
+      {
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "hg": 0,
+       "ag": 2
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      }
+     ],
+     "standings": [
+      "Suiza 🇨🇭",
+      "Bosnia y Herzegovina 🇧🇦",
+      "Canadá 🇨🇦",
+      "Catar 🇶🇦"
+     ]
+    },
+    "C": {
+     "matches": [
+      {
+       "hg": 0,
+       "ag": 2
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 5,
+       "ag": 0
+      },
+      {
+       "hg": 1,
+       "ag": 3
+      },
+      {
+       "hg": 1,
+       "ag": 3
+      },
+      {
+       "hg": 4,
+       "ag": 0
+      }
+     ],
+     "standings": [
+      "Brasil 🇧🇷",
+      "Marruecos 🇲🇦",
+      "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "Haití 🇭🇹"
+     ]
+    },
+    "D": {
+     "matches": [
+      {
+       "hg": 1,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 1
+      }
+     ],
+     "standings": [
+      "Paraguay 🇵🇾",
+      "Turquía 🇹🇷",
+      "Estados Unidos 🇺🇸",
+      "Australia 🇦🇺"
+     ]
+    },
+    "E": {
+     "matches": [
+      {
+       "hg": 0,
+       "ag": 1
+      },
+      {
+       "hg": 7,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 4,
+       "ag": 0
+      },
+      {
+       "hg": 0,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 2
+      }
+     ],
+     "standings": [
+      "Alemania 🇩🇪",
+      "Ecuador 🇪🇨",
+      "Costa de Marfil 🇨🇮",
+      "Curazao 🇨🇼"
+     ]
+    },
+    "F": {
+     "matches": [
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 3,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 3
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 0,
+       "ag": 3
+      }
+     ],
+     "standings": [
+      "Países Bajos 🇳🇱",
+      "Japón 🇯🇵",
+      "Suecia 🇸🇪",
+      "Túnez 🇹🇳"
+     ]
+    },
+    "G": {
+     "matches": [
+      {
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "hg": 3,
+       "ag": 1
+      },
+      {
+       "hg": 3,
+       "ag": 0
+      },
+      {
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "hg": 0,
+       "ag": 0
+      },
+      {
+       "hg": 1,
+       "ag": 3
+      }
+     ],
+     "standings": [
+      "Bélgica 🇧🇪",
+      "Nueva Zelanda 🇳🇿",
+      "Egipto 🇪🇬",
+      "Irán 🇮🇷"
+     ]
+    },
+    "H": {
+     "matches": [
+      {
+       "hg": 1,
+       "ag": 2
+      },
+      {
+       "hg": 4,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 3,
+       "ag": 0
+      },
+      {
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 2
+      }
+     ],
+     "standings": [
+      "España 🇪🇸",
+      "Uruguay 🇺🇾",
+      "Arabia Saudita 🇸🇦",
+      "Cabo Verde 🇨🇻"
+     ]
+    },
+    "I": {
+     "matches": [
+      {
+       "hg": 3,
+       "ag": 1
+      },
+      {
+       "hg": 0,
+       "ag": 2
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 4,
+       "ag": 0
+      },
+      {
+       "hg": 1,
+       "ag": 3
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      }
+     ],
+     "standings": [
+      "Francia 🇫🇷",
+      "Noruega 🇳🇴",
+      "Senegal 🇸🇳",
+      "Irak 🇮🇶"
+     ]
+    },
+    "J": {
+     "matches": [
+      {
+       "hg": 3,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 0
+      },
+      {
+       "hg": 3,
+       "ag": 0
+      },
+      {
+       "hg": 1,
+       "ag": 2
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 0,
+       "ag": 3
+      }
+     ],
+     "standings": [
+      "Argentina 🇦🇷",
+      "Argelia 🇩🇿",
+      "Austria 🇦🇹",
+      "Jordania 🇯🇴"
+     ]
+    },
+    "K": {
+     "matches": [
+      {
+       "hg": 3,
+       "ag": 0
+      },
+      {
+       "hg": 0,
+       "ag": 4
+      },
+      {
+       "hg": 4,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 1,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 0
+      }
+     ],
+     "standings": [
+      "Portugal 🇵🇹",
+      "Colombia 🇨🇴",
+      "RD del Congo 🇨🇩",
+      "Uzbekistán 🇺🇿"
+     ]
+    },
+    "L": {
+     "matches": [
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 0,
+       "ag": 3
+      },
+      {
+       "hg": 0,
+       "ag": 4
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      }
+     ],
+     "standings": [
+      "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "Croacia 🇭🇷",
+      "Ghana 🇬🇭",
+      "Panamá 🇵🇦"
+     ]
+    }
+   },
+   "thirds": {
+    "p74": "Estados Unidos 🇺🇸",
+    "p77": "Suecia 🇸🇪",
+    "p79": "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "p80": "Senegal 🇸🇳",
+    "p81": "Canadá 🇨🇦",
+    "p82": "República de Corea 🇰🇷",
+    "p85": "Costa de Marfil 🇨🇮",
+    "p87": "Ghana 🇬🇭"
+   },
+   "knockout": {
+    "73": {
+     "home": "México 🇲🇽",
+     "away": "Bosnia y Herzegovina 🇧🇦",
+     "hg": 1,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "México 🇲🇽",
+     "loser": "Bosnia y Herzegovina 🇧🇦"
+    },
+    "74": {
+     "home": "Alemania 🇩🇪",
+     "away": "Estados Unidos 🇺🇸",
+     "hg": 3,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Alemania 🇩🇪",
+     "loser": "Estados Unidos 🇺🇸"
+    },
+    "75": {
+     "home": "Países Bajos 🇳🇱",
+     "away": "Marruecos 🇲🇦",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Países Bajos 🇳🇱",
+     "loser": "Marruecos 🇲🇦"
+    },
+    "76": {
+     "home": "Brasil 🇧🇷",
+     "away": "Japón 🇯🇵",
+     "hg": 3,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Brasil 🇧🇷",
+     "loser": "Japón 🇯🇵"
+    },
+    "77": {
+     "home": "Francia 🇫🇷",
+     "away": "Suecia 🇸🇪",
+     "hg": 3,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "Francia 🇫🇷",
+     "loser": "Suecia 🇸🇪"
+    },
+    "78": {
+     "home": "Ecuador 🇪🇨",
+     "away": "Noruega 🇳🇴",
+     "hg": 1,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Noruega 🇳🇴",
+     "loser": "Ecuador 🇪🇨"
+    },
+    "79": {
+     "home": "República Checa 🇨🇿",
+     "away": "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+     "hg": 1,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "República Checa 🇨🇿",
+     "loser": "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+    },
+    "80": {
+     "home": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "away": "Senegal 🇸🇳",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "loser": "Senegal 🇸🇳"
+    },
+    "81": {
+     "home": "Paraguay 🇵🇾",
+     "away": "Canadá 🇨🇦",
+     "hg": 1,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "Paraguay 🇵🇾",
+     "loser": "Canadá 🇨🇦"
+    },
+    "82": {
+     "home": "Bélgica 🇧🇪",
+     "away": "República de Corea 🇰🇷",
+     "hg": 3,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Bélgica 🇧🇪",
+     "loser": "República de Corea 🇰🇷"
+    },
+    "83": {
+     "home": "Colombia 🇨🇴",
+     "away": "Croacia 🇭🇷",
+     "hg": 1,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Croacia 🇭🇷",
+     "loser": "Colombia 🇨🇴"
+    },
+    "84": {
+     "home": "España 🇪🇸",
+     "away": "Argelia 🇩🇿",
+     "hg": 3,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "España 🇪🇸",
+     "loser": "Argelia 🇩🇿"
+    },
+    "85": {
+     "home": "Suiza 🇨🇭",
+     "away": "Costa de Marfil 🇨🇮",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Suiza 🇨🇭",
+     "loser": "Costa de Marfil 🇨🇮"
+    },
+    "86": {
+     "home": "Argentina 🇦🇷",
+     "away": "Uruguay 🇺🇾",
+     "hg": 3,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Argentina 🇦🇷",
+     "loser": "Uruguay 🇺🇾"
+    },
+    "87": {
+     "home": "Portugal 🇵🇹",
+     "away": "Ghana 🇬🇭",
+     "hg": 3,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Portugal 🇵🇹",
+     "loser": "Ghana 🇬🇭"
+    },
+    "88": {
+     "home": "Turquía 🇹🇷",
+     "away": "Nueva Zelanda 🇳🇿",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Turquía 🇹🇷",
+     "loser": "Nueva Zelanda 🇳🇿"
+    },
+    "89": {
+     "home": "Alemania 🇩🇪",
+     "away": "Francia 🇫🇷",
+     "hg": 1,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Francia 🇫🇷",
+     "loser": "Alemania 🇩🇪"
+    },
+    "90": {
+     "home": "México 🇲🇽",
+     "away": "Países Bajos 🇳🇱",
+     "hg": 1,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Países Bajos 🇳🇱",
+     "loser": "México 🇲🇽"
+    },
+    "91": {
+     "home": "Brasil 🇧🇷",
+     "away": "Noruega 🇳🇴",
+     "hg": 3,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Brasil 🇧🇷",
+     "loser": "Noruega 🇳🇴"
+    },
+    "92": {
+     "home": "República Checa 🇨🇿",
+     "away": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "hg": 0,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "loser": "República Checa 🇨🇿"
+    },
+    "93": {
+     "home": "Croacia 🇭🇷",
+     "away": "España 🇪🇸",
+     "hg": 1,
+     "ag": 3,
+     "ph": null,
+     "pa": null,
+     "winner": "España 🇪🇸",
+     "loser": "Croacia 🇭🇷"
+    },
+    "94": {
+     "home": "Paraguay 🇵🇾",
+     "away": "Bélgica 🇧🇪",
+     "hg": 1,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Bélgica 🇧🇪",
+     "loser": "Paraguay 🇵🇾"
+    },
+    "95": {
+     "home": "Argentina 🇦🇷",
+     "away": "Turquía 🇹🇷",
+     "hg": 3,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Argentina 🇦🇷",
+     "loser": "Turquía 🇹🇷"
+    },
+    "96": {
+     "home": "Suiza 🇨🇭",
+     "away": "Portugal 🇵🇹",
+     "hg": 1,
+     "ag": 3,
+     "ph": null,
+     "pa": null,
+     "winner": "Portugal 🇵🇹",
+     "loser": "Suiza 🇨🇭"
+    },
+    "97": {
+     "home": "Francia 🇫🇷",
+     "away": "Países Bajos 🇳🇱",
+     "hg": 2,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "Francia 🇫🇷",
+     "loser": "Países Bajos 🇳🇱"
+    },
+    "98": {
+     "home": "España 🇪🇸",
+     "away": "Bélgica 🇧🇪",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "España 🇪🇸",
+     "loser": "Bélgica 🇧🇪"
+    },
+    "99": {
+     "home": "Brasil 🇧🇷",
+     "away": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Brasil 🇧🇷",
+     "loser": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+    },
+    "100": {
+     "home": "Argentina 🇦🇷",
+     "away": "Portugal 🇵🇹",
+     "hg": 1,
+     "ag": 1,
+     "ph": 4,
+     "pa": 3,
+     "winner": "Argentina 🇦🇷",
+     "loser": "Portugal 🇵🇹"
+    },
+    "101": {
+     "home": "Francia 🇫🇷",
+     "away": "España 🇪🇸",
+     "hg": 2,
+     "ag": 2,
+     "ph": 4,
+     "pa": 5,
+     "winner": "España 🇪🇸",
+     "loser": "Francia 🇫🇷"
+    },
+    "102": {
+     "home": "Brasil 🇧🇷",
+     "away": "Argentina 🇦🇷",
+     "hg": 1,
+     "ag": 1,
+     "ph": 3,
+     "pa": 4,
+     "winner": "Argentina 🇦🇷",
+     "loser": "Brasil 🇧🇷"
+    },
+    "103": {
+     "home": "Francia 🇫🇷",
+     "away": "Brasil 🇧🇷",
+     "hg": 3,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Francia 🇫🇷",
+     "loser": "Brasil 🇧🇷"
+    },
+    "104": {
+     "home": "España 🇪🇸",
+     "away": "Argentina 🇦🇷",
+     "hg": 1,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "España 🇪🇸",
+     "loser": "Argentina 🇦🇷"
+    }
+   },
+   "podio": {
+    "campeon": "España 🇪🇸",
+    "subcampeon": "Argentina 🇦🇷",
+    "tercero": "Francia 🇫🇷",
+    "cuarto": "Brasil 🇧🇷"
+   }
+  },
+  {
+   "id": "r159",
+   "contacto": "Ethan Alzate",
+   "codigo": "626024",
+   "nombre": "Alejandro Cadavid Carrillo",
+   "start": "2026-06-07T08:13:54.797Z",
+   "end": "2026-06-07T08:47:54.993Z",
+   "groups": {
+    "A": {
+     "matches": [
+      {
+       "hg": 3,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 2
+      },
+      {
+       "hg": 0,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 2
+      }
+     ],
+     "standings": [
+      "México 🇲🇽",
+      "República de Corea 🇰🇷",
+      "Sudáfrica 🇿🇦",
+      "República Checa 🇨🇿"
+     ]
+    },
+    "B": {
+     "matches": [
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 0,
+       "ag": 2
+      },
+      {
+       "hg": 3,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 1
+      }
+     ],
+     "standings": [
+      "Suiza 🇨🇭",
+      "Canadá 🇨🇦",
+      "Catar 🇶🇦",
+      "Bosnia y Herzegovina 🇧🇦"
+     ]
+    },
+    "C": {
+     "matches": [
+      {
+       "hg": 0,
+       "ag": 2
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 3,
+       "ag": 0
+      },
+      {
+       "hg": 1,
+       "ag": 3
+      },
+      {
+       "hg": 0,
+       "ag": 2
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      }
+     ],
+     "standings": [
+      "Brasil 🇧🇷",
+      "Marruecos 🇲🇦",
+      "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "Haití 🇭🇹"
+     ]
+    },
+    "D": {
+     "matches": [
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 0,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      }
+     ],
+     "standings": [
+      "Turquía 🇹🇷",
+      "Estados Unidos 🇺🇸",
+      "Paraguay 🇵🇾",
+      "Australia 🇦🇺"
+     ]
+    },
+    "E": {
+     "matches": [
+      {
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "hg": 3,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 3,
+       "ag": 0
+      },
+      {
+       "hg": 0,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 2
+      }
+     ],
+     "standings": [
+      "Alemania 🇩🇪",
+      "Ecuador 🇪🇨",
+      "Costa de Marfil 🇨🇮",
+      "Curazao 🇨🇼"
+     ]
+    },
+    "F": {
+     "matches": [
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 0,
+       "ag": 2
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 0,
+       "ag": 2
+      }
+     ],
+     "standings": [
+      "Países Bajos 🇳🇱",
+      "Japón 🇯🇵",
+      "Suecia 🇸🇪",
+      "Túnez 🇹🇳"
+     ]
+    },
+    "G": {
+     "matches": [
+      {
+       "hg": 1,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 0,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 0
+      },
+      {
+       "hg": 0,
+       "ag": 3
+      }
+     ],
+     "standings": [
+      "Bélgica 🇧🇪",
+      "Egipto 🇪🇬",
+      "Irán 🇮🇷",
+      "Nueva Zelanda 🇳🇿"
+     ]
+    },
+    "H": {
+     "matches": [
+      {
+       "hg": 0,
+       "ag": 2
+      },
+      {
+       "hg": 3,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 1,
+       "ag": 2
+      },
+      {
+       "hg": 0,
+       "ag": 1
+      }
+     ],
+     "standings": [
+      "España 🇪🇸",
+      "Uruguay 🇺🇾",
+      "Arabia Saudita 🇸🇦",
+      "Cabo Verde 🇨🇻"
+     ]
+    },
+    "I": {
+     "matches": [
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 1,
+       "ag": 3
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 1,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 0
+      }
+     ],
+     "standings": [
+      "Francia 🇫🇷",
+      "Noruega 🇳🇴",
+      "Senegal 🇸🇳",
+      "Irak 🇮🇶"
+     ]
+    },
+    "J": {
+     "matches": [
+      {
+       "hg": 3,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "hg": 0,
+       "ag": 1
+      },
+      {
+       "hg": 0,
+       "ag": 2
+      }
+     ],
+     "standings": [
+      "Argentina 🇦🇷",
+      "Austria 🇦🇹",
+      "Argelia 🇩🇿",
+      "Jordania 🇯🇴"
+     ]
+    },
+    "K": {
+     "matches": [
+      {
+       "hg": 3,
+       "ag": 1
+      },
+      {
+       "hg": 0,
+       "ag": 2
+      },
+      {
+       "hg": 3,
+       "ag": 1
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 1
+      },
+      {
+       "hg": 1,
+       "ag": 1
+      }
+     ],
+     "standings": [
+      "Portugal 🇵🇹",
+      "Colombia 🇨🇴",
+      "RD del Congo 🇨🇩",
+      "Uzbekistán 🇺🇿"
+     ]
+    },
+    "L": {
+     "matches": [
+      {
+       "hg": 1,
+       "ag": 0
+      },
+      {
+       "hg": 2,
+       "ag": 1
+      },
+      {
+       "hg": 3,
+       "ag": 0
+      },
+      {
+       "hg": 0,
+       "ag": 2
+      },
+      {
+       "hg": 1,
+       "ag": 2
+      },
+      {
+       "hg": 2,
+       "ag": 0
+      }
+     ],
+     "standings": [
+      "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "Croacia 🇭🇷",
+      "Ghana 🇬🇭",
+      "Panamá 🇵🇦"
+     ]
+    }
+   },
+   "thirds": {
+    "p74": "Paraguay 🇵🇾",
+    "p77": "Suecia 🇸🇪",
+    "p79": "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "p80": "Senegal 🇸🇳",
+    "p81": "Costa de Marfil 🇨🇮",
+    "p82": "Arabia Saudita 🇸🇦",
+    "p85": "Irán 🇮🇷",
+    "p87": "Ghana 🇬🇭"
+   },
+   "knockout": {
+    "73": {
+     "home": "República de Corea 🇰🇷",
+     "away": "Canadá 🇨🇦",
+     "hg": 1,
+     "ag": 1,
+     "ph": 4,
+     "pa": 5,
+     "winner": "Canadá 🇨🇦",
+     "loser": "República de Corea 🇰🇷"
+    },
+    "74": {
+     "home": "Alemania 🇩🇪",
+     "away": "Paraguay 🇵🇾",
+     "hg": 2,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "Alemania 🇩🇪",
+     "loser": "Paraguay 🇵🇾"
+    },
+    "75": {
+     "home": "Países Bajos 🇳🇱",
+     "away": "Marruecos 🇲🇦",
+     "hg": 1,
+     "ag": 1,
+     "ph": 4,
+     "pa": 5,
+     "winner": "Marruecos 🇲🇦",
+     "loser": "Países Bajos 🇳🇱"
+    },
+    "76": {
+     "home": "Brasil 🇧🇷",
+     "away": "Japón 🇯🇵",
+     "hg": 2,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "Brasil 🇧🇷",
+     "loser": "Japón 🇯🇵"
+    },
+    "77": {
+     "home": "Francia 🇫🇷",
+     "away": "Suecia 🇸🇪",
+     "hg": 3,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Francia 🇫🇷",
+     "loser": "Suecia 🇸🇪"
+    },
+    "78": {
+     "home": "Ecuador 🇪🇨",
+     "away": "Noruega 🇳🇴",
+     "hg": 1,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Noruega 🇳🇴",
+     "loser": "Ecuador 🇪🇨"
+    },
+    "79": {
+     "home": "México 🇲🇽",
+     "away": "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "México 🇲🇽",
+     "loser": "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+    },
+    "80": {
+     "home": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "away": "Senegal 🇸🇳",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "loser": "Senegal 🇸🇳"
+    },
+    "81": {
+     "home": "Turquía 🇹🇷",
+     "away": "Costa de Marfil 🇨🇮",
+     "hg": 1,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "Turquía 🇹🇷",
+     "loser": "Costa de Marfil 🇨🇮"
+    },
+    "82": {
+     "home": "Bélgica 🇧🇪",
+     "away": "Arabia Saudita 🇸🇦",
+     "hg": 2,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "Bélgica 🇧🇪",
+     "loser": "Arabia Saudita 🇸🇦"
+    },
+    "83": {
+     "home": "Colombia 🇨🇴",
+     "away": "Croacia 🇭🇷",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Colombia 🇨🇴",
+     "loser": "Croacia 🇭🇷"
+    },
+    "84": {
+     "home": "España 🇪🇸",
+     "away": "Austria 🇦🇹",
+     "hg": 2,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "España 🇪🇸",
+     "loser": "Austria 🇦🇹"
+    },
+    "85": {
+     "home": "Suiza 🇨🇭",
+     "away": "Irán 🇮🇷",
+     "hg": 1,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "Suiza 🇨🇭",
+     "loser": "Irán 🇮🇷"
+    },
+    "86": {
+     "home": "Argentina 🇦🇷",
+     "away": "Uruguay 🇺🇾",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Argentina 🇦🇷",
+     "loser": "Uruguay 🇺🇾"
+    },
+    "87": {
+     "home": "Portugal 🇵🇹",
+     "away": "Ghana 🇬🇭",
+     "hg": 2,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "Portugal 🇵🇹",
+     "loser": "Ghana 🇬🇭"
+    },
+    "88": {
+     "home": "Estados Unidos 🇺🇸",
+     "away": "Egipto 🇪🇬",
+     "hg": 1,
+     "ag": 1,
+     "ph": 5,
+     "pa": 4,
+     "winner": "Estados Unidos 🇺🇸",
+     "loser": "Egipto 🇪🇬"
+    },
+    "89": {
+     "home": "Alemania 🇩🇪",
+     "away": "Francia 🇫🇷",
+     "hg": 1,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Francia 🇫🇷",
+     "loser": "Alemania 🇩🇪"
+    },
+    "90": {
+     "home": "Canadá 🇨🇦",
+     "away": "Marruecos 🇲🇦",
+     "hg": 0,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Marruecos 🇲🇦",
+     "loser": "Canadá 🇨🇦"
+    },
+    "91": {
+     "home": "Brasil 🇧🇷",
+     "away": "Noruega 🇳🇴",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Brasil 🇧🇷",
+     "loser": "Noruega 🇳🇴"
+    },
+    "92": {
+     "home": "México 🇲🇽",
+     "away": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "hg": 1,
+     "ag": 3,
+     "ph": null,
+     "pa": null,
+     "winner": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "loser": "México 🇲🇽"
+    },
+    "93": {
+     "home": "Colombia 🇨🇴",
+     "away": "España 🇪🇸",
+     "hg": 1,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "España 🇪🇸",
+     "loser": "Colombia 🇨🇴"
+    },
+    "94": {
+     "home": "Turquía 🇹🇷",
+     "away": "Bélgica 🇧🇪",
+     "hg": 1,
+     "ag": 1,
+     "ph": 4,
+     "pa": 5,
+     "winner": "Bélgica 🇧🇪",
+     "loser": "Turquía 🇹🇷"
+    },
+    "95": {
+     "home": "Argentina 🇦🇷",
+     "away": "Estados Unidos 🇺🇸",
+     "hg": 2,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "Argentina 🇦🇷",
+     "loser": "Estados Unidos 🇺🇸"
+    },
+    "96": {
+     "home": "Suiza 🇨🇭",
+     "away": "Portugal 🇵🇹",
+     "hg": 1,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Portugal 🇵🇹",
+     "loser": "Suiza 🇨🇭"
+    },
+    "97": {
+     "home": "Francia 🇫🇷",
+     "away": "Marruecos 🇲🇦",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Francia 🇫🇷",
+     "loser": "Marruecos 🇲🇦"
+    },
+    "98": {
+     "home": "España 🇪🇸",
+     "away": "Bélgica 🇧🇪",
+     "hg": 2,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "España 🇪🇸",
+     "loser": "Bélgica 🇧🇪"
+    },
+    "99": {
+     "home": "Brasil 🇧🇷",
+     "away": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+     "hg": 1,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "Brasil 🇧🇷",
+     "loser": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+    },
+    "100": {
+     "home": "Argentina 🇦🇷",
+     "away": "Portugal 🇵🇹",
+     "hg": 0,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Portugal 🇵🇹",
+     "loser": "Argentina 🇦🇷"
+    },
+    "101": {
+     "home": "Francia 🇫🇷",
+     "away": "España 🇪🇸",
+     "hg": 2,
+     "ag": 1,
+     "ph": null,
+     "pa": null,
+     "winner": "Francia 🇫🇷",
+     "loser": "España 🇪🇸"
+    },
+    "102": {
+     "home": "Brasil 🇧🇷",
+     "away": "Portugal 🇵🇹",
+     "hg": 1,
+     "ag": 1,
+     "ph": 4,
+     "pa": 5,
+     "winner": "Portugal 🇵🇹",
+     "loser": "Brasil 🇧🇷"
+    },
+    "103": {
+     "home": "España 🇪🇸",
+     "away": "Brasil 🇧🇷",
+     "hg": 1,
+     "ag": 2,
+     "ph": null,
+     "pa": null,
+     "winner": "Brasil 🇧🇷",
+     "loser": "España 🇪🇸"
+    },
+    "104": {
+     "home": "Francia 🇫🇷",
+     "away": "Portugal 🇵🇹",
+     "hg": 1,
+     "ag": 0,
+     "ph": null,
+     "pa": null,
+     "winner": "Francia 🇫🇷",
+     "loser": "Portugal 🇵🇹"
+    }
+   },
+   "podio": {
+    "campeon": "Francia 🇫🇷",
+    "subcampeon": "Portugal 🇵🇹",
+    "tercero": "Brasil 🇧🇷",
+    "cuarto": "España 🇪🇸"
    }
   }
  ]

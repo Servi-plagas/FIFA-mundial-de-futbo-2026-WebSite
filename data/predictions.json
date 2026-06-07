@@ -1,6 +1,6 @@
 {
- "generated": "2026-06-07T07:34:15.339Z",
- "count": 155,
+ "generated": "2026-06-07T07:56:37.687Z",
+ "count": 154,
  "entries": [
   {
    "id": "r2",
@@ -760,762 +760,6 @@
   },
   {
    "id": "r3",
-   "contacto": "Adolfo Guerrero",
-   "codigo": "187350",
-   "nombre": "Adolfo Guerrero",
-   "start": "2026-05-27T18:10:33.012Z",
-   "end": "2026-05-27T18:53:06.029Z",
-   "groups": {
-    "A": {
-     "matches": [
-      {
-       "hg": 2,
-       "ag": 0
-      },
-      {
-       "hg": 2,
-       "ag": 1
-      },
-      {
-       "hg": 0,
-       "ag": 2
-      },
-      {
-       "hg": 2,
-       "ag": 2
-      },
-      {
-       "hg": 1,
-       "ag": 2
-      },
-      {
-       "hg": 1,
-       "ag": 3
-      }
-     ],
-     "standings": [
-      "República de Corea 🇰🇷",
-      "México 🇲🇽",
-      "Sudáfrica 🇿🇦",
-      "República Checa 🇨🇿"
-     ]
-    },
-    "B": {
-     "matches": [
-      {
-       "hg": 3,
-       "ag": 0
-      },
-      {
-       "hg": 1,
-       "ag": 1
-      },
-      {
-       "hg": 2,
-       "ag": 0
-      },
-      {
-       "hg": 2,
-       "ag": 1
-      },
-      {
-       "hg": 2,
-       "ag": 1
-      },
-      {
-       "hg": 1,
-       "ag": 0
-      }
-     ],
-     "standings": [
-      "Suiza 🇨🇭",
-      "Canadá 🇨🇦",
-      "Bosnia y Herzegovina 🇧🇦",
-      "Catar 🇶🇦"
-     ]
-    },
-    "C": {
-     "matches": [
-      {
-       "hg": 0,
-       "ag": 3
-      },
-      {
-       "hg": 2,
-       "ag": 1
-      },
-      {
-       "hg": 5,
-       "ag": 0
-      },
-      {
-       "hg": 1,
-       "ag": 3
-      },
-      {
-       "hg": 1,
-       "ag": 3
-      },
-      {
-       "hg": 4,
-       "ag": 0
-      }
-     ],
-     "standings": [
-      "Brasil 🇧🇷",
-      "Marruecos 🇲🇦",
-      "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-      "Haití 🇭🇹"
-     ]
-    },
-    "D": {
-     "matches": [
-      {
-       "hg": 1,
-       "ag": 2
-      },
-      {
-       "hg": 2,
-       "ag": 2
-      },
-      {
-       "hg": 1,
-       "ag": 1
-      },
-      {
-       "hg": 2,
-       "ag": 1
-      },
-      {
-       "hg": 1,
-       "ag": 1
-      },
-      {
-       "hg": 1,
-       "ag": 0
-      }
-     ],
-     "standings": [
-      "Paraguay 🇵🇾",
-      "Estados Unidos 🇺🇸",
-      "Turquía 🇹🇷",
-      "Australia 🇦🇺"
-     ]
-    },
-    "E": {
-     "matches": [
-      {
-       "hg": 1,
-       "ag": 2
-      },
-      {
-       "hg": 5,
-       "ag": 0
-      },
-      {
-       "hg": 2,
-       "ag": 1
-      },
-      {
-       "hg": 3,
-       "ag": 0
-      },
-      {
-       "hg": 1,
-       "ag": 3
-      },
-      {
-       "hg": 1,
-       "ag": 2
-      }
-     ],
-     "standings": [
-      "Alemania 🇩🇪",
-      "Ecuador 🇪🇨",
-      "Costa de Marfil 🇨🇮",
-      "Curazao 🇨🇼"
-     ]
-    },
-    "F": {
-     "matches": [
-      {
-       "hg": 2,
-       "ag": 0
-      },
-      {
-       "hg": 2,
-       "ag": 1
-      },
-      {
-       "hg": 3,
-       "ag": 1
-      },
-      {
-       "hg": 1,
-       "ag": 2
-      },
-      {
-       "hg": 1,
-       "ag": 2
-      },
-      {
-       "hg": 0,
-       "ag": 3
-      }
-     ],
-     "standings": [
-      "Países Bajos 🇳🇱",
-      "Suecia 🇸🇪",
-      "Japón 🇯🇵",
-      "Túnez 🇹🇳"
-     ]
-    },
-    "G": {
-     "matches": [
-      {
-       "hg": 1,
-       "ag": 0
-      },
-      {
-       "hg": 2,
-       "ag": 1
-      },
-      {
-       "hg": 3,
-       "ag": 0
-      },
-      {
-       "hg": 1,
-       "ag": 3
-      },
-      {
-       "hg": 2,
-       "ag": 0
-      },
-      {
-       "hg": 0,
-       "ag": 3
-      }
-     ],
-     "standings": [
-      "Bélgica 🇧🇪",
-      "Egipto 🇪🇬",
-      "Irán 🇮🇷",
-      "Nueva Zelanda 🇳🇿"
-     ]
-    },
-    "H": {
-     "matches": [
-      {
-       "hg": 1,
-       "ag": 2
-      },
-      {
-       "hg": 3,
-       "ag": 0
-      },
-      {
-       "hg": 2,
-       "ag": 0
-      },
-      {
-       "hg": 3,
-       "ag": 1
-      },
-      {
-       "hg": 0,
-       "ag": 2
-      },
-      {
-       "hg": 1,
-       "ag": 1
-      }
-     ],
-     "standings": [
-      "España 🇪🇸",
-      "Uruguay 🇺🇾",
-      "Arabia Saudita 🇸🇦",
-      "Cabo Verde 🇨🇻"
-     ]
-    },
-    "I": {
-     "matches": [
-      {
-       "hg": 3,
-       "ag": 1
-      },
-      {
-       "hg": 1,
-       "ag": 3
-      },
-      {
-       "hg": 2,
-       "ag": 1
-      },
-      {
-       "hg": 5,
-       "ag": 0
-      },
-      {
-       "hg": 1,
-       "ag": 3
-      },
-      {
-       "hg": 2,
-       "ag": 0
-      }
-     ],
-     "standings": [
-      "Francia 🇫🇷",
-      "Noruega 🇳🇴",
-      "Senegal 🇸🇳",
-      "Irak 🇮🇶"
-     ]
-    },
-    "J": {
-     "matches": [
-      {
-       "hg": 2,
-       "ag": 1
-      },
-      {
-       "hg": 1,
-       "ag": 0
-      },
-      {
-       "hg": 3,
-       "ag": 1
-      },
-      {
-       "hg": 1,
-       "ag": 2
-      },
-      {
-       "hg": 1,
-       "ag": 0
-      },
-      {
-       "hg": 0,
-       "ag": 3
-      }
-     ],
-     "standings": [
-      "Argentina 🇦🇷",
-      "Argelia 🇩🇿",
-      "Austria 🇦🇹",
-      "Jordania 🇯🇴"
-     ]
-    },
-    "K": {
-     "matches": [
-      {
-       "hg": 3,
-       "ag": 1
-      },
-      {
-       "hg": 0,
-       "ag": 2
-      },
-      {
-       "hg": 3,
-       "ag": 1
-      },
-      {
-       "hg": 3,
-       "ag": 1
-      },
-      {
-       "hg": 1,
-       "ag": 2
-      },
-      {
-       "hg": 1,
-       "ag": 1
-      }
-     ],
-     "standings": [
-      "Portugal 🇵🇹",
-      "Colombia 🇨🇴",
-      "RD del Congo 🇨🇩",
-      "Uzbekistán 🇺🇿"
-     ]
-    },
-    "L": {
-     "matches": [
-      {
-       "hg": 2,
-       "ag": 1
-      },
-      {
-       "hg": 2,
-       "ag": 2
-      },
-      {
-       "hg": 2,
-       "ag": 1
-      },
-      {
-       "hg": 0,
-       "ag": 2
-      },
-      {
-       "hg": 0,
-       "ag": 4
-      },
-      {
-       "hg": 2,
-       "ag": 1
-      }
-     ],
-     "standings": [
-      "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-      "Croacia 🇭🇷",
-      "Ghana 🇬🇭",
-      "Panamá 🇵🇦"
-     ]
-    }
-   },
-   "thirds": {
-    "p74": "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-    "p77": "Turquía 🇹🇷",
-    "p79": "Arabia Saudita 🇸🇦",
-    "p80": "Senegal 🇸🇳",
-    "p81": "Japón 🇯🇵",
-    "p82": "Sudáfrica 🇿🇦",
-    "p85": "Costa de Marfil 🇨🇮",
-    "p87": "Ghana 🇬🇭"
-   },
-   "knockout": {
-    "73": {
-     "home": "México 🇲🇽",
-     "away": "Canadá 🇨🇦",
-     "hg": 2,
-     "ag": 1,
-     "ph": null,
-     "pa": null,
-     "winner": "México 🇲🇽",
-     "loser": "Canadá 🇨🇦"
-    },
-    "74": {
-     "home": "Alemania 🇩🇪",
-     "away": "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-     "hg": 3,
-     "ag": 1,
-     "ph": null,
-     "pa": null,
-     "winner": "Alemania 🇩🇪",
-     "loser": "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿"
-    },
-    "75": {
-     "home": "Países Bajos 🇳🇱",
-     "away": "Marruecos 🇲🇦",
-     "hg": 2,
-     "ag": 1,
-     "ph": null,
-     "pa": null,
-     "winner": "Países Bajos 🇳🇱",
-     "loser": "Marruecos 🇲🇦"
-    },
-    "76": {
-     "home": "Brasil 🇧🇷",
-     "away": "Suecia 🇸🇪",
-     "hg": 3,
-     "ag": 0,
-     "ph": null,
-     "pa": null,
-     "winner": "Brasil 🇧🇷",
-     "loser": "Suecia 🇸🇪"
-    },
-    "77": {
-     "home": "Francia 🇫🇷",
-     "away": "Turquía 🇹🇷",
-     "hg": 3,
-     "ag": 1,
-     "ph": null,
-     "pa": null,
-     "winner": "Francia 🇫🇷",
-     "loser": "Turquía 🇹🇷"
-    },
-    "78": {
-     "home": "Ecuador 🇪🇨",
-     "away": "Noruega 🇳🇴",
-     "hg": 2,
-     "ag": 2,
-     "ph": 3,
-     "pa": 4,
-     "winner": "Noruega 🇳🇴",
-     "loser": "Ecuador 🇪🇨"
-    },
-    "79": {
-     "home": "República de Corea 🇰🇷",
-     "away": "Arabia Saudita 🇸🇦",
-     "hg": 0,
-     "ag": 1,
-     "ph": null,
-     "pa": null,
-     "winner": "Arabia Saudita 🇸🇦",
-     "loser": "República de Corea 🇰🇷"
-    },
-    "80": {
-     "home": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-     "away": "Senegal 🇸🇳",
-     "hg": 3,
-     "ag": 2,
-     "ph": null,
-     "pa": null,
-     "winner": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-     "loser": "Senegal 🇸🇳"
-    },
-    "81": {
-     "home": "Paraguay 🇵🇾",
-     "away": "Japón 🇯🇵",
-     "hg": 2,
-     "ag": 1,
-     "ph": null,
-     "pa": null,
-     "winner": "Paraguay 🇵🇾",
-     "loser": "Japón 🇯🇵"
-    },
-    "82": {
-     "home": "Bélgica 🇧🇪",
-     "away": "Sudáfrica 🇿🇦",
-     "hg": 3,
-     "ag": 1,
-     "ph": null,
-     "pa": null,
-     "winner": "Bélgica 🇧🇪",
-     "loser": "Sudáfrica 🇿🇦"
-    },
-    "83": {
-     "home": "Colombia 🇨🇴",
-     "away": "Croacia 🇭🇷",
-     "hg": 2,
-     "ag": 3,
-     "ph": null,
-     "pa": null,
-     "winner": "Croacia 🇭🇷",
-     "loser": "Colombia 🇨🇴"
-    },
-    "84": {
-     "home": "España 🇪🇸",
-     "away": "Argelia 🇩🇿",
-     "hg": 3,
-     "ag": 1,
-     "ph": null,
-     "pa": null,
-     "winner": "España 🇪🇸",
-     "loser": "Argelia 🇩🇿"
-    },
-    "85": {
-     "home": "Suiza 🇨🇭",
-     "away": "Costa de Marfil 🇨🇮",
-     "hg": 1,
-     "ag": 0,
-     "ph": null,
-     "pa": null,
-     "winner": "Suiza 🇨🇭",
-     "loser": "Costa de Marfil 🇨🇮"
-    },
-    "86": {
-     "home": "Argentina 🇦🇷",
-     "away": "Uruguay 🇺🇾",
-     "hg": 0,
-     "ag": 1,
-     "ph": null,
-     "pa": null,
-     "winner": "Uruguay 🇺🇾",
-     "loser": "Argentina 🇦🇷"
-    },
-    "87": {
-     "home": "Portugal 🇵🇹",
-     "away": "Ghana 🇬🇭",
-     "hg": 2,
-     "ag": 1,
-     "ph": null,
-     "pa": null,
-     "winner": "Portugal 🇵🇹",
-     "loser": "Ghana 🇬🇭"
-    },
-    "88": {
-     "home": "Estados Unidos 🇺🇸",
-     "away": "Egipto 🇪🇬",
-     "hg": 1,
-     "ag": 0,
-     "ph": null,
-     "pa": null,
-     "winner": "Estados Unidos 🇺🇸",
-     "loser": "Egipto 🇪🇬"
-    },
-    "89": {
-     "home": "Alemania 🇩🇪",
-     "away": "Francia 🇫🇷",
-     "hg": 2,
-     "ag": 3,
-     "ph": null,
-     "pa": null,
-     "winner": "Francia 🇫🇷",
-     "loser": "Alemania 🇩🇪"
-    },
-    "90": {
-     "home": "México 🇲🇽",
-     "away": "Países Bajos 🇳🇱",
-     "hg": 1,
-     "ag": 2,
-     "ph": null,
-     "pa": null,
-     "winner": "Países Bajos 🇳🇱",
-     "loser": "México 🇲🇽"
-    },
-    "91": {
-     "home": "Brasil 🇧🇷",
-     "away": "Noruega 🇳🇴",
-     "hg": 2,
-     "ag": 1,
-     "ph": null,
-     "pa": null,
-     "winner": "Brasil 🇧🇷",
-     "loser": "Noruega 🇳🇴"
-    },
-    "92": {
-     "home": "Arabia Saudita 🇸🇦",
-     "away": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-     "hg": 1,
-     "ag": 3,
-     "ph": null,
-     "pa": null,
-     "winner": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-     "loser": "Arabia Saudita 🇸🇦"
-    },
-    "93": {
-     "home": "Croacia 🇭🇷",
-     "away": "España 🇪🇸",
-     "hg": 1,
-     "ag": 2,
-     "ph": null,
-     "pa": null,
-     "winner": "España 🇪🇸",
-     "loser": "Croacia 🇭🇷"
-    },
-    "94": {
-     "home": "Paraguay 🇵🇾",
-     "away": "Bélgica 🇧🇪",
-     "hg": 2,
-     "ag": 3,
-     "ph": null,
-     "pa": null,
-     "winner": "Bélgica 🇧🇪",
-     "loser": "Paraguay 🇵🇾"
-    },
-    "95": {
-     "home": "Uruguay 🇺🇾",
-     "away": "Estados Unidos 🇺🇸",
-     "hg": 3,
-     "ag": 1,
-     "ph": null,
-     "pa": null,
-     "winner": "Uruguay 🇺🇾",
-     "loser": "Estados Unidos 🇺🇸"
-    },
-    "96": {
-     "home": "Suiza 🇨🇭",
-     "away": "Portugal 🇵🇹",
-     "hg": 1,
-     "ag": 3,
-     "ph": null,
-     "pa": null,
-     "winner": "Portugal 🇵🇹",
-     "loser": "Suiza 🇨🇭"
-    },
-    "97": {
-     "home": "Francia 🇫🇷",
-     "away": "Países Bajos 🇳🇱",
-     "hg": 3,
-     "ag": 2,
-     "ph": null,
-     "pa": null,
-     "winner": "Francia 🇫🇷",
-     "loser": "Países Bajos 🇳🇱"
-    },
-    "98": {
-     "home": "España 🇪🇸",
-     "away": "Bélgica 🇧🇪",
-     "hg": 2,
-     "ag": 1,
-     "ph": null,
-     "pa": null,
-     "winner": "España 🇪🇸",
-     "loser": "Bélgica 🇧🇪"
-    },
-    "99": {
-     "home": "Brasil 🇧🇷",
-     "away": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-     "hg": 3,
-     "ag": 2,
-     "ph": null,
-     "pa": null,
-     "winner": "Brasil 🇧🇷",
-     "loser": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿"
-    },
-    "100": {
-     "home": "Uruguay 🇺🇾",
-     "away": "Portugal 🇵🇹",
-     "hg": 1,
-     "ag": 2,
-     "ph": null,
-     "pa": null,
-     "winner": "Portugal 🇵🇹",
-     "loser": "Uruguay 🇺🇾"
-    },
-    "101": {
-     "home": "Francia 🇫🇷",
-     "away": "España 🇪🇸",
-     "hg": 3,
-     "ag": 2,
-     "ph": null,
-     "pa": null,
-     "winner": "Francia 🇫🇷",
-     "loser": "España 🇪🇸"
-    },
-    "102": {
-     "home": "Brasil 🇧🇷",
-     "away": "Portugal 🇵🇹",
-     "hg": 2,
-     "ag": 3,
-     "ph": null,
-     "pa": null,
-     "winner": "Portugal 🇵🇹",
-     "loser": "Brasil 🇧🇷"
-    },
-    "103": {
-     "home": "España 🇪🇸",
-     "away": "Brasil 🇧🇷",
-     "hg": 2,
-     "ag": 1,
-     "ph": null,
-     "pa": null,
-     "winner": "España 🇪🇸",
-     "loser": "Brasil 🇧🇷"
-    },
-    "104": {
-     "home": "Francia 🇫🇷",
-     "away": "Portugal 🇵🇹",
-     "hg": 0,
-     "ag": 1,
-     "ph": null,
-     "pa": null,
-     "winner": "Portugal 🇵🇹",
-     "loser": "Francia 🇫🇷"
-    }
-   },
-   "podio": {
-    "campeon": "Portugal 🇵🇹",
-    "subcampeon": "Francia 🇫🇷",
-    "tercero": "España 🇪🇸",
-    "cuarto": "Brasil 🇧🇷"
-   }
-  },
-  {
-   "id": "r4",
    "contacto": "Roberto Carpio",
    "codigo": "259597",
    "nombre": "Javith Daniel Vera Carpio",
@@ -2271,7 +1515,7 @@
    }
   },
   {
-   "id": "r5",
+   "id": "r4",
    "contacto": "Roberto Carpio",
    "codigo": "157134",
    "nombre": "Yeison cudriz royero",
@@ -3027,7 +2271,7 @@
    }
   },
   {
-   "id": "r6",
+   "id": "r5",
    "contacto": "Adolfo Guerrero",
    "codigo": "187350",
    "nombre": "Adolfo Guerrero",
@@ -3783,7 +3027,7 @@
    }
   },
   {
-   "id": "r7",
+   "id": "r6",
    "contacto": "Jose Luis Alzate",
    "codigo": "122487",
    "nombre": "Tyrone Steven Orrego Sánchez",
@@ -4539,7 +3783,7 @@
    }
   },
   {
-   "id": "r8",
+   "id": "r7",
    "contacto": "Jose Luis Alzate",
    "codigo": "561775",
    "nombre": "Beatriz Cadavid Barrientos",
@@ -5295,7 +4539,7 @@
    }
   },
   {
-   "id": "r9",
+   "id": "r8",
    "contacto": "Alexander Barrientos",
    "codigo": "334160",
    "nombre": "Gilbert Andrés Negrifo Echeverry",
@@ -6051,7 +5295,7 @@
    }
   },
   {
-   "id": "r10",
+   "id": "r9",
    "contacto": "Roberto Carpio",
    "codigo": "502258",
    "nombre": "Juan Cristóbal Escobar Barrientos",
@@ -6807,7 +6051,7 @@
    }
   },
   {
-   "id": "r11",
+   "id": "r10",
    "contacto": "Roberto Carpio",
    "codigo": "204408",
    "nombre": "Francisco Javier castro moreno",
@@ -7563,7 +6807,7 @@
    }
   },
   {
-   "id": "r12",
+   "id": "r11",
    "contacto": "Alexander Barrientos",
    "codigo": "756878",
    "nombre": "Fanny Barrientos",
@@ -8319,7 +7563,7 @@
    }
   },
   {
-   "id": "r13",
+   "id": "r12",
    "contacto": "Jose Luis Alzate",
    "codigo": "281262",
    "nombre": "Ricardo Ramírez Giraldo",
@@ -9075,7 +8319,7 @@
    }
   },
   {
-   "id": "r14",
+   "id": "r13",
    "contacto": "Alejandra Tamayo",
    "codigo": "845193",
    "nombre": "Alejandra Tamayo",
@@ -9831,7 +9075,7 @@
    }
   },
   {
-   "id": "r15",
+   "id": "r14",
    "contacto": "Alejandra Tamayo",
    "codigo": "114503",
    "nombre": "Alejandra Tamayo",
@@ -10587,7 +9831,7 @@
    }
   },
   {
-   "id": "r16",
+   "id": "r15",
    "contacto": "Roberto Carpio",
    "codigo": "073131",
    "nombre": "John fredy",
@@ -11343,7 +10587,7 @@
    }
   },
   {
-   "id": "r17",
+   "id": "r16",
    "contacto": "Jose Luis Alzate",
    "codigo": "388470",
    "nombre": "Jorge Alberto Cadavid Barrientos",
@@ -12099,7 +11343,7 @@
    }
   },
   {
-   "id": "r18",
+   "id": "r17",
    "contacto": "Alexander Barrientos",
    "codigo": "049722",
    "nombre": "Daniel Echeverry",
@@ -12855,7 +12099,7 @@
    }
   },
   {
-   "id": "r19",
+   "id": "r18",
    "contacto": "Oscar Baquero",
    "codigo": "285809",
    "nombre": "Oscar Mauricio Baquero Cardona",
@@ -13611,7 +12855,7 @@
    }
   },
   {
-   "id": "r20",
+   "id": "r19",
    "contacto": "Jose Luis Alzate",
    "codigo": "606546",
    "nombre": "María del Rosario Barrientos",
@@ -14367,7 +13611,7 @@
    }
   },
   {
-   "id": "r21",
+   "id": "r20",
    "contacto": "Alejandra Tamayo",
    "codigo": "368092",
    "nombre": "ALEJANDRA TAMAYO",
@@ -15123,7 +14367,7 @@
    }
   },
   {
-   "id": "r22",
+   "id": "r21",
    "contacto": "Alejandra Tamayo",
    "codigo": "009162",
    "nombre": "ALEJANDRA TAMAYO",
@@ -15879,7 +15123,7 @@
    }
   },
   {
-   "id": "r23",
+   "id": "r22",
    "contacto": "Brayan Fontalvo",
    "codigo": "853265",
    "nombre": "Betty Morales",
@@ -16635,7 +15879,7 @@
    }
   },
   {
-   "id": "r24",
+   "id": "r23",
    "contacto": "Alejandra Tamayo",
    "codigo": "927658",
    "nombre": "ALEJANDRA TAMAYO",
@@ -17391,7 +16635,7 @@
    }
   },
   {
-   "id": "r25",
+   "id": "r24",
    "contacto": "Alejandra Tamayo",
    "codigo": "726858",
    "nombre": "NERY BARRIENTOS",
@@ -18147,7 +17391,7 @@
    }
   },
   {
-   "id": "r26",
+   "id": "r25",
    "contacto": "Alejandra Tamayo",
    "codigo": "646666",
    "nombre": "ALEJANDRA TAMAYO",
@@ -18903,7 +18147,7 @@
    }
   },
   {
-   "id": "r27",
+   "id": "r26",
    "contacto": "Fernando Quintero",
    "codigo": "861924",
    "nombre": "Edward González",
@@ -19659,7 +18903,7 @@
    }
   },
   {
-   "id": "r28",
+   "id": "r27",
    "contacto": "Fernando Quintero",
    "codigo": "569298",
    "nombre": "Fernando Quintero",
@@ -20415,7 +19659,7 @@
    }
   },
   {
-   "id": "r29",
+   "id": "r28",
    "contacto": "Roberto Carpio",
    "codigo": "455633",
    "nombre": "WENDY MORENO",
@@ -21171,7 +20415,7 @@
    }
   },
   {
-   "id": "r30",
+   "id": "r29",
    "contacto": "Ethan Alzate",
    "codigo": "608423",
    "nombre": "Edwin albeiro vanegas rios",
@@ -21927,7 +21171,7 @@
    }
   },
   {
-   "id": "r31",
+   "id": "r30",
    "contacto": "Ethan Alzate",
    "codigo": "541630",
    "nombre": "JEISSON ESCOBAR",
@@ -22683,7 +21927,7 @@
    }
   },
   {
-   "id": "r32",
+   "id": "r31",
    "contacto": "Alexander Barrientos",
    "codigo": "819682",
    "nombre": "Hector  Manuel Quiroz Zambrano",
@@ -23439,7 +22683,7 @@
    }
   },
   {
-   "id": "r33",
+   "id": "r32",
    "contacto": "Ethan Alzate",
    "codigo": "232329",
    "nombre": "Andres Camilo Quintero Toro",
@@ -24195,7 +23439,7 @@
    }
   },
   {
-   "id": "r34",
+   "id": "r33",
    "contacto": "Ethan Alzate",
    "codigo": "717470",
    "nombre": "Emmanuel Villegas",
@@ -24951,7 +24195,7 @@
    }
   },
   {
-   "id": "r35",
+   "id": "r34",
    "contacto": "Paula Andrea Morales",
    "codigo": "056747",
    "nombre": "Néstor Alonso",
@@ -25707,7 +24951,7 @@
    }
   },
   {
-   "id": "r36",
+   "id": "r35",
    "contacto": "Paula Andrea Morales",
    "codigo": "769459",
    "nombre": "Jhon Jairo Londoño Gallego",
@@ -26463,7 +25707,7 @@
    }
   },
   {
-   "id": "r37",
+   "id": "r36",
    "contacto": "Alveiro Alzate",
    "codigo": "326713",
    "nombre": "Daniela Alzate Tamayo",
@@ -27219,7 +26463,7 @@
    }
   },
   {
-   "id": "r38",
+   "id": "r37",
    "contacto": "Alveiro Alzate",
    "codigo": "341723",
    "nombre": "Marco Tulio Lopez Romero",
@@ -27975,7 +27219,7 @@
    }
   },
   {
-   "id": "r39",
+   "id": "r38",
    "contacto": "Adolfo Guerrero",
    "codigo": "373737",
    "nombre": "Felipe Guerrero",
@@ -28731,7 +27975,7 @@
    }
   },
   {
-   "id": "r40",
+   "id": "r39",
    "contacto": "Oscar Baquero",
    "codigo": "103030",
    "nombre": "Jhon Fredy Ortiz Uribe",
@@ -29487,7 +28731,7 @@
    }
   },
   {
-   "id": "r41",
+   "id": "r40",
    "contacto": "Adolfo Guerrero",
    "codigo": "348515",
    "nombre": "JUAN JOSÉ GARIZADO MERCADO",
@@ -30243,7 +29487,7 @@
    }
   },
   {
-   "id": "r42",
+   "id": "r41",
    "contacto": "Adolfo Guerrero",
    "codigo": "418697",
    "nombre": "Juan Guillermo Guerrero",
@@ -30999,7 +30243,7 @@
    }
   },
   {
-   "id": "r43",
+   "id": "r42",
    "contacto": "Oscar Baquero",
    "codigo": "285809",
    "nombre": "Oscar Baquero",
@@ -31755,7 +30999,7 @@
    }
   },
   {
-   "id": "r44",
+   "id": "r43",
    "contacto": "Paula Andrea Morales",
    "codigo": "926764",
    "nombre": "Nelcy Perez",
@@ -32511,7 +31755,7 @@
    }
   },
   {
-   "id": "r45",
+   "id": "r44",
    "contacto": "Alveiro Alzate",
    "codigo": "281676",
    "nombre": "Hector Jaime Franco Ariza",
@@ -33267,7 +32511,7 @@
    }
   },
   {
-   "id": "r46",
+   "id": "r45",
    "contacto": "Roberto Carpio",
    "codigo": "934279",
    "nombre": "Jimena Cossio Patiño",
@@ -34023,7 +33267,7 @@
    }
   },
   {
-   "id": "r47",
+   "id": "r46",
    "contacto": "Oscar Baquero",
    "codigo": "920649",
    "nombre": "OSCAR BAQUERO",
@@ -34779,7 +34023,7 @@
    }
   },
   {
-   "id": "r48",
+   "id": "r47",
    "contacto": "Alexander Barrientos",
    "codigo": "821665",
    "nombre": "MILLER GARCÍA DUQUE",
@@ -35535,7 +34779,7 @@
    }
   },
   {
-   "id": "r49",
+   "id": "r48",
    "contacto": "Alejandra Tamayo",
    "codigo": "770489",
    "nombre": "ALEJANDRA TAMAYO / ETHAN",
@@ -36291,7 +35535,7 @@
    }
   },
   {
-   "id": "r50",
+   "id": "r49",
    "contacto": "Alveiro Alzate",
    "codigo": "103061",
    "nombre": "catalina maturana",
@@ -37047,7 +36291,7 @@
    }
   },
   {
-   "id": "r51",
+   "id": "r50",
    "contacto": "Jose Luis Alzate",
    "codigo": "024974",
    "nombre": "César Augusto Martínez Álvarez",
@@ -37803,7 +37047,7 @@
    }
   },
   {
-   "id": "r52",
+   "id": "r51",
    "contacto": "Alejandra Tamayo",
    "codigo": "366632",
    "nombre": "Jose Luis Alzate Tamayo",
@@ -38559,7 +37803,7 @@
    }
   },
   {
-   "id": "r53",
+   "id": "r52",
    "contacto": "Alejandra Tamayo",
    "codigo": "687313",
    "nombre": "Jose Luis Alzate Tamayo",
@@ -39315,7 +38559,7 @@
    }
   },
   {
-   "id": "r54",
+   "id": "r53",
    "contacto": "Alejandra Tamayo",
    "codigo": "942944",
    "nombre": "ALEJANDRA TAMAYO",
@@ -40071,7 +39315,7 @@
    }
   },
   {
-   "id": "r55",
+   "id": "r54",
    "contacto": "Alejandra Tamayo",
    "codigo": "129855",
    "nombre": "ALEJANDRA TAMAYO",
@@ -40827,7 +40071,7 @@
    }
   },
   {
-   "id": "r56",
+   "id": "r55",
    "contacto": "Paula Andrea Morales",
    "codigo": "533308",
    "nombre": "Paula Andrea Morales",
@@ -41583,7 +40827,7 @@
    }
   },
   {
-   "id": "r57",
+   "id": "r56",
    "contacto": "Oscar Baquero",
    "codigo": "033706",
    "nombre": "Omar Dario Ortiz Uribe",
@@ -42339,7 +41583,7 @@
    }
   },
   {
-   "id": "r58",
+   "id": "r57",
    "contacto": "Paula Andrea Morales",
    "codigo": "004028",
    "nombre": "Gabriel Alejandro Serna Duarte",
@@ -43095,7 +42339,7 @@
    }
   },
   {
-   "id": "r59",
+   "id": "r58",
    "contacto": "Paula Andrea Morales",
    "codigo": "833702",
    "nombre": "Oswaldo Morales Perez",
@@ -43851,7 +43095,7 @@
    }
   },
   {
-   "id": "r60",
+   "id": "r59",
    "contacto": "Fernando Quintero",
    "codigo": "990761",
    "nombre": "Victor vergara",
@@ -44607,7 +43851,7 @@
    }
   },
   {
-   "id": "r61",
+   "id": "r60",
    "contacto": "Alejandra Tamayo",
    "codigo": "221449",
    "nombre": "ALEJANDRA TAMAYO",
@@ -45363,7 +44607,7 @@
    }
   },
   {
-   "id": "r62",
+   "id": "r61",
    "contacto": "Alejandra Tamayo",
    "codigo": "395920",
    "nombre": "Jose Luis Alzate Tamayo",
@@ -46119,7 +45363,7 @@
    }
   },
   {
-   "id": "r63",
+   "id": "r62",
    "contacto": "Alejandra Tamayo",
    "codigo": "246376",
    "nombre": "Ethan Alzate Tamayo",
@@ -46875,7 +46119,7 @@
    }
   },
   {
-   "id": "r64",
+   "id": "r63",
    "contacto": "Alejandra Tamayo",
    "codigo": "146522",
    "nombre": "ALEJANDRA TAMAYO - NERY",
@@ -47631,7 +46875,7 @@
    }
   },
   {
-   "id": "r65",
+   "id": "r64",
    "contacto": "Alejandra Tamayo",
    "codigo": "943180",
    "nombre": "ALEJANDRA TAMAYO",
@@ -48387,7 +47631,7 @@
    }
   },
   {
-   "id": "r66",
+   "id": "r65",
    "contacto": "Alejandra Tamayo",
    "codigo": "243593",
    "nombre": "NERY BARRIENTOS URIBE",
@@ -49143,7 +48387,7 @@
    }
   },
   {
-   "id": "r67",
+   "id": "r66",
    "contacto": "Alejandra Tamayo",
    "codigo": "392251",
    "nombre": "ALEJANDRA TAMAYO",
@@ -49899,7 +49143,7 @@
    }
   },
   {
-   "id": "r68",
+   "id": "r67",
    "contacto": "Alejandra Tamayo",
    "codigo": "424689",
    "nombre": "Sandra Viviana Cañaveral",
@@ -50655,7 +49899,7 @@
    }
   },
   {
-   "id": "r69",
+   "id": "r68",
    "contacto": "Alejandra Tamayo",
    "codigo": "485932",
    "nombre": "ALEJANDRA TAMAYO",
@@ -51411,12 +50655,12 @@
    }
   },
   {
-   "id": "r70",
+   "id": "r69",
    "contacto": "Alejandra Tamayo",
-   "codigo": "485932",
+   "codigo": "454597",
    "nombre": "ALEJANDRA TAMAYO",
    "start": "2026-06-04T16:12:12.612Z",
-   "end": "2026-06-04T17:14:11.832Z",
+   "end": "2026-06-07T07:40:35.442Z",
    "groups": {
     "A": {
      "matches": [
@@ -52167,7 +51411,7 @@
    }
   },
   {
-   "id": "r71",
+   "id": "r70",
    "contacto": "Alejandra Tamayo",
    "codigo": "784286",
    "nombre": "ALEJANDRA TAMAYO",
@@ -52923,7 +52167,7 @@
    }
   },
   {
-   "id": "r72",
+   "id": "r71",
    "contacto": "Alveiro Alzate",
    "codigo": "981979",
    "nombre": "Alberto Alzate Mora",
@@ -53679,7 +52923,7 @@
    }
   },
   {
-   "id": "r73",
+   "id": "r72",
    "contacto": "Alexander Barrientos",
    "codigo": "477651",
    "nombre": "Ana Sofia Barrientos",
@@ -54435,7 +53679,7 @@
    }
   },
   {
-   "id": "r74",
+   "id": "r73",
    "contacto": "Brayan Fontalvo",
    "codigo": "349594",
    "nombre": "Estefania Fontalvo",
@@ -55191,7 +54435,7 @@
    }
   },
   {
-   "id": "r75",
+   "id": "r74",
    "contacto": "Roberto Carpio",
    "codigo": "804648",
    "nombre": "NESTOR SUAREZ",
@@ -55947,7 +55191,7 @@
    }
   },
   {
-   "id": "r76",
+   "id": "r75",
    "contacto": "Alejandra Tamayo",
    "codigo": "732585",
    "nombre": "Jose Luis Alzate Tamayo",
@@ -56703,7 +55947,7 @@
    }
   },
   {
-   "id": "r77",
+   "id": "r76",
    "contacto": "Sandra Jaramillo",
    "codigo": "750148",
    "nombre": "Marvin Santiago Osorio Yepes",
@@ -57459,7 +56703,7 @@
    }
   },
   {
-   "id": "r78",
+   "id": "r77",
    "contacto": "Jose Luis Alzate",
    "codigo": "645441",
    "nombre": "Roger Cogollo",
@@ -58215,7 +57459,7 @@
    }
   },
   {
-   "id": "r79",
+   "id": "r78",
    "contacto": "Alveiro Alzate",
    "codigo": "793891",
    "nombre": "ALVEIRO ALZATE CÁRDENAS",
@@ -58971,7 +58215,7 @@
    }
   },
   {
-   "id": "r80",
+   "id": "r79",
    "contacto": "Adolfo Guerrero",
    "codigo": "640124",
    "nombre": "Adolfo Guerrero",
@@ -59727,7 +58971,7 @@
    }
   },
   {
-   "id": "r81",
+   "id": "r80",
    "contacto": "Adolfo Guerrero",
    "codigo": "309838",
    "nombre": "Juan Guillermo",
@@ -60483,7 +59727,7 @@
    }
   },
   {
-   "id": "r82",
+   "id": "r81",
    "contacto": "Adolfo Guerrero",
    "codigo": "014972",
    "nombre": "RAUL ANTONIO GARIZADO FERNANDEZ",
@@ -61239,7 +60483,7 @@
    }
   },
   {
-   "id": "r83",
+   "id": "r82",
    "contacto": "Adolfo Guerrero",
    "codigo": "156987",
    "nombre": "Juan Guillermo",
@@ -61995,7 +61239,7 @@
    }
   },
   {
-   "id": "r84",
+   "id": "r83",
    "contacto": "Alejandra Tamayo",
    "codigo": "415486",
    "nombre": "Ethan Alzate Cañaveral",
@@ -62751,7 +61995,7 @@
    }
   },
   {
-   "id": "r85",
+   "id": "r84",
    "contacto": "Alejandra Tamayo",
    "codigo": "905043",
    "nombre": "ALEJANDRA TAMAYO",
@@ -63507,7 +62751,7 @@
    }
   },
   {
-   "id": "r86",
+   "id": "r85",
    "contacto": "Paula Andrea Morales",
    "codigo": "650641",
    "nombre": "Alejandra Higuita",
@@ -64263,7 +63507,7 @@
    }
   },
   {
-   "id": "r87",
+   "id": "r86",
    "contacto": "Alejandra Tamayo",
    "codigo": "342140",
    "nombre": "Jhorman Bolivar Cañaveral",
@@ -65019,7 +64263,7 @@
    }
   },
   {
-   "id": "r88",
+   "id": "r87",
    "contacto": "Alejandra Tamayo",
    "codigo": "936873",
    "nombre": "ALEJANDRA TAMAYO",
@@ -65775,7 +65019,7 @@
    }
   },
   {
-   "id": "r89",
+   "id": "r88",
    "contacto": "Alejandra Tamayo",
    "codigo": "928336",
    "nombre": "Sandra Viviana Cañaveral Ospina",
@@ -66531,7 +65775,7 @@
    }
   },
   {
-   "id": "r90",
+   "id": "r89",
    "contacto": "Alejandra Tamayo",
    "codigo": "161398",
    "nombre": "ALEJANDRA TAMAYO / ETHAN ALZATE",
@@ -67287,7 +66531,7 @@
    }
   },
   {
-   "id": "r91",
+   "id": "r90",
    "contacto": "Alejandra Tamayo",
    "codigo": "187443",
    "nombre": "Jhorman Bolivar",
@@ -68043,7 +67287,7 @@
    }
   },
   {
-   "id": "r92",
+   "id": "r91",
    "contacto": "Alveiro Alzate",
    "codigo": "519686",
    "nombre": "Dario de Jesús Cardona Valencia",
@@ -68799,7 +68043,7 @@
    }
   },
   {
-   "id": "r93",
+   "id": "r92",
    "contacto": "Alejandra Tamayo",
    "codigo": "455993",
    "nombre": "NERY BARRIENTOS URIBE - PAGADA",
@@ -69555,7 +68799,7 @@
    }
   },
   {
-   "id": "r94",
+   "id": "r93",
    "contacto": "Alejandra Tamayo",
    "codigo": "900532",
    "nombre": "ALEJANDRA TAMAYO",
@@ -70311,7 +69555,7 @@
    }
   },
   {
-   "id": "r95",
+   "id": "r94",
    "contacto": "Kennys Lara",
    "codigo": "566016",
    "nombre": "Diego Maya",
@@ -71067,7 +70311,7 @@
    }
   },
   {
-   "id": "r96",
+   "id": "r95",
    "contacto": "Alejandra Tamayo",
    "codigo": "808743",
    "nombre": "ALEJANDRA TAMAYO",
@@ -71823,7 +71067,7 @@
    }
   },
   {
-   "id": "r97",
+   "id": "r96",
    "contacto": "Ethan Alzate",
    "codigo": "437587",
    "nombre": "Mauricio Yepes",
@@ -72579,7 +71823,7 @@
    }
   },
   {
-   "id": "r98",
+   "id": "r97",
    "contacto": "Adolfo Guerrero",
    "codigo": "853188",
    "nombre": "José Alexander Barrientos",
@@ -73335,7 +72579,7 @@
    }
   },
   {
-   "id": "r99",
+   "id": "r98",
    "contacto": "Brayan Fontalvo",
    "codigo": "001849",
    "nombre": "Fidel morales",
@@ -74091,7 +73335,7 @@
    }
   },
   {
-   "id": "r100",
+   "id": "r99",
    "contacto": "Adolfo Guerrero",
    "codigo": "283208",
    "nombre": "Felipe Guerrero",
@@ -74847,7 +74091,7 @@
    }
   },
   {
-   "id": "r101",
+   "id": "r100",
    "contacto": "Brayan Fontalvo",
    "codigo": "496089",
    "nombre": "Javith10 Vera Carpio",
@@ -75603,7 +74847,7 @@
    }
   },
   {
-   "id": "r102",
+   "id": "r101",
    "contacto": "Brayan Fontalvo",
    "codigo": "182774",
    "nombre": "Mary helena martinez",
@@ -76359,7 +75603,7 @@
    }
   },
   {
-   "id": "r103",
+   "id": "r102",
    "contacto": "Oscar Baquero",
    "codigo": "749406",
    "nombre": "Adriana Cardona",
@@ -77115,7 +76359,7 @@
    }
   },
   {
-   "id": "r104",
+   "id": "r103",
    "contacto": "Brayan Fontalvo",
    "codigo": "557355",
    "nombre": "Teresa Morales Royero",
@@ -77871,7 +77115,7 @@
    }
   },
   {
-   "id": "r105",
+   "id": "r104",
    "contacto": "Brayan Fontalvo",
    "codigo": "843481",
    "nombre": "Brayan fontalvo",
@@ -78627,7 +77871,7 @@
    }
   },
   {
-   "id": "r106",
+   "id": "r105",
    "contacto": "Adolfo Guerrero",
    "codigo": "312275",
    "nombre": "Adolfo Guerrero",
@@ -79383,7 +78627,7 @@
    }
   },
   {
-   "id": "r107",
+   "id": "r106",
    "contacto": "Alveiro Alzate",
    "codigo": "732154",
    "nombre": "Jhonny Albeiro Ibarra Ibarra",
@@ -80139,7 +79383,7 @@
    }
   },
   {
-   "id": "r108",
+   "id": "r107",
    "contacto": "Adolfo Guerrero",
    "codigo": "848032",
    "nombre": "Adolfo Guerrero",
@@ -80895,7 +80139,7 @@
    }
   },
   {
-   "id": "r109",
+   "id": "r108",
    "contacto": "Alejandra Tamayo",
    "codigo": "421913",
    "nombre": "Alejandra Tamayo",
@@ -81651,7 +80895,7 @@
    }
   },
   {
-   "id": "r110",
+   "id": "r109",
    "contacto": "Alejandra Tamayo",
    "codigo": "493993",
    "nombre": "Alejandra Tamayo",
@@ -82407,7 +81651,7 @@
    }
   },
   {
-   "id": "r111",
+   "id": "r110",
    "contacto": "Alejandra Tamayo",
    "codigo": "369163",
    "nombre": "Alejandra Tamayo",
@@ -83163,7 +82407,7 @@
    }
   },
   {
-   "id": "r112",
+   "id": "r111",
    "contacto": "Alejandra Tamayo",
    "codigo": "752192",
    "nombre": "Alejandra Tamayo",
@@ -83919,7 +83163,7 @@
    }
   },
   {
-   "id": "r113",
+   "id": "r112",
    "contacto": "Alejandra Tamayo",
    "codigo": "952042",
    "nombre": "Alejandro Tamayo",
@@ -84675,7 +83919,7 @@
    }
   },
   {
-   "id": "r114",
+   "id": "r113",
    "contacto": "Alejandra Tamayo",
    "codigo": "954887",
    "nombre": "Jose Luis Alzate Tamayo",
@@ -85431,7 +84675,7 @@
    }
   },
   {
-   "id": "r115",
+   "id": "r114",
    "contacto": "Alejandra Tamayo",
    "codigo": "772938",
    "nombre": "Jose Luis Alzate Tamayo",
@@ -86187,7 +85431,7 @@
    }
   },
   {
-   "id": "r116",
+   "id": "r115",
    "contacto": "Alveiro Alzate",
    "codigo": "150491",
    "nombre": "Santiago Restrepo Burgos",
@@ -86943,7 +86187,7 @@
    }
   },
   {
-   "id": "r117",
+   "id": "r116",
    "contacto": "Alveiro Alzate",
    "codigo": "631440",
    "nombre": "Alex restrepo",
@@ -87699,7 +86943,7 @@
    }
   },
   {
-   "id": "r118",
+   "id": "r117",
    "contacto": "Alveiro Alzate",
    "codigo": "118154",
    "nombre": "Juan Felipe Rivera",
@@ -88455,7 +87699,7 @@
    }
   },
   {
-   "id": "r119",
+   "id": "r118",
    "contacto": "Ethan Alzate",
    "codigo": "511960",
    "nombre": "Renato Castro",
@@ -89211,7 +88455,7 @@
    }
   },
   {
-   "id": "r120",
+   "id": "r119",
    "contacto": "Alveiro Alzate",
    "codigo": "073530",
    "nombre": "Dora Cristina Barrientos Villegas",
@@ -89967,7 +89211,7 @@
    }
   },
   {
-   "id": "r121",
+   "id": "r120",
    "contacto": "Juan Daniel Larios",
    "codigo": "714815",
    "nombre": "Juan Daniel Larios López",
@@ -90723,7 +89967,7 @@
    }
   },
   {
-   "id": "r122",
+   "id": "r121",
    "contacto": "Alejandra Tamayo",
    "codigo": "808743",
    "nombre": "ALEJANDRA TAMAYO",
@@ -91479,7 +90723,7 @@
    }
   },
   {
-   "id": "r123",
+   "id": "r122",
    "contacto": "Adolfo Guerrero",
    "codigo": "800294",
    "nombre": "Juan Guillermo",
@@ -92235,7 +91479,7 @@
    }
   },
   {
-   "id": "r124",
+   "id": "r123",
    "contacto": "Alejandra Tamayo",
    "codigo": "252081",
    "nombre": "ALEJANDRA TAMAYO",
@@ -92991,7 +92235,7 @@
    }
   },
   {
-   "id": "r125",
+   "id": "r124",
    "contacto": "Adolfo Guerrero",
    "codigo": "337409",
    "nombre": "Juan Guillermo",
@@ -93747,7 +92991,7 @@
    }
   },
   {
-   "id": "r126",
+   "id": "r125",
    "contacto": "Juan Daniel Larios",
    "codigo": "409218",
    "nombre": "Juan Daniel Larios López",
@@ -94503,7 +93747,7 @@
    }
   },
   {
-   "id": "r127",
+   "id": "r126",
    "contacto": "Alejandra Tamayo",
    "codigo": "591296",
    "nombre": "Alejandra Tamayo",
@@ -95259,7 +94503,7 @@
    }
   },
   {
-   "id": "r128",
+   "id": "r127",
    "contacto": "Adolfo Guerrero",
    "codigo": "599728",
    "nombre": "Juan Guillermo",
@@ -96015,7 +95259,7 @@
    }
   },
   {
-   "id": "r129",
+   "id": "r128",
    "contacto": "Juan Daniel Larios",
    "codigo": "467418",
    "nombre": "Johan Sebastian centeno rivera",
@@ -96771,7 +96015,7 @@
    }
   },
   {
-   "id": "r130",
+   "id": "r129",
    "contacto": "Alejandra Tamayo",
    "codigo": "040701",
    "nombre": "ALEJANDRA TAMAYO",
@@ -97527,7 +96771,7 @@
    }
   },
   {
-   "id": "r131",
+   "id": "r130",
    "contacto": "Alejandra Tamayo",
    "codigo": "364016",
    "nombre": "ALEJANDRA TAMAYO",
@@ -98283,7 +97527,7 @@
    }
   },
   {
-   "id": "r132",
+   "id": "r131",
    "contacto": "Adolfo Guerrero",
    "codigo": "857971",
    "nombre": "Juan Guillermo",
@@ -99039,7 +98283,7 @@
    }
   },
   {
-   "id": "r133",
+   "id": "r132",
    "contacto": "Alejandra Tamayo",
    "codigo": "667333",
    "nombre": "ALEJANDRA TAMAYO",
@@ -99795,7 +99039,7 @@
    }
   },
   {
-   "id": "r134",
+   "id": "r133",
    "contacto": "Oscar Baquero",
    "codigo": "533973",
    "nombre": "Daniel Felipe Atehortúa Cano",
@@ -100551,7 +99795,7 @@
    }
   },
   {
-   "id": "r135",
+   "id": "r134",
    "contacto": "Alejandra Tamayo",
    "codigo": "363783",
    "nombre": "Alejandra Tamayo",
@@ -101307,7 +100551,7 @@
    }
   },
   {
-   "id": "r136",
+   "id": "r135",
    "contacto": "Alejandra Tamayo",
    "codigo": "028906",
    "nombre": "ALEJANDRA TAMAYO",
@@ -102063,7 +101307,7 @@
    }
   },
   {
-   "id": "r137",
+   "id": "r136",
    "contacto": "Adolfo Guerrero",
    "codigo": "058409",
    "nombre": "Felipe Guerrero",
@@ -102819,7 +102063,7 @@
    }
   },
   {
-   "id": "r138",
+   "id": "r137",
    "contacto": "Adolfo Guerrero",
    "codigo": "640843",
    "nombre": "Alejandra Gil",
@@ -103575,7 +102819,7 @@
    }
   },
   {
-   "id": "r139",
+   "id": "r138",
    "contacto": "Brayan Fontalvo",
    "codigo": "746052",
    "nombre": "David Esteban Vanegas Parra",
@@ -104331,7 +103575,7 @@
    }
   },
   {
-   "id": "r140",
+   "id": "r139",
    "contacto": "Alejandra Tamayo",
    "codigo": "372600",
    "nombre": "Alejandra Tamayo",
@@ -105087,7 +104331,7 @@
    }
   },
   {
-   "id": "r141",
+   "id": "r140",
    "contacto": "Alejandra Tamayo",
    "codigo": "874644",
    "nombre": "ALEJANDRA TAMAYO",
@@ -105843,7 +105087,7 @@
    }
   },
   {
-   "id": "r142",
+   "id": "r141",
    "contacto": "Juan Daniel Larios",
    "codigo": "455708",
    "nombre": "Jean Carlos Navarro",
@@ -106599,7 +105843,7 @@
    }
   },
   {
-   "id": "r143",
+   "id": "r142",
    "contacto": "Juan Daniel Larios",
    "codigo": "492005",
    "nombre": "Alessandro Larios López",
@@ -107355,7 +106599,7 @@
    }
   },
   {
-   "id": "r144",
+   "id": "r143",
    "contacto": "Alejandra Tamayo",
    "codigo": "959495",
    "nombre": "Alejandra Tamayo",
@@ -108111,7 +107355,7 @@
    }
   },
   {
-   "id": "r145",
+   "id": "r144",
    "contacto": "Alejandra Tamayo",
    "codigo": "859621",
    "nombre": "ALEJANDRA TAMAYO",
@@ -108867,7 +108111,7 @@
    }
   },
   {
-   "id": "r146",
+   "id": "r145",
    "contacto": "Alejandra Tamayo",
    "codigo": "651020",
    "nombre": "ALEJANDRA TAMAYO",
@@ -109623,7 +108867,7 @@
    }
   },
   {
-   "id": "r147",
+   "id": "r146",
    "contacto": "Juan Daniel Larios",
    "codigo": "366703",
    "nombre": "Jean Navarro",
@@ -110379,7 +109623,7 @@
    }
   },
   {
-   "id": "r148",
+   "id": "r147",
    "contacto": "Alejandra Tamayo",
    "codigo": "827889",
    "nombre": "ALEJANDRA TAMAYO",
@@ -111135,7 +110379,7 @@
    }
   },
   {
-   "id": "r149",
+   "id": "r148",
    "contacto": "Brayan Fontalvo",
    "codigo": "514848",
    "nombre": "Over lejias",
@@ -111891,7 +111135,7 @@
    }
   },
   {
-   "id": "r150",
+   "id": "r149",
    "contacto": "Jose Luis Alzate",
    "codigo": "780866",
    "nombre": "Omar Echeverry A",
@@ -112647,7 +111891,7 @@
    }
   },
   {
-   "id": "r151",
+   "id": "r150",
    "contacto": "Juan Daniel Larios",
    "codigo": "325938",
    "nombre": "Jean carlos",
@@ -113403,7 +112647,7 @@
    }
   },
   {
-   "id": "r152",
+   "id": "r151",
    "contacto": "Jose Luis Alzate",
    "codigo": "834325",
    "nombre": "Juan Pablo Mazo Urrea",
@@ -114159,7 +113403,7 @@
    }
   },
   {
-   "id": "r153",
+   "id": "r152",
    "contacto": "Alexander Barrientos",
    "codigo": "412684",
    "nombre": "JUAN FERNANDO MONTOYA",
@@ -114915,7 +114159,7 @@
    }
   },
   {
-   "id": "r154",
+   "id": "r153",
    "contacto": "Adolfo Guerrero",
    "codigo": "199813",
    "nombre": "Cristian cardoza",
@@ -115671,7 +114915,7 @@
    }
   },
   {
-   "id": "r155",
+   "id": "r154",
    "contacto": "Alejandra Tamayo",
    "codigo": "322683",
    "nombre": "Alejandra Tamayo",
@@ -116427,7 +115671,7 @@
    }
   },
   {
-   "id": "r156",
+   "id": "r155",
    "contacto": "Alejandra Tamayo",
    "codigo": "184863",
    "nombre": "Alejandra Tamayo",

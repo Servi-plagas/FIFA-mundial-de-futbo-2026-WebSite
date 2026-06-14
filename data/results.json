@@ -99,14 +99,14 @@
     {
      "home": "Haití 🇭🇹",
      "away": "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-     "hg": null,
-     "ag": null
+     "hg": 0,
+     "ag": 1
     },
     {
      "home": "Brasil 🇧🇷",
      "away": "Marruecos 🇲🇦",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 1
     },
     {
      "home": "Brasil 🇧🇷",
@@ -151,8 +151,8 @@
     {
      "home": "Australia 🇦🇺",
      "away": "Turquía 🇹🇷",
-     "hg": null,
-     "ag": null
+     "hg": 2,
+     "ag": 0
     },
     {
      "home": "Turquía 🇹🇷",

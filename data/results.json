@@ -335,8 +335,8 @@
     {
      "home": "España 🇪🇸",
      "away": "Cabo Verde 🇨🇻",
-     "hg": null,
-     "ag": null
+     "hg": 0,
+     "ag": 0
     },
     {
      "home": "Uruguay 🇺🇾",

@@ -329,8 +329,8 @@
     {
      "home": "Arabia Saudita 🇸🇦",
      "away": "Uruguay 🇺🇾",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 1
     },
     {
      "home": "España 🇪🇸",

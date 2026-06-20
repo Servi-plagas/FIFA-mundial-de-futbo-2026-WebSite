@@ -157,8 +157,8 @@
     {
      "home": "Turquía 🇹🇷",
      "away": "Paraguay 🇵🇾",
-     "hg": null,
-     "ag": null
+     "hg": 0,
+     "ag": 1
     },
     {
      "home": "Estados Unidos 🇺🇸",

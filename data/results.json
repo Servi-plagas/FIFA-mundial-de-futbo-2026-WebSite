@@ -295,8 +295,8 @@
     {
      "home": "Bélgica 🇧🇪",
      "away": "Irán 🇮🇷",
-     "hg": null,
-     "ag": null
+     "hg": 0,
+     "ag": 0
     },
     {
      "home": "Nueva Zelanda 🇳🇿",

@@ -525,8 +525,8 @@
     {
      "home": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
      "away": "Ghana 🇬🇭",
-     "hg": null,
-     "ag": null
+     "hg": 0,
+     "ag": 0
     },
     {
      "home": "Panamá 🇵🇦",

@@ -531,8 +531,8 @@
     {
      "home": "Panamá 🇵🇦",
      "away": "Croacia 🇭🇷",
-     "hg": null,
-     "ag": null
+     "hg": 0,
+     "ag": 1
     },
     {
      "home": "Panamá 🇵🇦",

@@ -37,8 +37,8 @@
     {
      "home": "Sudáfrica 🇿🇦",
      "away": "República de Corea 🇰🇷",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 0
     }
    ],
    "standings": [

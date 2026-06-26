@@ -215,8 +215,8 @@
     {
      "home": "Curazao 🇨🇼",
      "away": "Costa de Marfil 🇨🇮",
-     "hg": null,
-     "ag": null
+     "hg": 0,
+     "ag": 2
     },
     {
      "home": "Ecuador 🇪🇨",

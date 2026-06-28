@@ -491,8 +491,8 @@
     {
      "home": "Colombia 🇨🇴",
      "away": "Portugal 🇵🇹",
-     "hg": null,
-     "ag": null
+     "hg": 0,
+     "ag": 0
     },
     {
      "home": "RD del Congo 🇨🇩",

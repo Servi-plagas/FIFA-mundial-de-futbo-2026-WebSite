@@ -307,8 +307,8 @@
     {
      "home": "Egipto 🇪🇬",
      "away": "Irán 🇮🇷",
-     "hg": null,
-     "ag": null
+     "hg": 1,
+     "ag": 1
     },
     {
      "home": "Nueva Zelanda 🇳🇿",

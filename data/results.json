@@ -570,8 +570,8 @@
    "round": "R32",
    "home": "Sudáfrica 🇿🇦",
    "away": "Canadá 🇨🇦",
-   "hg": null,
-   "ag": null,
+   "hg": 0,
+   "ag": 1,
    "ph": null,
    "pa": null
   },

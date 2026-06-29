@@ -597,8 +597,8 @@
    "round": "R32",
    "home": "Brasil 🇧🇷",
    "away": "Japón 🇯🇵",
-   "hg": null,
-   "ag": null,
+   "hg": 2,
+   "ag": 1,
    "ph": null,
    "pa": null
   },

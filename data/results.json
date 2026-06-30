@@ -579,10 +579,10 @@
    "round": "R32",
    "home": "Alemania 🇩🇪",
    "away": "Paraguay 🇵🇾",
-   "hg": null,
-   "ag": null,
-   "ph": null,
-   "pa": null
+   "hg": 1,
+   "ag": 1,
+   "ph": 3,
+   "pa": 4
   },
   "75": {
    "round": "R32",

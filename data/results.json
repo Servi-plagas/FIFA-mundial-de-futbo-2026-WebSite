@@ -615,8 +615,8 @@
    "round": "R32",
    "home": "Costa de Marfil 🇨🇮",
    "away": "Noruega 🇳🇴",
-   "hg": null,
-   "ag": null,
+   "hg": 1,
+   "ag": 2,
    "ph": null,
    "pa": null
   },

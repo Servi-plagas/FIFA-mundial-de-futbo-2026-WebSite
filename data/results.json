@@ -606,8 +606,8 @@
    "round": "R32",
    "home": "Francia 🇫🇷",
    "away": "Suecia 🇸🇪",
-   "hg": null,
-   "ag": null,
+   "hg": 3,
+   "ag": 0,
    "ph": null,
    "pa": null
   },

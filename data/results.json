@@ -624,8 +624,8 @@
    "round": "R32",
    "home": "México 🇲🇽",
    "away": "Ecuador 🇪🇨",
-   "hg": null,
-   "ag": null,
+   "hg": 2,
+   "ag": 0,
    "ph": null,
    "pa": null
   },

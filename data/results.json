@@ -651,8 +651,8 @@
    "round": "R32",
    "home": "Bélgica 🇧🇪",
    "away": "Senegal 🇸🇳",
-   "hg": null,
-   "ag": null,
+   "hg": 3,
+   "ag": 2,
    "ph": null,
    "pa": null
   },

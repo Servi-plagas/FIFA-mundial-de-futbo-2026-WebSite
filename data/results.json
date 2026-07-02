@@ -633,8 +633,8 @@
    "round": "R32",
    "home": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
    "away": "RD del Congo 🇨🇩",
-   "hg": null,
-   "ag": null,
+   "hg": 2,
+   "ag": 1,
    "ph": null,
    "pa": null
   },

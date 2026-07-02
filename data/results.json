@@ -642,8 +642,8 @@
    "round": "R32",
    "home": "Estados Unidos 🇺🇸",
    "away": "Bosnia y Herzegovina 🇧🇦",
-   "hg": null,
-   "ag": null,
+   "hg": 2,
+   "ag": 0,
    "ph": null,
    "pa": null
   },

@@ -705,10 +705,10 @@
    "round": "R32",
    "home": "Australia 🇦🇺",
    "away": "Egipto 🇪🇬",
-   "hg": null,
-   "ag": null,
-   "ph": null,
-   "pa": null
+   "hg": 1,
+   "ag": 1,
+   "ph": 2,
+   "pa": 4
   },
   "89": {
    "round": "OCT",

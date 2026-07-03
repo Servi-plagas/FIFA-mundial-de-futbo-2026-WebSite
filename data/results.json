@@ -678,8 +678,8 @@
    "round": "R32",
    "home": "Suiza 🇨🇭",
    "away": "Argelia 🇩🇿",
-   "hg": null,
-   "ag": null,
+   "hg": 2,
+   "ag": 0,
    "ph": null,
    "pa": null
   },

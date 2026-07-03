@@ -669,8 +669,8 @@
    "round": "R32",
    "home": "España 🇪🇸",
    "away": "Austria 🇦🇹",
-   "hg": null,
-   "ag": null,
+   "hg": 3,
+   "ag": 0,
    "ph": null,
    "pa": null
   },

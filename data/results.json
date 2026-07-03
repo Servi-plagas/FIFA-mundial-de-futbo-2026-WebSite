@@ -660,8 +660,8 @@
    "round": "R32",
    "home": "Portugal 🇵🇹",
    "away": "Croacia 🇭🇷",
-   "hg": null,
-   "ag": null,
+   "hg": 2,
+   "ag": 1,
    "ph": null,
    "pa": null
   },

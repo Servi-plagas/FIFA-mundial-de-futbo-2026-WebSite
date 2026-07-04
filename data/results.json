@@ -696,8 +696,8 @@
    "round": "R32",
    "home": "Colombia 🇨🇴",
    "away": "Ghana 🇬🇭",
-   "hg": null,
-   "ag": null,
+   "hg": 1,
+   "ag": 0,
    "ph": null,
    "pa": null
   },

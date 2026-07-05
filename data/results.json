@@ -714,8 +714,8 @@
    "round": "OCT",
    "home": "Paraguay 🇵🇾",
    "away": "Francia 🇫🇷",
-   "hg": null,
-   "ag": null,
+   "hg": 0,
+   "ag": 1,
    "ph": null,
    "pa": null
   },

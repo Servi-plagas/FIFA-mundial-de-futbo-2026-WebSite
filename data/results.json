@@ -741,8 +741,8 @@
    "round": "OCT",
    "home": "México 🇲🇽",
    "away": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-   "hg": null,
-   "ag": null,
+   "hg": 2,
+   "ag": 3,
    "ph": null,
    "pa": null
   },

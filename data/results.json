@@ -759,8 +759,8 @@
    "round": "OCT",
    "home": "Estados Unidos 🇺🇸",
    "away": "Bélgica 🇧🇪",
-   "hg": null,
-   "ag": null,
+   "hg": 1,
+   "ag": 4,
    "ph": null,
    "pa": null
   },

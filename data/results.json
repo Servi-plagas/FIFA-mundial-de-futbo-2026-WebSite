@@ -777,10 +777,10 @@
    "round": "OCT",
    "home": "Suiza 🇨🇭",
    "away": "Colombia 🇨🇴",
-   "hg": null,
-   "ag": null,
-   "ph": null,
-   "pa": null
+   "hg": 0,
+   "ag": 0,
+   "ph": 4,
+   "pa": 3
   },
   "97": {
    "round": "CUA",

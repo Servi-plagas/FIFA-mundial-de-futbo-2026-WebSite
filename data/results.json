@@ -768,8 +768,8 @@
    "round": "OCT",
    "home": "Argentina 🇦🇷",
    "away": "Egipto 🇪🇬",
-   "hg": null,
-   "ag": null,
+   "hg": 3,
+   "ag": 2,
    "ph": null,
    "pa": null
   },

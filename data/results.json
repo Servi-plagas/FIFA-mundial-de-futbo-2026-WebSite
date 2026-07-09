@@ -784,8 +784,8 @@
   },
   "97": {
    "round": "CUA",
-   "home": null,
-   "away": null,
+   "home": "Francia 🇫🇷",
+   "away": "Marruecos 🇲🇦",
    "hg": null,
    "ag": null,
    "ph": null,
@@ -793,8 +793,8 @@
   },
   "98": {
    "round": "CUA",
-   "home": null,
-   "away": null,
+   "home": "España 🇪🇸",
+   "away": "Bélgica 🇧🇪",
    "hg": null,
    "ag": null,
    "ph": null,
@@ -802,8 +802,8 @@
   },
   "99": {
    "round": "CUA",
-   "home": null,
-   "away": null,
+   "home": "Noruega 🇳🇴",
+   "away": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
    "hg": null,
    "ag": null,
    "ph": null,
@@ -811,8 +811,8 @@
   },
   "100": {
    "round": "CUA",
-   "home": null,
-   "away": null,
+   "home": "Argentina 🇦🇷",
+   "away": "Suiza 🇨🇭",
    "hg": null,
    "ag": null,
    "ph": null,

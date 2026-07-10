@@ -795,8 +795,8 @@
    "round": "CUA",
    "home": "España 🇪🇸",
    "away": "Bélgica 🇧🇪",
-   "hg": null,
-   "ag": null,
+   "hg": 2,
+   "ag": 1,
    "ph": null,
    "pa": null
   },

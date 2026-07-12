@@ -813,8 +813,8 @@
    "round": "CUA",
    "home": "Argentina 🇦🇷",
    "away": "Suiza 🇨🇭",
-   "hg": null,
-   "ag": null,
+   "hg": 3,
+   "ag": 1,
    "ph": null,
    "pa": null
   },

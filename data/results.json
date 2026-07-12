@@ -804,8 +804,8 @@
    "round": "CUA",
    "home": "Noruega 🇳🇴",
    "away": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-   "hg": null,
-   "ag": null,
+   "hg": 1,
+   "ag": 2,
    "ph": null,
    "pa": null
   },

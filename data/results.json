@@ -822,8 +822,8 @@
    "round": "SEM",
    "home": "Francia 🇫🇷",
    "away": "España 🇪🇸",
-   "hg": null,
-   "ag": null,
+   "hg": 0,
+   "ag": 2,
    "ph": null,
    "pa": null
   },

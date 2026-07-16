@@ -831,8 +831,8 @@
    "round": "SEM",
    "home": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
    "away": "Argentina 🇦🇷",
-   "hg": null,
-   "ag": null,
+   "hg": 1,
+   "ag": 2,
    "ph": null,
    "pa": null
   },

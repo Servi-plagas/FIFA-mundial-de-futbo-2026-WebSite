@@ -838,8 +838,8 @@
   },
   "103": {
    "round": "TP",
-   "home": null,
-   "away": null,
+   "home": "Francia 🇫🇷",
+   "away": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
    "hg": null,
    "ag": null,
    "ph": null,
@@ -847,8 +847,8 @@
   },
   "104": {
    "round": "FIN",
-   "home": null,
-   "away": null,
+   "home": "España 🇪🇸",
+   "away": "Argentina 🇦🇷",
    "hg": null,
    "ag": null,
    "ph": null,

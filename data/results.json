@@ -840,8 +840,8 @@
    "round": "TP",
    "home": "Francia 🇫🇷",
    "away": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
-   "hg": null,
-   "ag": null,
+   "hg": 4,
+   "ag": 6,
    "ph": null,
    "pa": null
   },
@@ -858,7 +858,7 @@
  "podio": {
   "campeon": null,
   "subcampeon": null,
-  "tercero": null,
-  "cuarto": null
+  "tercero": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+  "cuarto": "Francia 🇫🇷"
  }
 }

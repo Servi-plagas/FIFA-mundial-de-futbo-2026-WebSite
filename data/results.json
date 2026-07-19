@@ -1,6 +1,6 @@
 {
  "_instrucciones": "Edita SOLO los valores en null. hg=goles local, ag=goles visitante, ph/pa=goles en tanda de penales. En 'standings' escribe los 4 equipos en su orden final real (1º,2º,3º,4º) usando EXACTAMENTE el nombre con bandera de data/teams.json. 'thirdsQualified'=los 8 mejores terceros que clasifican. Deja en null lo que aún no se ha jugado.",
- "actualizado": "2026-Jul-16 | 06:00 am",
+ "actualizado": "2026-Jul-19 | 06:00 pm",
  "groups": {
   "A": {
    "matches": [

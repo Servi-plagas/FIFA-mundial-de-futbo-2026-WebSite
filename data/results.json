@@ -849,15 +849,15 @@
    "round": "FIN",
    "home": "España 🇪🇸",
    "away": "Argentina 🇦🇷",
-   "hg": null,
-   "ag": null,
+   "hg": 1,
+   "ag": 0,
    "ph": null,
    "pa": null
   }
  },
  "podio": {
-  "campeon": null,
-  "subcampeon": null,
+  "campeon": "España 🇪🇸",
+  "subcampeon": "Argentina 🇦🇷",
   "tercero": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
   "cuarto": "Francia 🇫🇷"
  }
